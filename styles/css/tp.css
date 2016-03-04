@@ -24,7 +24,7 @@ html {
   height: 100%;
   font-size: 16px;
 }
-body {
+body.home {
   background: whitesmoke;
   position: relative;
   width: 100%;
@@ -38,7 +38,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-nav {
+body.home nav {
   order: 2;
   display: flex;
   flex: 1 0 auto;
@@ -46,14 +46,14 @@ nav {
   width: 100%;
 }
 @media screen and (min-width: 900px) {
-  nav {
+  body.home nav {
     flex-direction: row;
     flex: 0 1 auto;
     align-items: center;
     width: 600px;
   }
 }
-nav a {
+body.home nav a {
   display: block;
   flex: 1 1 84px;
   -webkit-filter: grayscale(1);
@@ -62,35 +62,35 @@ nav a {
   cursor: pointer;
   overflow: hidden;
 }
-nav a:hover {
+body.home nav a:hover {
   -webkit-filter: grayscale(0);
 }
 @media screen and (min-width: 600px) {
-  nav a {
+  body.home nav a {
     flex-basis: 114px;
   }
 }
 @media screen and (min-width: 900px) {
-  nav a {
+  body.home nav a {
     flex-basis: 200px;
     min-height: 200px;
   }
 }
-nav a picture {
+body.home nav a picture {
   width: 100%;
   display: block;
 }
 @media screen and (min-width: 600px) {
-  nav a picture {
+  body.home nav a picture {
     max-width: 400px;
   }
 }
 @media screen and (min-width: 900px) {
-  nav a picture {
+  body.home nav a picture {
     max-width: 100px;
   }
 }
-nav a div {
+body.home nav a div {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -104,31 +104,31 @@ nav a div {
   transition: 300ms ease;
 }
 @media screen and (min-width: 900px) {
-  nav a div {
+  body.home nav a div {
     border: none;
   }
 }
 @media screen and (min-width: 900px) {
-  nav a div {
+  body.home nav a div {
     padding: 0 2em;
   }
 }
-nav a .back {
+body.home nav a .back {
   opacity: 0;
 }
 @media screen and (min-width: 900px) {
 }
-nav a:hover .front {
+body.home nav a:hover .front {
   opacity: 0;
 }
 @media screen and (min-width: 900px) {
 }
-nav a:hover .back {
+body.home nav a:hover .back {
   opacity: 1;
 }
 @media screen and (min-width: 900px) {
 }
-main {
+body.home main {
   order: 1;
   flex: 0 1 auto;
   padding: 4rem 1rem ;
@@ -139,21 +139,21 @@ main {
   align-items: center;
 }
 @media screen and (min-width: 900px) {
-  main {
+  body.home main {
     order: 1;
     padding: 2rem;
     flex: 1 1 auto;
     width: 600px;
   }
 }
-main img {
+body.home main img {
   max-width: 100px;
   max-height: 100px;
   border-radius: 50%;
   margin-bottom: 1em;
   -webkit-filter: grayscale(1);
 }
-main section {
+body.home main section {
   display: flex;
   align-items: center;
   align-content: center;
@@ -161,7 +161,7 @@ main section {
   flex: 1 1 auto;
   padding: 1em;
 }
-main section div {
+body.home main section div {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
@@ -170,12 +170,12 @@ main section div {
   justify-content: center;
 }
 @media screen and (min-width: 900px) {
-  main section {
+  body.home main section {
     flex: 1 1 400px;
     height: 200px;
     position: relative;
   }
-  main section div {
+  body.home main section div {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -187,48 +187,48 @@ main section div {
     align-content: center;
     justify-content: center;
   }
-  main section:hover img {
+  body.home main section:hover img {
     -webkit-filter: grayscale(0);
   }
 }
-.designs {
+body.home .designs {
   background-color: #ce3f75;
   color: #fff;
 }
-.designs:hover {
+body.home .designs:hover {
   background-color: #CE3F75;
 }
-.ideas {
+body.home .ideas {
   background-color: #00ac6a;
   color: #fff;
 }
-.ideas:hover {
+body.home .ideas:hover {
   background-color: #00ac6a;
 }
-.connect {
+body.home .connect {
   background-color: #0077b5;
   color: #fff;
 }
-.connect:hover {
+body.home .connect:hover {
   background-color: #0077B5;
 }
-h1,
-h2 {
+body.home h1,
+body.home h2 {
   margin: 0;
   padding: 0;
 }
-h2 {
+body.home h2 {
   font-size: 1.5em;
   width: 100%;
   text-align: center;
   font-weight: 300;
 }
 @media screen and (min-width: 900px) {
-  h2 {
+  body.home h2 {
     text-align: center;
   }
 }
-h1 {
+body.home h1 {
   color: gray;
   line-height: 1.25em;
   font-size: 2em;
@@ -237,12 +237,12 @@ h1 {
   font-weight: 300;
 }
 @media screen and (min-width: 900px) {
-  h1 {
+  body.home h1 {
     font-weight: 100;
     font-size: 2.5em;
   }
 }
-footer {
+body.home footer {
   color: gray;
   padding: 4rem 1rem;
   order: 3;
@@ -253,17 +253,17 @@ footer {
   justify-content: center;
 }
 @media screen and (min-width: 900px) {
-  footer {
+  body.home footer {
     flex-grow: 1;
   }
 }
-blockquote {
+body.home blockquote {
   font-weight: 600;
   text-align: center;
   margin: 0;
   flex: 0 1 400px;
 }
-blockquote::after {
+body.home blockquote::after {
   content: '-Ferris Bueller';
   display: block;
   font-weight: 300;
