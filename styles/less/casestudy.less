@@ -1,0 +1,105 @@
+
+
+.case-study {
+	& > main {
+		margin-top: 5em;
+		
+		@media screen and (min-width: @screen-md) {
+			padding: 1em;
+		}
+		section{
+			
+			
+			box-shadow: @shadow-level-1;
+			width: 100%;
+			background-color: @color-white;
+			
+			overflow: hidden;
+			padding: 0 1rem 2rem;
+			@media screen and (min-width: @screen-md) {
+				margin: 0 auto 5em;
+				padding: 0 2rem 2rem;
+				max-width: 60rem;
+				border-radius: .5em;
+			}
+			h2 {
+				margin: 0 -2rem 1rem;
+				padding: 1rem 1rem 1rem 2rem;
+				background: @color-gray-dark;
+				color: @color-white;
+				font-weight: 400;
+				font-size: 2em;
+				@media screen and (min-width: @screen-md) {
+					font-size: 2em;
+				}
+			}
+			h4 {
+				margin: 2em 0 0.5rem;
+			}
+		}
+		h2, h3, h4 {
+			// text-align: center;
+			// @media screen and (min-width: @screen-md) {
+			// 	text-align: left;
+			// }
+
+		}
+		.starting-out {
+			// max-width: 300px;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 1rem;
+		}
+		.ideation {
+			.version {
+				.clearfix();
+				margin-bottom: 2em;
+				text-align: center;
+				img {
+					
+					margin: 0 auto;
+					display: block;
+				}
+				p {
+					text-align: left;
+				}
+			
+				@media screen and (min-width: @screen-md) {
+					text-align: left;
+					img {
+						width: 40%;
+
+					}
+					&:nth-child(odd) {
+						img {
+							float: right;
+							margin-left: 2em;
+						}	
+					}
+					&:nth-child(even) {
+						img {
+							float: left;
+							margin-right: 2em;
+						}	
+					}
+				}
+				
+			}
+		}
+		.final {
+			margin: 4em auto;
+			max-width: 80%;
+			display: block;
+		}
+	}
+}
+
+.dashboard {
+	> header {
+	background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
+	}
+
+	> nav{
+		background-color: @color-healthicity;
+	}
+}
