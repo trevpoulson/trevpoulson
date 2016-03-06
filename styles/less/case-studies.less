@@ -1,0 +1,286 @@
+.case-study-main {
+	& > header {		
+		padding: 5em 0;
+		position: relative;
+		background: url(/images/desktop.jpg) 50% no-repeat;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.6);
+  		background-blend-mode: multiply;
+  		box-shadow: @shadow-level-2;
+		.header-content {
+			text-align: center;
+		}
+		color: @color-white;;
+		font-size: 1em;
+		@media screen and (min-width: @screen-xs) {
+			font-size: 1.5em;
+			// padding: 7.5em 0;
+		}
+		@media screen and (min-width: @screen-sm) {
+			font-size: 2em;
+
+		}
+		@media screen and (min-width: @screen-md) {
+			font-size: 3em;
+		}
+		@media screen and (min-width: @screen-lg) {
+			font-size: 4em;
+
+		}
+		
+		h1 {
+			font-size: 3em;
+			margin: 0;
+			font-weight: 700;
+		}
+		h3 {
+			font-size: .8em;
+			margin: 0;
+			font-weight: 300;
+		}
+	}
+	& > main {
+		margin: 2em 0;
+		section {
+			.container();
+			padding: 1em;
+		}
+		.case-studies {
+			border-top: solid 1px @color-gray-dark;
+			padding-top: 3em;
+			.clearfix();
+			display: flex;
+			flex-direction: column;
+			@media screen and (min-width: @screen-md) {
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+		}
+	}
+	
+}
+
+.card {
+	// .shadow();
+	box-shadow: @shadow-level-1;
+	width: 100%;
+	margin-bottom: 1rem;
+	background-color: @color-white;
+	@media screen and (min-width: @screen-md) {
+		margin: 1%;
+		flex: 0 1 48%; 
+	}
+	@media screen and (min-width: @screen-lg) {
+		margin: 1%;
+		flex: 0 1 31.3333%; 
+	}
+	@media screen and (min-width: @screen-xl) {
+		margin: 1%;
+		flex: 0 1 23%; 
+	}
+	border-radius: .5em;
+	overflow: hidden;
+	& > header {
+		background: url(/images/desktop.jpg) 50% no-repeat;
+		background-size: 100%;
+		background-color: rgba(0,0,0,0.5);
+  		background-blend-mode: multiply;
+		padding-bottom: 60%;
+		position: relative;
+		transition: all 1s ease;
+		.icon {
+			width: 6rem;
+			height: 6rem;
+			background: @color-gray-dark;
+			border-radius: 50%;
+			// .animate(1s);
+			.center-horizontal();
+			bottom: -3rem;
+
+		}
+	}
+	& > main {
+		
+		margin-top: 3rem;
+		padding: 1rem ;
+		text-align: center;
+		@media screen and (min-width: @screen-sm) {
+			min-height: 15em;
+		}
+		@media screen and (min-width: @screen-sm) {
+			min-height: 15em;
+		}
+		h4 {
+
+		}
+		p.overview {
+			font-size: 1.2em;
+			line-height: 1.6em;
+			color: @color-gray-medium;
+		}
+
+	}
+	& > footer {
+		text-align: center;
+		.btn {
+			display: inline-block;
+			width: auto;
+			color: @color-gray-medium;
+			padding: 1rem 1.5rem;
+			font-size: 1.6em;
+			text-decoration: none;
+			font-weight: 600;
+			text-align: center;
+			margin: 0 auto 1.5rem;
+			border: solid .1rem @color-gray-medium;
+			border-radius: .2em;
+			transition: 0.3s ease;
+	
+		}
+	}
+	&:hover {
+		& > header {
+			background-color: rgba(0,0,0,0.2);
+			background-size: 130%
+
+		}
+		// .icon {
+		// 	width: 7rem;
+		// 	height: 7rem;
+		// 	bottom: -3.5rem;
+		// }
+		& > footer .btn{
+			// background-color: @color-gray-medium;
+			// color: @color-white;
+		}
+
+	}
+}
+
+
+.card.healthicity {
+	& > header {
+		border-bottom: solid 8px @color-healthicity;
+		.icon {
+			background-color: @color-healthicity;
+		}
+	}
+	& > footer {
+		.btn {
+			color: @color-healthicity;
+			border-color: @color-healthicity;
+			&:hover{
+				background-color: @color-healthicity;
+				color: @color-white;
+			}
+		}
+	}
+}
+
+.card.experticity {
+	& > header {
+		border-bottom: solid 8px @color-experticity;
+		.icon {
+			background-color: @color-experticity;
+		}
+	}
+	& > footer {
+		.btn {
+			color: @color-experticity;
+			border-color: @color-experticity;
+			&:hover{
+				background-color: @color-experticity;
+				color: @color-white;
+			}
+		}
+	}
+}
+
+.card.verisk {
+	& > header {
+		border-bottom: solid 8px @color-verisk;
+		.icon {
+			background-color: @color-verisk;
+		}
+	}
+	& > footer {
+		.btn {
+			color: @color-verisk;
+			border-color: @color-verisk;
+			&:hover{
+				background-color: @color-verisk;
+				color: @color-white;
+			}
+		}
+	}
+}
+.card.needle {
+	& > header {
+		border-bottom: solid 8px @color-needle;
+		.icon {
+			background-color: @color-needle;
+		}
+	}
+	& > footer {
+		.btn {
+			color: @color-needle;
+			border-color: @color-needle;
+			&:hover{
+				background-color: @color-needle;
+				color: @color-white;
+			}
+		}
+	}
+}
+
+
+.coming-soon{ 
+	// opacity: 0.5;
+	position: relative;
+	pointer-events: none;
+	&:before {
+		content: "";
+		background-color: rgba(255, 255, 255, 0.85);
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+	}
+	&:after {
+		content: "Coming Soon";
+		.center-all();
+		color: @color-gray-dark;
+		z-index: 2;
+		font-size: 4em;
+		line-height: 1em;
+		text-align: center;
+	}
+	footer .btn {
+		visibility: hidden;
+	}
+
+}
+
+
+
+
+.card.dashboard > header {
+	background-image: url(/images/dashboard/healthicity-dashboard-small.jpg);
+}
+
+.card.ecommerce > header {
+	background-image: url(/images/ecommerce/experticity-ecommerce-small.jpg);
+}
+.card.answers > header {
+	background-image: url(/images/answers/verisk-answers-small.jpg);
+}
+.card.pattern-library > header {
+	background-image: url(/images/pattern-library/healthicity-pattern-library-small.jpg);
+}
+
+
+
+
+
