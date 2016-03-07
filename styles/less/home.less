@@ -114,7 +114,7 @@ body.home  {
 
   main {
     order: 1;
-    flex: 0 1 auto;
+    flex: 1;
     padding: 4rem 1rem ;
     display: flex;
     flex-direction: row;
@@ -238,4 +238,33 @@ body.home  {
   }
 
 
+}
+
+
+ .home footer {
+    color: @color-gray-medium;
+    order: 3;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: none;
+    box-shadow: none;
+    padding: 2em 0;
+    margin: 1rem auto;
+    .contact {
+      color: inherit;
+      a:hover {
+        color: @color-gray-dark
+      }
+    }
+
+    // @media screen and (min-width: @screen-md) {
+    //   flex-grow: 1;
+    //   width: 100%;
+    // }
+
+
+  // }
 }
