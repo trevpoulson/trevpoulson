@@ -216,32 +216,6 @@ body.home h1 {
     font-size: 2.5em;
   }
 }
-body.home footer {
-  color: gray;
-  padding: 4rem 1rem;
-  order: 3;
-  flex: 0 1 auto;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
-@media screen and (min-width: 900px) {
-  body.home footer {
-    flex-grow: 1;
-  }
-}
-body.home blockquote {
-  font-weight: 600;
-  text-align: center;
-  margin: 0;
-  flex: 0 1 400px;
-}
-body.home blockquote::after {
-  content: '-Ferris Bueller';
-  display: block;
-  font-weight: 300;
-}
 body > footer {
   background-color: #585953;
   padding: 3rem 0 2rem;
@@ -305,6 +279,8 @@ body > footer p {
   justify-content: center;
   background: none;
   box-shadow: none;
+  padding: 2em 0;
+  margin: 1rem auto;
 }
 .home footer .contact {
   color: inherit;
