@@ -530,6 +530,7 @@ body > nav a:hover {
 }
 .case-study-main > main {
   margin: 2em 0;
+  padding: 0 1em;
 }
 .case-study-main > main section {
   margin-right: auto;
@@ -593,6 +594,7 @@ body > nav a:hover {
   text-align: center;
   max-width: 40rem;
   margin-bottom: 2rem;
+  padding: 1em;
 }
 .card {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
