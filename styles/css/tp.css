@@ -530,6 +530,7 @@ body > nav a:hover {
   background-position: center center;
   cursor: pointer;
   background-size: 90%;
+  z-index: 5;
 }
 @media screen and (max-width: 768px) {
   #overlay {
