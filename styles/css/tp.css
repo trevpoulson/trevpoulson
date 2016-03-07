@@ -289,6 +289,7 @@ body > footer p {
   margin: 0;
 }
 body > header {
+  font-family: 'Merriweather', serif;
   padding: 5em 0;
   position: relative;
   background: #585953 50% no-repeat;
@@ -338,17 +339,36 @@ body > nav {
   z-index: 3;
   background-color: #585953;
   text-align: center;
+  *zoom: 1;
+}
+body > nav:before,
+body > nav:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+body > nav:after {
+  clear: both;
 }
 body > nav a {
   text-decoration: none;
   color: #fff;
-  display: inline-block;
+  display: block;
+  width: 50%;
+  float: left;
   height: 3rem;
   padding: 0 2rem;
   line-height: 3rem;
   font-size: 1.4em;
   font-weight: 300;
   transition: 0.3s ease;
+}
+@media screen and (min-width: 600px) {
+  body > nav a {
+    width: auto;
+    display: inline-block;
+    float: none;
+  }
 }
 body > nav a:hover {
   background-color: rgba(0, 0, 0, 0.3);
@@ -373,13 +393,13 @@ body > nav a:hover {
     margin: 0 auto 5em;
     padding: 0 2rem 2rem;
     max-width: 60rem;
-    border-radius: .5em;
+    border-radius: .2rem;
   }
 }
 .case-study > main section h2 {
   margin: 0 -2rem 1rem;
   padding: 1rem 1rem 1rem 2rem;
-  background: #585953;
+  background: #bcbeb9;
   color: #fff;
   font-weight: 400;
   font-size: 2em;
@@ -392,58 +412,117 @@ body > nav a:hover {
 .case-study > main section h4 {
   margin: 2em 0 0.5rem;
 }
+.case-study > main section li {
+  margin-bottom: 0;
+}
 .case-study > main .starting-out {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-.case-study > main .ideation .version {
+.case-study > main .prototyping .version,
+.case-study > main .research .version {
   *zoom: 1;
   margin-bottom: 2em;
   text-align: center;
 }
-.case-study > main .ideation .version:before,
-.case-study > main .ideation .version:after {
+.case-study > main .prototyping .version:before,
+.case-study > main .research .version:before,
+.case-study > main .prototyping .version:after,
+.case-study > main .research .version:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.case-study > main .ideation .version:after {
+.case-study > main .prototyping .version:after,
+.case-study > main .research .version:after {
   clear: both;
 }
-.case-study > main .ideation .version img {
-  margin: 0 auto;
+.case-study > main .prototyping .version img,
+.case-study > main .research .version img {
+  margin: 0 auto 1rem;
   display: block;
 }
-.case-study > main .ideation .version p {
+.case-study > main .prototyping .version p,
+.case-study > main .research .version p {
   text-align: left;
 }
 @media screen and (min-width: 900px) {
-  .case-study > main .ideation .version {
+  .case-study > main .prototyping .version,
+  .case-study > main .research .version {
     text-align: left;
   }
-  .case-study > main .ideation .version img {
-    width: 40%;
-  }
-  .case-study > main .ideation .version:nth-child(odd) img {
-    float: right;
-    margin-left: 2em;
-  }
-  .case-study > main .ideation .version:nth-child(even) img {
+  .case-study > main .prototyping .version img,
+  .case-study > main .research .version img {
+    width: 31%;
+    margin: 1%;
     float: left;
-    margin-right: 2em;
+  }
+  .case-study > main .prototyping .version.one-up img,
+  .case-study > main .research .version.one-up img {
+    width: 100%;
+    margin: 1% auto;
+    float: none;
+  }
+  .case-study > main .prototyping .version.two-up img,
+  .case-study > main .research .version.two-up img {
+    width: 48%;
   }
 }
 .case-study > main .final {
   margin: 4em auto;
-  max-width: 80%;
   display: block;
+}
+@media screen and (min-width: 900px) {
+  .case-study > main .final {
+    max-width: 80%;
+  }
+}
+.case-study .back {
+  font-size: 1rem;
+  display: block;
+  margin: 7rem auto 0;
+  width: 20em;
+  text-align: center;
+  background: #93968f;
+  padding: 1.5em 2em;
+  float: none;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: .2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.3s ease;
+}
+.case-study .back:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .dashboard > header {
   background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
 }
 .dashboard > nav {
   background-color: #ff3d4d;
+}
+.dashboard .back {
+  background-color: #ff3d4d;
+}
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  background-size: 90%;
+}
+@media screen and (max-width: 1200px) {
+  #overlay {
+    display: none !important;
+  }
 }
 .case-study-main > header {
   background-image: url(/images/desktop.jpg);
@@ -509,6 +588,11 @@ body > nav a:hover {
     flex-wrap: wrap;
   }
 }
+.case-study-main > main section.overview {
+  text-align: center;
+  max-width: 40rem;
+  margin-bottom: 2rem;
+}
 .card {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   width: 100%;
@@ -557,7 +641,7 @@ body > nav a:hover {
 }
 .card > main {
   margin-top: 3rem;
-  padding: 1rem ;
+  padding: 1rem 2rem;
   text-align: center;
 }
 @media screen and (min-width: 600px) {
@@ -570,9 +654,12 @@ body > nav a:hover {
     min-height: 15em;
   }
 }
+.card > main .title {
+  margin-bottom: .5em;
+}
 .card > main p.overview {
-  font-size: 1.2em;
-  line-height: 1.6em;
+  font-size: 1.6em;
+  line-height: 1.2em;
   color: #93968f;
 }
 .card > footer {
@@ -654,6 +741,7 @@ body > nav a:hover {
 }
 .coming-soon {
   position: relative;
+  font-family: 'Merriweather', serif;
   pointer-events: none;
 }
 .coming-soon:before {
@@ -703,7 +791,7 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 10px;
   color: #585953;
   background: whitesmoke;
@@ -717,6 +805,7 @@ img {
 h1 {
   font-size: 3em;
   font-weight: 700;
+  font-family: 'Merriweather', serif;
 }
 h2 {
   font-size: 3em;

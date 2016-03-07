@@ -6,16 +6,24 @@ body > nav {
 	z-index: 3;
 	background-color: @color-gray-dark;
 	text-align: center;
+	.clearfix;
 	a {
 		text-decoration: none;
 		color: @color-white;
-		display: inline-block;
+		display: block;
+		width: 50%;
+		float: left;
 		height: 3rem;
 		padding: 0 2rem;
 		line-height: 3rem;
 		font-size: 1.4em;
 		font-weight: 300;
 		.animate();
+		@media screen and (min-width: @screen-sm) {
+			width: auto;
+			display: inline-block;
+			float: none;
+		}
 		&:hover {
 			background-color: rgba(0,0,0,0.3);
 		}

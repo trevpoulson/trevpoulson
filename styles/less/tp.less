@@ -38,7 +38,8 @@
 @nav-text-color:      gray;
 @text-size:				   16px;
 @text-line-height: 		1.6em;
-@text-font: 			   'Roboto', sans-serif;
+@font-serif:          'Merriweather', serif;
+@font-sans: 			     'Roboto', sans-serif;
 @text-weight:			    300;
 
 
@@ -68,7 +69,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: @font-sans;
   font-size: 10px;
   color: @color-gray-dark;
   background: @color-background;
@@ -87,11 +88,13 @@ img {
 h1 {
   font-size: 3em;
   font-weight: 700;
+  font-family: @font-serif;
 }
 
 h2 {
   font-size: 3em;
   font-weight: 700;
+  // font-family: @font-serif;
 }
 
 h3 {

@@ -31,35 +31,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/dashboard\/7Atlis UX Whiteboard -1.JPG": {
-		"fileType": 16384,
+	"\/images\/dashboard\/final.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 90486,
-		"inputAbbreviatedPath": "\/images\/dashboard\/7Atlis UX Whiteboard -1.JPG",
-		"outputAbbreviatedPath": "\/images\/dashboard\/7Atlis UX Whiteboard -1.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/dashboard\/7Atlis UX Whiteboard -2.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60184,
-		"inputAbbreviatedPath": "\/images\/dashboard\/7Atlis UX Whiteboard -2.JPG",
-		"outputAbbreviatedPath": "\/images\/dashboard\/7Atlis UX Whiteboard -2.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/dashboard\/healthicity-dashboard-final.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 137551,
-		"inputAbbreviatedPath": "\/images\/dashboard\/healthicity-dashboard-final.jpg",
-		"outputAbbreviatedPath": "\/images\/dashboard\/healthicity-dashboard-final.jpg",
+		"initialSize": 172945,
+		"inputAbbreviatedPath": "\/images\/dashboard\/final.png",
+		"outputAbbreviatedPath": "\/images\/dashboard\/final.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -247,6 +225,61 @@
 		"initialSize": 183535,
 		"inputAbbreviatedPath": "\/images\/dashboard\/home-v9-2.png",
 		"outputAbbreviatedPath": "\/images\/dashboard\/home-v9-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dashboard\/responsive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137551,
+		"inputAbbreviatedPath": "\/images\/dashboard\/responsive.jpg",
+		"outputAbbreviatedPath": "\/images\/dashboard\/responsive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dashboard\/sketch-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36121,
+		"inputAbbreviatedPath": "\/images\/dashboard\/sketch-1.jpg",
+		"outputAbbreviatedPath": "\/images\/dashboard\/sketch-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dashboard\/sketch-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38045,
+		"inputAbbreviatedPath": "\/images\/dashboard\/sketch-2.jpg",
+		"outputAbbreviatedPath": "\/images\/dashboard\/sketch-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dashboard\/whiteboard-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90486,
+		"inputAbbreviatedPath": "\/images\/dashboard\/whiteboard-1.jpg",
+		"outputAbbreviatedPath": "\/images\/dashboard\/whiteboard-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dashboard\/whiteboard-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60184,
+		"inputAbbreviatedPath": "\/images\/dashboard\/whiteboard-2.jpg",
+		"outputAbbreviatedPath": "\/images\/dashboard\/whiteboard-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
