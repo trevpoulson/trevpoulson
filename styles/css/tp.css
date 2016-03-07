@@ -389,7 +389,7 @@ body > nav a:hover {
 }
 @media screen and (min-width: 768px) {
   .case-study > main {
-    padding: 1em;
+    padding: 1em 2em;
   }
 }
 .case-study > main section {
@@ -531,7 +531,7 @@ body > nav a:hover {
   cursor: pointer;
   background-size: 90%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #overlay {
     display: none !important;
   }
