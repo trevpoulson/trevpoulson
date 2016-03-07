@@ -19,7 +19,7 @@ body.home nav {
   flex-direction: column;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home nav {
     flex-direction: row;
     flex: 0 1 auto;
@@ -44,7 +44,7 @@ body.home nav a:hover {
     flex-basis: 114px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home nav a {
     flex-basis: 200px;
     min-height: 200px;
@@ -59,7 +59,7 @@ body.home nav a picture {
     max-width: 400px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home nav a picture {
     max-width: 100px;
   }
@@ -77,12 +77,12 @@ body.home nav a div {
   justify-content: center;
   transition: 300ms ease;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home nav a div {
     border: none;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home nav a div {
     padding: 0 2em;
   }
@@ -90,17 +90,17 @@ body.home nav a div {
 body.home nav a .back {
   opacity: 0;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
 }
 body.home nav a:hover .front {
   opacity: 0;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
 }
 body.home nav a:hover .back {
   opacity: 1;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
 }
 body.home main {
   order: 1;
@@ -112,7 +112,7 @@ body.home main {
   align-content: center;
   align-items: center;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home main {
     order: 1;
     padding: 2rem;
@@ -143,7 +143,7 @@ body.home main section div {
   align-content: center;
   justify-content: center;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home main section {
     flex: 1 1 400px;
     height: 200px;
@@ -197,7 +197,7 @@ body.home h2 {
   text-align: center;
   font-weight: 300;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home h2 {
     text-align: center;
   }
@@ -210,7 +210,7 @@ body.home h1 {
   text-align: center;
   font-weight: 300;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body.home h1 {
     font-weight: 100;
     font-size: 2.5em;
@@ -312,12 +312,12 @@ body > header .header-content {
     font-size: 2em;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body > header {
     font-size: 3em;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   body > header {
     font-size: 4em;
   }
@@ -373,10 +373,21 @@ body > nav a {
 body > nav a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+@media screen and (min-width: 768px) {
+  body > nav {
+    margin-top: -3em;
+    transition: 0.3s ease;
+  }
+  body > nav.affix {
+    position: fixed;
+    top: 0;
+    margin-top: 0em;
+  }
+}
 .case-study > main {
   margin-top: 5em;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .case-study > main {
     padding: 1em;
   }
@@ -388,7 +399,7 @@ body > nav a:hover {
   overflow: hidden;
   padding: 0 1rem 2rem;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .case-study > main section {
     margin: 0 auto 5em;
     padding: 0 2rem 2rem;
@@ -404,7 +415,7 @@ body > nav a:hover {
   font-weight: 400;
   font-size: 2em;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .case-study > main section h2 {
     font-size: 2em;
   }
@@ -447,7 +458,7 @@ body > nav a:hover {
 .case-study > main .research .version p {
   text-align: left;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .case-study > main .prototyping .version,
   .case-study > main .research .version {
     text-align: left;
@@ -473,7 +484,7 @@ body > nav a:hover {
   margin: 4em auto;
   display: block;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .case-study > main .final {
     max-width: 80%;
   }
@@ -520,7 +531,7 @@ body > nav a:hover {
   cursor: pointer;
   background-size: 90%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   #overlay {
     display: none !important;
   }
@@ -553,14 +564,14 @@ body > nav a:hover {
     width: 598px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .case-study-main > main section {
-    width: 898px;
+    width: 766px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .case-study-main > main section {
-    width: 1198px;
+    width: 1022px;
   }
 }
 @media (min-width: 1500px) {
@@ -584,7 +595,7 @@ body > nav a:hover {
 .case-study-main > main .case-studies:after {
   clear: both;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .case-study-main > main .case-studies {
     flex-direction: row;
     flex-wrap: wrap;
@@ -604,13 +615,13 @@ body > nav a:hover {
   border-radius: .5em;
   overflow: hidden;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   .card {
     margin: 1%;
     flex: 0 1 48%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .card {
     margin: 1%;
     flex: 0 1 31.3333%;

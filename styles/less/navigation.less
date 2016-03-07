@@ -28,5 +28,14 @@ body > nav {
 			background-color: rgba(0,0,0,0.3);
 		}
 	}
+	@media screen and (min-width: @screen-md) {
+		margin-top: -3em;
+		.animate();
+		&.affix {
+			position: fixed;
+			top: 0;
+			margin-top: 0em;
+		}
+	}
 }
 

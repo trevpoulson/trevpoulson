@@ -134,12 +134,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.js"></script>
+	<script src="js/bootstrapbits.min.js"></script>
 	<script>
 		$(function() {
-			$('body > nav').localScroll();
+			// make localscroll work
+			$('body > nav')
+				.localScroll()
+				.affix({
+					offset: {top: $('header').outerHeight()} }
+				);
 
+
+
+			//Image click overlay
 			$ovr = $('#overlay');
-
 			$('img').click(function(){  
 			  $ovr.fadeTo(600,1).css({
 			    backgroundImage:"url("+this.src+")"
