@@ -244,26 +244,34 @@ body.home blockquote::after {
 }
 body > footer {
   background-color: #585953;
-  padding: 3rem 0 5rem;
+  padding: 3rem 0 2rem;
   color: #fff;
   text-align: center;
   box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16), 0 -3px 6px rgba(0, 0, 0, 0.23);
   margin-top: 10em;
   color: rgba(255, 255, 255, 0.6);
 }
-body > footer .icon {
+body > footer .branding {
+  margin: 3em auto 8em;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  opacity: 0.6;
+  width: 30rem;
+  transition: 0.3s ease;
+}
+body > footer .branding:hover {
+  opacity: 1;
+}
+body > footer .branding .logo {
   width: 5rem;
   height: 5rem;
-  opacity: .6;
-  margin: 3em;
 }
-body > footer .name {
+body > footer .branding .website {
   font-size: 1.5em;
   font-weight: 300;
   color: inherit;
   margin: .5em 0 0em;
-  text-decoration: none;
-  display: block;
 }
 body > footer .contact {
   border-bottom: solid 1px #bcbeb9;
@@ -286,6 +294,23 @@ body > footer p {
   color: inherit;
   font-size: 1em;
   margin: 0;
+}
+.home footer {
+  color: #93968f;
+  order: 3;
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+}
+.home footer .contact {
+  color: inherit;
+}
+.home footer .contact a:hover {
+  color: #585953;
 }
 body > header {
   padding: 5em 0;
