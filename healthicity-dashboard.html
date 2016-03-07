@@ -138,10 +138,11 @@
 	<script>
 		$(function() {
 			// make localscroll work
+			var headerHeight = $('header').outerHeight();
 			$('body > nav')
 				.localScroll()
 				.affix({
-					offset: {top: $('header').outerHeight()} }
+					offset: {top: headerHeight} }
 				);
 
 
