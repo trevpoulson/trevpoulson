@@ -453,6 +453,7 @@ body > nav a:hover {
 .case-study > main .research .version img {
   margin: 0 auto 1rem;
   display: block;
+  cursor: pointer;
 }
 .case-study > main .prototyping .version p,
 .case-study > main .research .version p {
