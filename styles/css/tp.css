@@ -465,7 +465,7 @@ body > nav a:hover {
   }
   .case-study > main .prototyping .version img,
   .case-study > main .research .version img {
-    width: 31%;
+    width: 30%;
     margin: 1%;
     float: left;
   }
