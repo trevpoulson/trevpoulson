@@ -54,7 +54,7 @@
 			margin: 0 auto;
 			margin-bottom: 1rem;
 		}
-		.prototyping, .research {
+		& > section {
 			.version {
 				.clearfix();
 				margin-bottom: 2em;
@@ -114,25 +114,6 @@
 	}
 }
 
-.dashboard {
-	> header {
-	background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
-	}
-
-	> nav{
-		background-color: @color-healthicity;
-	}
-
-	.back {
-		background-color: @color-healthicity;
-	}
-}
-
-
-
-
-
-
 #overlay {
   display:none;
   position:fixed;
@@ -149,3 +130,32 @@
 		display: none !important;
 	}
 }
+
+.dashboard {
+	> header {
+		background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
+	}
+	> nav{
+		background-color: @color-healthicity;
+	}
+	.back {
+		background-color: @color-healthicity;
+	}
+}
+
+.store {
+	> header {
+		background-image: url(/images/store/experticity-store-large-blur.jpg);
+	}
+	> nav{
+		background-color: @color-experticity;
+	}
+	.back {
+		background-color: @color-experticity;
+	}
+}
+
+
+
+
+

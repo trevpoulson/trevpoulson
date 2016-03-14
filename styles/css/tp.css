@@ -431,53 +431,43 @@ body > nav a:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-.case-study > main .prototyping .version,
-.case-study > main .research .version {
+.case-study > main > section .version {
   *zoom: 1;
   margin-bottom: 2em;
   text-align: center;
 }
-.case-study > main .prototyping .version:before,
-.case-study > main .research .version:before,
-.case-study > main .prototyping .version:after,
-.case-study > main .research .version:after {
+.case-study > main > section .version:before,
+.case-study > main > section .version:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.case-study > main .prototyping .version:after,
-.case-study > main .research .version:after {
+.case-study > main > section .version:after {
   clear: both;
 }
-.case-study > main .prototyping .version img,
-.case-study > main .research .version img {
+.case-study > main > section .version img {
   margin: 0 auto 1rem;
   display: block;
   cursor: pointer;
 }
-.case-study > main .prototyping .version p,
-.case-study > main .research .version p {
+.case-study > main > section .version p {
   text-align: left;
 }
 @media screen and (min-width: 768px) {
-  .case-study > main .prototyping .version,
-  .case-study > main .research .version {
+  .case-study > main > section .version {
     text-align: left;
   }
-  .case-study > main .prototyping .version img,
-  .case-study > main .research .version img {
+  .case-study > main > section .version img {
     width: 30%;
     margin: 1%;
     float: left;
   }
-  .case-study > main .prototyping .version.one-up img,
-  .case-study > main .research .version.one-up img {
+  .case-study > main > section .version.one-up img {
     width: 100%;
     margin: 1% auto;
     float: none;
   }
-  .case-study > main .prototyping .version.two-up img,
-  .case-study > main .research .version.two-up img {
+  .case-study > main > section .version.two-up img {
     width: 48%;
   }
 }
@@ -510,15 +500,6 @@ body > nav a:hover {
 .case-study .back:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.dashboard > header {
-  background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
-}
-.dashboard > nav {
-  background-color: #ff3d4d;
-}
-.dashboard .back {
-  background-color: #ff3d4d;
-}
 #overlay {
   display: none;
   position: fixed;
@@ -537,6 +518,24 @@ body > nav a:hover {
   #overlay {
     display: none !important;
   }
+}
+.dashboard > header {
+  background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
+}
+.dashboard > nav {
+  background-color: #ff3d4d;
+}
+.dashboard .back {
+  background-color: #ff3d4d;
+}
+.store > header {
+  background-image: url(/images/store/experticity-store-large-blur.jpg);
+}
+.store > nav {
+  background-color: #f04236;
+}
+.store .back {
+  background-color: #f04236;
 }
 .case-study-main > header {
   background-image: url(/images/desktop.jpg);
@@ -790,7 +789,7 @@ body > nav a:hover {
   background-image: url(/images/dashboard/healthicity-dashboard-small.jpg);
 }
 .card.ecommerce > header {
-  background-image: url(/images/ecommerce/experticity-ecommerce-small.jpg);
+  background-image: url(/images/store/experticity-store-small.jpg);
 }
 .card.answers > header {
   background-image: url(/images/answers/verisk-answers-small.jpg);
@@ -835,6 +834,13 @@ h4 {
   font-size: 1.75em;
   font-weight: 600;
   margin: 0;
+}
+h5 {
+  font-size: 1.25em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  color: #bcbeb9;
 }
 p {
   font-size: 1.6em;
