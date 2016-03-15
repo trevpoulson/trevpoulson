@@ -35,20 +35,18 @@
 .card {
 	// .shadow();
 	box-shadow: @shadow-level-1;
-	width: 100%;
-	margin-bottom: 1rem;
+	width: ~"calc(100% - 2rem)";
+	margin: 1rem;
 	background-color: @color-white;
 	@media screen and (min-width: @screen-md) {
-		margin: 1%;
-		flex: 0 1 47.5%; 
+		flex: 0 1;
+		flex-basis: ~"calc(50% - 2rem)"; 
 	}
 	@media screen and (min-width: @screen-lg) {
-		margin: 1%;
-		flex: 0 1 31.3333%; 
+		flex-basis: ~"calc(33% - 2rem)"; 
 	}
 	@media screen and (min-width: @screen-xl) {
-		margin: 1%;
-		flex: 0 1 23%; 
+		flex-basis: ~"calc(25% - 2rem)"; 
 	}
 	border-radius: .5em;
 	overflow: hidden;

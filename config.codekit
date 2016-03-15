@@ -737,6 +737,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
+	"\/portfolio\/answers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/answers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/portfolio\/casestudies.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -746,11 +755,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/healthicity-dashboard.html": {
+	"\/portfolio\/dashboard.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/portfolio\/healthicity-dashboard.html",
+		"inputAbbreviatedPath": "\/portfolio\/dashboard.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
