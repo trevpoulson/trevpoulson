@@ -789,8 +789,6 @@ body > nav a:hover {
   margin: .5em 0 0em;
 }
 .card {
-  -webkit-filter: grayscale(1);
-  transition: 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   width: calc(100% - 4rem);
   margin: 2rem;
@@ -798,8 +796,14 @@ body > nav a:hover {
   border-radius: 5em;
   overflow: hidden;
 }
-.card:hover {
-  -webkit-filter: grayscale(0);
+@media screen and (min-width: 1500px) {
+  .card {
+    -webkit-filter: grayscale(1);
+    transition: 0.3s ease;
+  }
+  .card:hover {
+    -webkit-filter: grayscale(0);
+  }
 }
 @media screen and (min-width: 768px) {
   .card {
