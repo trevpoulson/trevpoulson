@@ -84,3 +84,18 @@
 .animate(@speed: 0.3s) {
   transition: @speed ease;
 }
+
+
+
+@skew-amount: 20deg;
+
+.skew-outer(@amount: @skew-amount) {
+    transform: skewY(@amount);
+
+}
+
+
+.skew-inner(@amount: @skew-amount) {
+    transform: skewY(-@amount);
+
+}

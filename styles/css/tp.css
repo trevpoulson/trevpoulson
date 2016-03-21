@@ -236,16 +236,14 @@ body.home h1 {
   color: #585953;
 }
 body > footer {
-  background-color: #585953;
   padding: 3rem 0 2rem;
   color: #fff;
   text-align: center;
-  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16), 0 -3px 6px rgba(0, 0, 0, 0.23);
-  margin-top: 10em;
+  margin: 10em auto 5em;
   color: rgba(255, 255, 255, 0.6);
 }
 body > footer .branding {
-  margin: 3em auto 8em;
+  margin: 3em auto 3em;
   color: #fff;
   text-decoration: none;
   display: block;
@@ -257,8 +255,9 @@ body > footer .branding:hover {
   opacity: 1;
 }
 body > footer .branding .logo {
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1em;
 }
 body > footer .branding .website {
   font-size: 1.5em;
@@ -267,11 +266,11 @@ body > footer .branding .website {
   margin: .5em 0 0em;
 }
 body > footer .contact {
-  border-bottom: solid 1px #bcbeb9;
-  margin: 0  auto .5em;
-  padding: .5em 1em;
+  border-top: solid 1px #fff;
+  margin: 2em  auto .5em;
+  padding: 2em 1em;
   font-size: 1.5rem;
-  color: #bcbeb9;
+  color: #fff;
   transition: 0.3s ease;
   max-width: 320px;
 }
@@ -279,9 +278,10 @@ body > footer .contact a {
   color: inherit;
   transition: 0.3s ease;
   margin: 0 .25em;
+  opacity: 0.7;
 }
 body > footer .contact a:hover {
-  color: #fff;
+  opacity: 1;
 }
 body > footer p {
   color: inherit;
@@ -290,36 +290,33 @@ body > footer p {
 }
 body > header {
   font-family: 'Merriweather', serif;
-  padding: 5em 0;
   position: relative;
-  background: #585953 50% no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  color: #fff;
-  font-size: 1em;
-}
-body > header .header-content {
+  z-index: 10;
   text-align: center;
+  padding: 3em 0;
+  font-size: 1rem;
+  color: #fff;
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 320px) {
   body > header {
-    font-size: 1.5em;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 600px) {
   body > header {
-    font-size: 2em;
+    padding: 3em 0 0;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 768px) {
   body > header {
-    font-size: 3em;
+    padding: 1em 0 0;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 1024px) {
   body > header {
-    font-size: 4em;
+    font-size: 3rem;
   }
 }
 body > header h1 {
@@ -332,12 +329,26 @@ body > header h3 {
   margin: 0;
   font-weight: 300;
 }
+body > header .header-content {
+  text-align: center;
+}
+body > header .logo {
+  width: 100px;
+}
+body > header .preview {
+  width: 60rem;
+  max-width: 80%;
+  margin: 5rem 0 -7rem;
+}
+@media screen and (min-width: 768px) {
+  body > header .preview {
+    margin: 5rem 0 -20rem;
+  }
+}
 body > nav {
   width: 100%;
-  position: relative;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  z-index: 3;
-  background-color: #585953;
+  position: fixed;
+  top: 0;
   text-align: center;
   *zoom: 1;
 }
@@ -372,29 +383,89 @@ body > nav a {
 }
 body > nav a:hover {
   background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 @media screen and (min-width: 768px) {
   body > nav {
-    margin-top: -3em;
+    z-index: 8;
     transition: 0.3s ease;
   }
   body > nav.affix {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     position: fixed;
     top: 0;
     margin-top: 0em;
   }
+  body > nav.affix a {
+    color: #585953;
+  }
+}
+.case-study {
+  background: no-repeat 50%;
+  background-image: url(/images/page-background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(88, 89, 83, 0.5);
+  background-blend-mode: multiply;
+}
+.case-study > header {
+  padding-top: 10rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+@media screen and (min-width: 600px) {
+  .case-study > header {
+    padding-top: 5rem;
+  }
+}
+.case-study > header .logo {
+  border: solid 3px #fff;
+  border-radius: 50%;
 }
 .case-study > main {
-  margin-top: 5em;
+  margin-top: 27rem;
+  background-color: #fff;
+  box-shadow: 0 0px 100px #000000;
+  padding: 7em 2em 10em;
+  position: relative;
+  z-index: 4;
+  transform: skewY(-12deg);
+}
+@media screen and (min-width: 600px) {
+  .case-study > main {
+    margin-top: 20rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .case-study > main {
+    margin-top: 30rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .case-study > main {
-    padding: 1em 2em;
+    padding: 15em 2em 10em;
   }
 }
-.case-study > main section {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+@media screen and (min-width: 1024px) {
+  .case-study > main {
+    margin-top: 40rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .case-study > main {
+    margin-top: 45rem;
+  }
+}
+.case-study > main .content {
+  transform: skewY(12deg);
   width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.case-study > main section {
   background-color: #fff;
   overflow: hidden;
   padding: 0 1rem 2rem;
@@ -403,25 +474,22 @@ body > nav a:hover {
   .case-study > main section {
     margin: 0 auto 5em;
     padding: 0 2rem 2rem;
-    max-width: 60rem;
     border-radius: .2rem;
+    font-size: 0.7rem;
   }
 }
 .case-study > main section h2 {
-  margin: 0 -2rem 1rem;
-  padding: 1rem 1rem 1rem 2rem;
-  background: #bcbeb9;
-  color: #fff;
-  font-weight: 400;
-  font-size: 2em;
-}
-@media screen and (min-width: 768px) {
-  .case-study > main section h2 {
-    font-size: 2em;
-  }
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem 0rem ;
+  padding: 0 0 .2em 0;
+  font-weight: 800;
+  font-size: 3em;
+  border-bottom: solid 2px #585953;
 }
 .case-study > main section h4 {
+  font-size: 1rem;
   margin: 2em 0 0.5rem;
+  text-transform: uppercase;
 }
 .case-study > main section li {
   margin-bottom: 0;
@@ -431,54 +499,39 @@ body > nav a:hover {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-.case-study > main > section .version {
+.case-study > main > .content section .version {
   *zoom: 1;
   margin-bottom: 2em;
   text-align: center;
 }
-.case-study > main > section .version:before,
-.case-study > main > section .version:after {
+.case-study > main > .content section .version:before,
+.case-study > main > .content section .version:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.case-study > main > section .version:after {
+.case-study > main > .content section .version:after {
   clear: both;
 }
-.case-study > main > section .version img {
-  margin: 0 auto 1rem;
+.case-study > main > .content section .version img {
+  margin: 0 auto 2rem;
   display: block;
   cursor: pointer;
 }
-.case-study > main > section .version p {
+.case-study > main > .content section .version p {
   text-align: left;
-}
-@media screen and (min-width: 768px) {
-  .case-study > main > section .version {
-    text-align: left;
-  }
-  .case-study > main > section .version img {
-    width: 30%;
-    margin: 1%;
-    float: left;
-  }
-  .case-study > main > section .version.one-up img {
-    width: 100%;
-    margin: 1% auto;
-    float: none;
-  }
-  .case-study > main > section .version.two-up img {
-    width: 48%;
-  }
 }
 .case-study > main .final {
   margin: 4em auto;
   display: block;
 }
-@media screen and (min-width: 768px) {
-  .case-study > main .final {
-    max-width: 80%;
-  }
+.case-study > footer {
+  background: black;
+  z-index: 3;
+  position: relative;
+  padding-top: 40rem;
+  margin-top: -30rem;
+  margin-bottom: 0;
 }
 .case-study .back {
   font-size: 1rem;
@@ -493,14 +546,14 @@ body > nav a:hover {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: .2rem;
-  max-width: 100%;
+  max-width: 80%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.3s ease;
 }
 .case-study .back:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-#overlay {
+.case-study #overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -511,125 +564,252 @@ body > nav a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
-  background-size: 90%;
-  z-index: 5;
+  background-size: contain;
+  z-index: 12;
 }
 @media screen and (max-width: 768px) {
-  #overlay {
+  .case-study #overlay {
     display: none !important;
   }
 }
-.dashboard > header {
-  background-image: url(/images/dashboard/healthicity-dashboard-large-blur.jpg);
+.case-study.dashboard {
+  background: #ff3d4d;
 }
-.dashboard > nav {
+.case-study.dashboard .back,
+.case-study.dashboard footer {
   background-color: #ff3d4d;
 }
-.dashboard .back {
-  background-color: #ff3d4d;
+.case-study.store {
+  background: #f04236;
 }
-.store > header {
-  background-image: url(/images/store/experticity-store-large-blur.jpg);
-}
-.store > nav {
+.case-study.store .back,
+.case-study.store footer {
   background-color: #f04236;
 }
-.store .back {
-  background-color: #f04236;
+.case-study.answers {
+  background: #0177a9;
 }
-.case-study-main > header {
-  background-image: url(/images/desktop.jpg);
+.case-study.answers .back,
+.case-study.answers footer {
+  background-color: #0177a9;
 }
-.case-study-main > main {
-  margin: 2em 0;
-  padding: 0 1em;
+.case-study-main {
+  background: no-repeat 50%;
+  background-image: url(/images/page-background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(88, 89, 83, 0.5);
+  background-blend-mode: multiply;
 }
-.case-study-main > main section {
+.case-study-main .content {
+  padding: 1em;
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
   width: 100%;
-  padding: 1em;
 }
-.case-study-main > main section:before,
-.case-study-main > main section:after {
+.case-study-main .content:before,
+.case-study-main .content:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.case-study-main > main section:after {
+.case-study-main .content:after {
   clear: both;
 }
 @media (min-width: 600px) {
-  .case-study-main > main section {
+  .case-study-main .content {
     width: 598px;
   }
 }
 @media (min-width: 768px) {
-  .case-study-main > main section {
+  .case-study-main .content {
     width: 766px;
   }
 }
 @media (min-width: 1024px) {
-  .case-study-main > main section {
+  .case-study-main .content {
     width: 1022px;
   }
 }
 @media (min-width: 1500px) {
-  .case-study-main > main section {
+  .case-study-main .content {
     width: 1498px;
   }
 }
+.case-study-main h2 {
+  border-bottom: solid 2px white;
+  padding-bottom: 0.4em;
+}
+@media screen and (min-width: 1024px) {
+  .case-study-main > header {
+    font-size: 4rem;
+  }
+}
+.case-study-main > main {
+  margin: 2em 0;
+  padding: 0;
+}
+.case-study-main > main section.overview {
+  text-align: left;
+  margin-bottom: 2rem;
+  background: rgba(52, 73, 94, 0.8);
+  box-shadow: 0 0px 5rem rgba(0, 0, 0, 0.3);
+  padding: 7em 1em;
+}
+.case-study-main > main section.overview a {
+  color: #3498db;
+}
+@media screen and (min-width: 600px) {
+  .case-study-main > main section.overview {
+    font-size: 1.2em;
+    transform: skewY(-20deg);
+    padding: 15em 0;
+    margin: -12em auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .case-study-main > main section.overview {
+    padding: 15em 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .case-study-main > main section.overview {
+    padding: 30em 0;
+    margin: -20em auto -25em;
+  }
+}
+.case-study-main > main section.overview .content {
+  padding: 1em;
+  max-width: 30rem;
+  color: #fff;
+}
+@media screen and (min-width: 600px) {
+  .case-study-main > main section.overview .content {
+    transform: skewY(20deg);
+  }
+}
+.case-study-main > main section.overview .content .contact a {
+  color: #fff;
+  font-size: 5em;
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+.case-study-main > main section.overview .content .contact a:not(:last-child) {
+  margin-right: 0.5em;
+}
+.case-study-main > main section.overview .content .contact a:hover {
+  opacity: 1;
+}
 .case-study-main > main .case-studies {
-  border-top: solid 1px #585953;
+  position: relative;
+  z-index: 8;
+  padding: 5em 0 ;
+}
+.case-study-main > main .case-studies .content {
   padding-top: 3em;
   *zoom: 1;
   display: flex;
   flex-direction: column;
 }
-.case-study-main > main .case-studies:before,
-.case-study-main > main .case-studies:after {
+.case-study-main > main .case-studies .content:before,
+.case-study-main > main .case-studies .content:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.case-study-main > main .case-studies:after {
+.case-study-main > main .case-studies .content:after {
   clear: both;
 }
 @media screen and (min-width: 768px) {
-  .case-study-main > main .case-studies {
+  .case-study-main > main .case-studies .content {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
-.case-study-main > main section.overview {
+.case-study-main > main section.contact {
   text-align: center;
-  max-width: 40rem;
   margin-bottom: 2rem;
+  background: rgba(50, 120, 100, 0.8);
+  box-shadow: 0 0px 100px rgba(0, 0, 0, 0.12);
+  padding: 10em 0;
+}
+@media screen and (min-width: 600px) {
+  .case-study-main > main section.contact {
+    font-size: 2.0em;
+    transform: skewY(20deg);
+    padding: 15em 0;
+    margin: -12em auto 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .case-study-main > main section.contact {
+    font-size: 2.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .case-study-main > main section.contact {
+    margin: -10em auto 0;
+  }
+}
+.case-study-main > main section.contact .content {
   padding: 1em;
+  max-width: 40rem;
+  color: #fff;
+}
+@media screen and (min-width: 600px) {
+  .case-study-main > main section.contact .content {
+    transform: skewY(-20deg);
+  }
+}
+.case-study-main > main section.contact .content .contact-icons a {
+  color: #fff;
+  font-size: 5em;
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+.case-study-main > main section.contact .content .contact-icons a:not(:last-child) {
+  margin-right: 0.5em;
+}
+.case-study-main > main section.contact .content .contact-icons a:hover {
+  opacity: 1;
+}
+.case-study-main > footer .branding {
+  margin-bottom: 0;
+}
+.case-study-main > footer .branding .logo {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1em;
+}
+.case-study-main > footer .branding .website {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: inherit;
+  margin: .5em 0 0em;
 }
 .card {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  width: calc(100% - 2rem);
-  margin: 1rem;
+  -webkit-filter: grayscale(1);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  width: calc(100% - 4rem);
+  margin: 2rem;
   background-color: #fff;
-  border-radius: .5em;
+  border-radius: 5em;
   overflow: hidden;
+}
+.card:hover {
+  -webkit-filter: grayscale(0);
 }
 @media screen and (min-width: 768px) {
   .card {
     flex: 0 1;
-    flex-basis: calc(50% - 2rem);
-  }
-}
-@media screen and (min-width: 1024px) {
-  .card {
-    flex-basis: calc(33% - 2rem);
+    flex-basis: calc(50% - 4rem);
   }
 }
 @media screen and (min-width: 1500px) {
   .card {
-    flex-basis: calc(25% - 2rem);
+    flex-basis: calc(33% - 4rem);
   }
 }
 .card > header {
@@ -640,11 +820,12 @@ body > nav a:hover {
   padding-bottom: 60%;
   position: relative;
   transition: all 1s ease;
+  border-bottom: solid 8px #fff;
 }
 .card > header .icon {
   width: 6rem;
   height: 6rem;
-  background: #585953;
+  background: #fff;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -669,11 +850,12 @@ body > nav a:hover {
 }
 .card > main .title {
   margin-bottom: .5em;
+  color: #fff;
 }
 .card > main p.overview {
   font-size: 1.6em;
   line-height: 1.2em;
-  color: #93968f;
+  color: #fff;
 }
 .card > footer {
   text-align: center;
@@ -681,76 +863,49 @@ body > nav a:hover {
 .card > footer .btn {
   display: inline-block;
   width: auto;
-  color: #93968f;
+  color: #fff;
   padding: 1rem 1.5rem;
   font-size: 1.6em;
   text-decoration: none;
   font-weight: 600;
   text-align: center;
   margin: 0 auto 1.5rem;
-  border: solid 0.1rem #93968f;
+  border: solid 0.1rem #fff;
   border-radius: .2em;
   transition: 0.3s ease;
+  background: transparent;
+}
+.card > footer .btn:hover {
+  background-color: #fff;
+  color: #585953;
 }
 .card:hover > header {
   background-color: rgba(0, 0, 0, 0.2);
   background-size: 130%;
 }
-.card.healthicity > header {
-  border-bottom: solid 8px #ff3d4d;
-}
-.card.healthicity > header .icon {
+.card.healthicity {
   background-color: #ff3d4d;
-}
-.card.healthicity > footer .btn {
-  color: #ff3d4d;
-  border-color: #ff3d4d;
 }
 .card.healthicity > footer .btn:hover {
-  background-color: #ff3d4d;
-  color: #fff;
+  color: #ff3d4d;
 }
-.card.experticity > header {
-  border-bottom: solid 8px #f04236;
-}
-.card.experticity > header .icon {
+.card.experticity {
   background-color: #f04236;
-}
-.card.experticity > footer .btn {
-  color: #f04236;
-  border-color: #f04236;
 }
 .card.experticity > footer .btn:hover {
-  background-color: #f04236;
-  color: #fff;
+  color: #f04236;
 }
-.card.verisk > header {
-  border-bottom: solid 8px #0177a9;
-}
-.card.verisk > header .icon {
+.card.verisk {
   background-color: #0177a9;
-}
-.card.verisk > footer .btn {
-  color: #0177a9;
-  border-color: #0177a9;
 }
 .card.verisk > footer .btn:hover {
-  background-color: #0177a9;
-  color: #fff;
+  color: #0177a9;
 }
-.card.needle > header {
-  border-bottom: solid 8px #02bfd3;
-}
-.card.needle > header .icon {
+.card.needle {
   background-color: #02bfd3;
-}
-.card.needle > footer .btn {
-  color: #02bfd3;
-  border-color: #02bfd3;
 }
 .card.needle > footer .btn:hover {
-  background-color: #02bfd3;
-  color: #fff;
+  color: #02bfd3;
 }
 .coming-soon {
   position: relative;
@@ -759,7 +914,7 @@ body > nav a:hover {
 }
 .coming-soon:before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(150, 150, 150, 0.85);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -774,7 +929,7 @@ body > nav a:hover {
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
-  color: #585953;
+  color: #fff;
   z-index: 2;
   font-size: 4em;
   line-height: 1em;
@@ -794,6 +949,26 @@ body > nav a:hover {
 }
 .card.pattern-library > header {
   background-image: url(/images/pattern-library/healthicity-pattern-library-small.jpg);
+}
+.animated {
+  animation-duration: 0.75s;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInUp {
+  animation-name: fadeInUp;
 }
 *,
 *::after,
@@ -823,6 +998,7 @@ h1 {
 h2 {
   font-size: 3em;
   font-weight: 700;
+  font-family: 'Merriweather', serif;
 }
 h3 {
   font-size: 2em;
@@ -834,6 +1010,7 @@ h4 {
   margin: 0;
 }
 h5 {
+  margin-top: 1rem;
   font-size: 1.25em;
   font-weight: 800;
   text-transform: uppercase;
@@ -855,4 +1032,10 @@ li {
   margin: 0 0 1rem;
   line-height: 1.5em;
   margin-left: 1rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
 }

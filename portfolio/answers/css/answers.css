@@ -1,0 +1,286 @@
+body{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+}
+*{transition: 0.2s;}
+.section-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+section.section-outer{
+    width: 100% ;
+}
+h1{
+    font-size: 66px;
+    font-weight: 100;
+    margin: 0 auto 50px;
+    text-align: center;
+    max-width: 600px;
+}
+h2{
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+}
+p{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #54585A;
+    line-height: 1.8em;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+p.large-text{
+    font-size: 23px;
+    line-height: 37px;
+}
+p.small-text{}
+.sky-text{color: #4CC2EF}
+.midnight-text{color: #054C70;}
+.white-text{color: #fff}
+.btn-verisk{
+    background: #FFA400;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+}
+.btn-verisk:hover{
+    background: #D48400;
+    color: #fff;
+}
+
+/**********     HEADER     **********/
+body > header{
+	background: url(../img/blue-blur.jpg);
+	padding-bottom: 100px;
+}
+.site-nav{
+    padding: 10px 0;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-nav-logo{
+    width: 150px;
+}
+.site-nav-menu{
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.site-nav-menu li{
+    display: inline;
+}
+.site-nav-menu li a{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+}
+.site-nav-menu li a:hover{
+    text-decoration: none;
+    color: #4cc6f3;
+}
+
+.intro{
+    padding: 200px 0;
+    text-align: center;
+}
+.intro h1{
+}
+.intro p{
+    padding: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-video{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.main-video iframe{
+    width: 100%;
+    height: 681px;
+}
+.main-video .video-description{
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+
+/**********     Main     **********/
+main{
+    position: relative;
+}
+body > main > section{
+    padding: 100px 0;
+}
+.page-nav{
+    position: absolute;
+    top: -50px;
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    max-width: 100%;
+}
+.page-nav.affix{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.page-nav-menu{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.page-nav-menu li{
+    display: block;
+    height: 50px;
+    padding: 0px 41px;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+}
+.page-nav-menu li a, .page-nav-share{
+    color: #054C70;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 53px;
+}
+.page-nav-menu li a:hover{
+    text-decoration: none;
+}
+.page-nav-menu li:hover{
+    background: #FFF;
+}
+.page-nav-menu li:hover a{}
+.page-nav-menu .page-nav-logo{
+    padding: 0 100px 0 0;
+}
+.page-nav-menu .page-nav-logo:hover, .page-nav-menu .page-nav-share:hover{
+    background: transparent;
+    cursor: inherit;
+}
+.page-nav-share i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page-nav-menu .page-nav-logo img{
+    height: 50px;
+    display: block;
+}
+.answers-bg{
+    background: #fff url(../img/answsers-bg.jpg) center top;
+}
+.answers{
+    padding-bottom: 0;
+}
+.answers header{margin-bottom:50px}
+.answers header p {
+    text-align: center;
+    margin: 0 100px;
+}
+.answers-table{
+    border-collapse: collapse;
+    width: 1200px;
+}
+.answers-table tr{}
+.answers-table tr td{
+    padding: 0 40px 40px 0;
+    cursor: pointer;
+}
+
+.answers-table tr td:last-child{
+    /* border: solid 10px red; */ red;
+    padding-right: 0;
+}
+
+.answers-table img{
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 0 -3px 0;
+    -webkit-filter: grayscale(0.7);
+}
+.answers-table img:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    margin: -3px 0 0 0;
+    -webkit-filter: grayscale(0);
+}
+.question{
+    padding: 100px 0 50px;
+}
+.question .input-group .large-question{
+    padding: 30px;
+    font-size: 26px;
+    font-weight: 100;
+    border: none;
+}
+.question .input-group .question-button{
+    padding: 7px 18px;
+    border: none;
+    background: #FFA400;
+    color: #fff;
+    font-size: 34px;
+}
+.question .input-group{
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	margin: 40px 0;
+	border-radius: 5px;
+}
+main .social{ background: #D9D9D9; padding-bottom: 400px;}
+.large-social-icons div{
+	text-align: center;
+	margin: 10px 0;
+}
+.large-social-icons i{
+    color: #888;
+    cursor: pointer;
+    font-size: 86px;
+}
+.large-social-icons i:hover{
+    color: #54585A;
+}
+
+.about{
+    background: url(../img/blue-blur.jpg);
+}
+.laptop{
+    margin-top: -400px;
+}
+.about h1{
+    margin: 100px auto 50px;
+}
+.vh-answers{
+    margin-top: 50px;
+}
+.vh-answers p{
+    margin: 0 30px 40px;
+}
+.vh-answers img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/**********     FOOTER     **********/
+footer{
+    widows: 100%;
+    margin:0;
+    background: #054c70;
+    border-top: solid 20px #0076A5;
+    padding: 50px 0;
+}
+
+
+
