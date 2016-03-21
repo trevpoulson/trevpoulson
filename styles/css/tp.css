@@ -912,6 +912,7 @@ body > nav a:hover {
   color: #02bfd3;
 }
 .coming-soon {
+  -webkit-filter: grayscale(1);
   position: relative;
   font-family: 'Merriweather', serif;
   pointer-events: none;
