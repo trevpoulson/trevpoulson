@@ -804,7 +804,7 @@ body > nav a:hover {
 @media screen and (min-width: 768px) {
   .card {
     flex: 0 1;
-    flex-basis: calc(50% - 4rem);
+    flex-basis: calc(49% - 4rem);
   }
 }
 @media screen and (min-width: 1500px) {
