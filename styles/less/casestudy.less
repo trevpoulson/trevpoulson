@@ -2,12 +2,10 @@
 
 .case-study {
 	background: no-repeat 50%;
-	background-image: url(/images/page-background.jpg);
 	
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: fade(@color-gray-dark, 50%);
-	background-blend-mode: multiply;
+	background-color: @color-green-dark;
 	& > header {
 		padding-top: 10rem;
 		@media screen and (min-width: @screen-sm) {
@@ -81,6 +79,7 @@
 				font-size: 1rem;
 				margin: 2em 0 0.5rem;
 				text-transform: uppercase;
+				text-align: left;
 
 			}
 			li {
@@ -142,7 +141,7 @@
 		}
 	}
 	& > footer {
-		background: black;
+		background: @color-green-dark;
 		z-index: 3;
 		position: relative;
 		padding-top: 40rem;
@@ -155,10 +154,12 @@
 		margin: 7rem auto 0;
 		width: 20em;
 		text-align: center;
-		background: @color-gray-medium;
+		background-color: @color-white;
+		border: solid 1px @color-green-dark;
+		color: @color-green-dark;
+		font-weight: 600;
 		padding: 1.5em 2em;
 		float: none;
-		color: white;
 		text-decoration: none;
 		text-transform: uppercase;
 		border-radius: .2rem;
@@ -186,38 +187,38 @@
 	}
 
 
-	&.dashboard {
-		background: @color-healthicity;
-		> nav, {
-			// background-color: @color-healthicity;
-		}
-		.back, & footer  {
-			background-color: @color-healthicity;
-		}
+	// &.dashboard {
+	// 	background: @color-healthicity;
+	// 	> nav, {
+	// 		// background-color: @color-healthicity;
+	// 	}
+	// 	.back, & footer  {
+	// 		background-color: @color-healthicity;
+	// 	}
 
-	}
+	// }
 
-	&.store {
-		background: @color-experticity;
-		> nav, {
-			// background-color: @color-experticity;
-		}
-		.back, & footer  {
-			background-color: @color-experticity;
-		}
-	}
+	// &.store {
+	// 	background: @color-experticity;
+	// 	> nav, {
+	// 		// background-color: @color-experticity;
+	// 	}
+	// 	.back, & footer  {
+	// 		background-color: @color-experticity;
+	// 	}
+	// }
 
-	&.answers {
-		background: @color-verisk;
-		> nav, {
-			// background-color: @color-verisk;
-		}
-		.back, & footer  {
-			background-color: @color-verisk;
-		}
+	// &.answers {
+	// 	background: @color-verisk;
+	// 	> nav, {
+	// 		// background-color: @color-verisk;
+	// 	}
+	// 	.back, & footer  {
+	// 		background-color: @color-verisk;
+	// 	}
 
 		
-	}
+	// }
 }
 
 

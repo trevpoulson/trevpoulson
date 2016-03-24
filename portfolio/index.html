@@ -27,7 +27,7 @@
 		
 		<section class="overview">
 			<div class="content">
-				<div class="">
+				<div class="animated">
 					<h2>Overview</h2>
 					<p>My name is Trev Poulson and I am a product designer. I specialize in web based application design with a focus on visual/interaction design and rapid prototyping.</p>
 					<br>
@@ -38,7 +38,7 @@
 		</section>
 		<section class="case-studies">
 			<div class="content">
-				<a href="/portfolio/dashboard.html" class="card healthicity dashboard">
+				<a href="/portfolio/dashboard.html" class="card animated healthicity dashboard">
 					<header>
 						<div class="icon"><img src="/images/icon-healthicity-color.svg"></div>
 					</header>
@@ -50,7 +50,7 @@
 						<button class="btn">View Case Study</button>
 					</footer>
 				</a>
-				<a class="card experticity ecommerce" href="/portfolio/store.html">
+				<a class="card animated experticity ecommerce" href="/portfolio/store.html">
 					<header>
 						<div class="icon"><img src="/images/icon-experticity-color.svg"></div>
 					</header>
@@ -62,7 +62,7 @@
 						<button  class="btn">View Case Study</button>
 					</footer>
 				</a>
-				<a href="/portfolio/answers.html" class="card verisk answers">
+				<a href="/portfolio/answers.html" class="card animated verisk answers">
 					<header>
 						<div class="icon"><img src="/images/icon-verisk-color.svg"></div>
 					</header>
@@ -74,7 +74,7 @@
 						<button class="btn">View Case Study</button>
 					</footer>
 				</a>
-				<div class="card healthicity pattern-library coming-soon">
+				<div class="card animated healthicity pattern-library coming-soon">
 					<header>
 						<div class="icon"><img src="/images/icon-healthicity-color.svg"></div>
 					</header>
@@ -86,7 +86,7 @@
 						<a href="#" class="btn">View Case Study</a>
 					</footer>
 				</div>
-				<div class="card needle coming-soon">
+				<div class="card animated needle coming-soon">
 					<header>
 						<div class="icon"><img src="/images/icon-needle-color.svg"></div>
 					</header>
@@ -98,7 +98,7 @@
 						<a href="#" class="btn">View Case Study</a>
 					</footer>
 				</div>
-				<div class="card healthicity coming-soon">
+				<div class="card animated healthicity coming-soon">
 					<header>
 						<div class="icon"><img src="/images/icon-healthicity-color.svg"></div>
 					</header>
@@ -128,7 +128,7 @@
 	<footer>
 		<div class="content">
 
-			<a class="branding" href="//www.trevpoulson.com">
+			<a class="branding" href="/portfolio">
 				<img src="/images/icon.svg" class="logo">
 				<div class="website">&copy; 2016 Trev Poulson. All Rights Reserved.</div>
 			</a>
@@ -141,7 +141,9 @@
 
 	<script>
 		$(function(){
-			$('.animated').on('inview', function(event, isInView) {
+			
+			$('.animated').each(function(index, el) {
+				$(this).on('inview', function(event, isInView) {
 				var $this = $(this);
 				if (isInView) {
 					setTimeout(function () {
@@ -153,6 +155,7 @@
 				// // element has gone out of viewport
 				
 				}
+			});
 			});
 		});
 

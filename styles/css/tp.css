@@ -239,24 +239,23 @@ body > footer {
   padding: 3rem 0 2rem;
   color: #fff;
   text-align: center;
-  margin: 10em auto 5em;
   color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (min-width: 600px) {
+  body > footer {
+    margin: 10em auto 5em;
+  }
 }
 body > footer .branding {
   margin: 3em auto 3em;
   color: #fff;
   text-decoration: none;
   display: block;
-  opacity: 0.6;
   max-width: 30rem;
-  transition: 0.3s ease;
-}
-body > footer .branding:hover {
-  opacity: 1;
 }
 body > footer .branding .logo {
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
   margin-bottom: 1em;
 }
 body > footer .branding .website {
@@ -345,23 +344,23 @@ body > header .preview {
     margin: 5rem 0 -20rem;
   }
 }
-body > nav {
+body.case-study > nav {
   width: 100%;
   position: fixed;
   top: 0;
   text-align: center;
   *zoom: 1;
 }
-body > nav:before,
-body > nav:after {
+body.case-study > nav:before,
+body.case-study > nav:after {
   display: table;
   content: "";
   line-height: 0;
 }
-body > nav:after {
+body.case-study > nav:after {
   clear: both;
 }
-body > nav a {
+body.case-study > nav a {
   text-decoration: none;
   color: #fff;
   display: block;
@@ -375,39 +374,41 @@ body > nav a {
   transition: 0.3s ease;
 }
 @media screen and (min-width: 600px) {
-  body > nav a {
+  body.case-study > nav a {
     width: auto;
     display: inline-block;
     float: none;
   }
 }
-body > nav a:hover {
+body.case-study > nav a:hover {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
 @media screen and (min-width: 768px) {
-  body > nav {
+  body.case-study > nav {
     z-index: 8;
     transition: 0.3s ease;
   }
-  body > nav.affix {
-    background: rgba(255, 255, 255, 0.9);
+  body.case-study > nav.affix {
+    background-color: #439785;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     position: fixed;
     top: 0;
     margin-top: 0em;
   }
-  body > nav.affix a {
-    color: #585953;
+  body.case-study > nav.affix a {
+    color: #fff;
+  }
+  body.case-study > nav.affix a:hover {
+    background-color: #327864;
+    color: #fff;
   }
 }
 .case-study {
   background: no-repeat 50%;
-  background-image: url(/images/page-background.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(88, 89, 83, 0.5);
-  background-blend-mode: multiply;
+  background-color: #439785;
 }
 .case-study > header {
   padding-top: 10rem;
@@ -490,6 +491,7 @@ body > nav a:hover {
   font-size: 1rem;
   margin: 2em 0 0.5rem;
   text-transform: uppercase;
+  text-align: left;
 }
 .case-study > main section li {
   margin-bottom: 0;
@@ -526,7 +528,7 @@ body > nav a:hover {
   display: block;
 }
 .case-study > footer {
-  background: black;
+  background: #439785;
   z-index: 3;
   position: relative;
   padding-top: 40rem;
@@ -539,10 +541,12 @@ body > nav a:hover {
   margin: 7rem auto 0;
   width: 20em;
   text-align: center;
-  background: #93968f;
+  background-color: #fff;
+  border: solid 1px #439785;
+  color: #439785;
+  font-weight: 600;
   padding: 1.5em 2em;
   float: none;
-  color: white;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: .2rem;
@@ -572,34 +576,18 @@ body > nav a:hover {
     display: none !important;
   }
 }
-.case-study.dashboard {
-  background: #ff3d4d;
-}
-.case-study.dashboard .back,
-.case-study.dashboard footer {
-  background-color: #ff3d4d;
-}
-.case-study.store {
-  background: #f04236;
-}
-.case-study.store .back,
-.case-study.store footer {
-  background-color: #f04236;
-}
-.case-study.answers {
-  background: #0177a9;
-}
-.case-study.answers .back,
-.case-study.answers footer {
-  background-color: #0177a9;
-}
 .case-study-main {
-  background: no-repeat 50%;
-  background-image: url(/images/page-background.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: rgba(88, 89, 83, 0.5);
-  background-blend-mode: multiply;
+  background-color: #327864;
+}
+@media screen and (min-width: 600px) {
+  .case-study-main {
+    background: no-repeat 50%;
+    background-image: url(/images/page-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(88, 89, 83, 0.5);
+    background-blend-mode: multiply;
+  }
 }
 .case-study-main .content {
   padding: 1em;
@@ -652,10 +640,14 @@ body > nav a:hover {
 }
 .case-study-main > main section.overview {
   text-align: left;
-  margin-bottom: 2rem;
-  background: rgba(52, 73, 94, 0.8);
-  box-shadow: 0 0px 5rem rgba(0, 0, 0, 0.3);
-  padding: 7em 1em;
+}
+@media screen and (min-width: 600px) {
+  .case-study-main > main section.overview {
+    margin-bottom: 2rem;
+    background: rgba(50, 120, 100, 0.8);
+    box-shadow: 0 0px 5rem rgba(0, 0, 0, 0.3);
+    padding: 7em 1em;
+  }
 }
 .case-study-main > main section.overview a {
   color: #3498db;
@@ -701,10 +693,12 @@ body > nav a:hover {
 .case-study-main > main section.overview .content .contact a:hover {
   opacity: 1;
 }
-.case-study-main > main .case-studies {
-  position: relative;
-  z-index: 8;
-  padding: 5em 0 ;
+@media screen and (min-width: 600px) {
+  .case-study-main > main .case-studies {
+    position: relative;
+    z-index: 8;
+    padding: 5em 0 ;
+  }
 }
 .case-study-main > main .case-studies .content {
   padding-top: 3em;
@@ -729,17 +723,19 @@ body > nav a:hover {
 }
 .case-study-main > main section.contact {
   text-align: center;
-  margin-bottom: 2rem;
-  background: rgba(50, 120, 100, 0.8);
-  box-shadow: 0 0px 100px rgba(0, 0, 0, 0.12);
-  padding: 10em 0;
+  margin: 2rem 0;
+  position: relative;
+  z-index: 9;
 }
 @media screen and (min-width: 600px) {
   .case-study-main > main section.contact {
+    padding: 10em 0;
     font-size: 2.0em;
     transform: skewY(20deg);
     padding: 15em 0;
     margin: -12em auto 0;
+    background: rgba(50, 120, 100, 0.8);
+    box-shadow: 0 0px 100px rgba(0, 0, 0, 0.12);
   }
 }
 @media screen and (min-width: 768px) {
@@ -774,35 +770,17 @@ body > nav a:hover {
 .case-study-main > main section.contact .content .contact-icons a:hover {
   opacity: 1;
 }
-.case-study-main > footer .branding {
-  margin-bottom: 0;
-}
-.case-study-main > footer .branding .logo {
-  width: 10rem;
-  height: 10rem;
-  margin-bottom: 1em;
-}
-.case-study-main > footer .branding .website {
-  font-size: 1.5em;
-  font-weight: 300;
-  color: inherit;
-  margin: .5em 0 0em;
-}
 .card {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-  width: calc(100% - 4rem);
-  margin: 2rem;
-  background-color: #fff;
-  border-radius: 5em;
+  background-color: #327864;
+  border-radius: 2px;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 600px) {
   .card {
-    -webkit-filter: grayscale(1);
-    transition: 0.3s ease;
-  }
-  .card:hover {
-    -webkit-filter: grayscale(0);
+    width: calc(100% - 4rem);
+    margin: 2rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -814,6 +792,11 @@ body > nav a:hover {
 @media screen and (min-width: 1500px) {
   .card {
     flex-basis: calc(33% - 4rem);
+    -webkit-filter: grayscale(1);
+    transition: 0.3s ease;
+  }
+  .card:hover {
+    -webkit-filter: grayscale(0);
   }
 }
 .card > header {
@@ -873,7 +856,7 @@ body > nav a:hover {
   text-decoration: none;
   font-weight: 600;
   text-align: center;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 2.5rem;
   border: solid 0.1rem #fff;
   border-radius: .2em;
   transition: 0.3s ease;
@@ -881,7 +864,7 @@ body > nav a:hover {
 }
 .card > footer .btn:hover {
   background-color: #fff;
-  color: #585953;
+  color: #327864;
 }
 .card:hover > header {
   background-color: rgba(0, 0, 0, 0.2);
@@ -954,6 +937,9 @@ body > nav a:hover {
 }
 .card.pattern-library > header {
   background-image: url(/images/pattern-library/healthicity-pattern-library-small.jpg);
+}
+.animated {
+  opacity: 0;
 }
 .animated {
   animation-duration: 0.75s;
