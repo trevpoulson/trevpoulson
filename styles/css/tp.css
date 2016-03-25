@@ -462,13 +462,10 @@ body.case-study > nav a:hover {
 }
 .case-study > main .content {
   transform: skewY(12deg);
-  width: 100%;
-  max-width: 40rem;
-  margin: 0 auto;
 }
 .case-study > main section {
-  background-color: #fff;
-  overflow: hidden;
+  max-width: 40rem;
+  margin: 0 auto;
   padding: 0 1rem 2rem;
 }
 @media screen and (min-width: 768px) {
@@ -485,7 +482,7 @@ body.case-study > nav a:hover {
   padding: 0 0 .2em 0;
   font-weight: 800;
   font-size: 3em;
-  border-bottom: solid 2px #585953;
+  color: #439785;
 }
 .case-study > main section h4 {
   font-size: 1rem;
@@ -496,36 +493,34 @@ body.case-study > nav a:hover {
 .case-study > main section li {
   margin-bottom: 0;
 }
-.case-study > main .starting-out {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-}
-.case-study > main > .content section .version {
-  *zoom: 1;
+.case-study > main .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
   margin-bottom: 2em;
-  text-align: center;
 }
-.case-study > main > .content section .version:before,
-.case-study > main > .content section .version:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.case-study > main > .content section .version:after {
-  clear: both;
-}
-.case-study > main > .content section .version img {
+.case-study > main .images img {
   margin: 0 auto 2rem;
   display: block;
   cursor: pointer;
 }
-.case-study > main > .content section .version p {
+.case-study > main .images p {
   text-align: left;
 }
-.case-study > main .final {
-  margin: 4em auto;
-  display: block;
+.case-study > main .images.small {
+  flex-direction: row;
+}
+@media screen and (min-width: 768px) {
+  .case-study > main .images.small img {
+    width: 48%;
+    margin: 0 0 1rem;
+    border: solid 1px #bcbeb9;
+  }
+}
+.case-study > main .results .final {
+  margin: 0  auto 2rem;
 }
 .case-study > footer {
   background: #439785;
@@ -536,15 +531,15 @@ body.case-study > nav a:hover {
   margin-bottom: 0;
 }
 .case-study .back {
-  font-size: 1rem;
+  font-size: 1.25rem;
   display: block;
-  margin: 7rem auto 0;
-  width: 20em;
+  margin: 7rem auto 3rem;
+  width: 15em;
   text-align: center;
   background-color: #fff;
-  border: solid 1px #439785;
+  border: solid 2px #439785;
   color: #439785;
-  font-weight: 600;
+  font-weight: 400;
   padding: 1.5em 2em;
   float: none;
   text-decoration: none;
