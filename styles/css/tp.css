@@ -493,6 +493,10 @@ body.case-study > nav a:hover {
 .case-study > main section li {
   margin-bottom: 0;
 }
+.case-study > main section a {
+  color: #439785;
+  font-weight: 700;
+}
 .case-study > main .images {
   display: flex;
   flex-wrap: wrap;
@@ -519,8 +523,27 @@ body.case-study > nav a:hover {
     border: solid 1px #bcbeb9;
   }
 }
+.case-study > main .prototype-image {
+  max-width: 20rem;
+}
 .case-study > main .results .final {
   margin: 0  auto 2rem;
+}
+.case-study > main blockquote {
+  font-size: 2em;
+  font-weight: 700;
+  color: #bcbeb9;
+  margin: 4rem 2rem;
+  position: relative;
+}
+.case-study > main blockquote:before {
+  content: "“";
+  position: absolute;
+  left: -0.3em;
+  font-size: 5em;
+  top: -0.4em;
+  opacity: 0.3;
+  font-family: serif;
 }
 .case-study > footer {
   background: #439785;
@@ -591,6 +614,11 @@ body.case-study > nav a:hover {
   *zoom: 1;
   width: 100%;
 }
+@media screen and (min-width: 600px) {
+  .case-study-main .content {
+    padding: 0;
+  }
+}
 .case-study-main .content:before,
 .case-study-main .content:after {
   display: table;
@@ -633,9 +661,6 @@ body.case-study > nav a:hover {
   margin: 2em 0;
   padding: 0;
 }
-.case-study-main > main section.overview {
-  text-align: left;
-}
 @media screen and (min-width: 600px) {
   .case-study-main > main section.overview {
     margin-bottom: 2rem;
@@ -645,7 +670,7 @@ body.case-study > nav a:hover {
   }
 }
 .case-study-main > main section.overview a {
-  color: #3498db;
+  color: #8ae6d4;
 }
 @media screen and (min-width: 600px) {
   .case-study-main > main section.overview {
@@ -668,8 +693,12 @@ body.case-study > nav a:hover {
 }
 .case-study-main > main section.overview .content {
   padding: 1em;
-  max-width: 30rem;
+  text-align: center;
+  max-width: 31rem;
   color: #fff;
+}
+.case-study-main > main section.overview .content > div {
+  border-bottom: solid 1px #fff;
 }
 @media screen and (min-width: 600px) {
   .case-study-main > main section.overview .content {
@@ -691,7 +720,6 @@ body.case-study > nav a:hover {
 @media screen and (min-width: 600px) {
   .case-study-main > main .case-studies {
     position: relative;
-    z-index: 8;
     padding: 5em 0 ;
   }
 }
@@ -716,11 +744,59 @@ body.case-study > nav a:hover {
     flex-wrap: wrap;
   }
 }
+.case-study-main > main .dribbble {
+  position: relative;
+  z-index: 10;
+}
+.case-study-main > main .dribbble .shots {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.case-study-main > main .dribbble .shot {
+  width: calc(50% - 2rem);
+  margin: 1rem;
+  background: #439785;
+  box-shadow: 0 0px 0.5rem rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+}
+.case-study-main > main .dribbble .shot:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+.case-study-main > main .dribbble .shot .middle {
+  padding: 1rem;
+  color: #fff;
+}
+.case-study-main > main .dribbble .shot .title {
+  font-weight: 200;
+}
+.case-study-main > main .dribbble .shot img {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .case-study-main > main .dribbble .shot {
+    width: calc(33% - 2rem);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .case-study-main > main .dribbble .shot {
+    width: calc(25% - 2rem);
+  }
+}
+@media screen and (min-width: 1500px) {
+  .case-study-main > main .dribbble .shot {
+    -webkit-filter: grayscale(1);
+    transition: 0.3s ease;
+  }
+  .case-study-main > main .dribbble .shot:hover {
+    -webkit-filter: grayscale(0);
+  }
+}
 .case-study-main > main section.contact {
   text-align: center;
   margin: 2rem 0;
   position: relative;
-  z-index: 9;
+  z-index: 1;
 }
 @media screen and (min-width: 600px) {
   .case-study-main > main section.contact {
@@ -753,17 +829,23 @@ body.case-study > nav a:hover {
     transform: skewY(-20deg);
   }
 }
-.case-study-main > main section.contact .content .contact-icons a {
+.case-study-main > main section.contact .content .contact-icons a,
+.case-study-main > main section.contact .content .contact-icons img {
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
   opacity: 0.7;
   transition: 0.3s ease;
 }
-.case-study-main > main section.contact .content .contact-icons a:not(:last-child) {
+.case-study-main > main section.contact .content .contact-icons a:not(:last-child),
+.case-study-main > main section.contact .content .contact-icons img:not(:last-child) {
   margin-right: 0.5em;
 }
-.case-study-main > main section.contact .content .contact-icons a:hover {
+.case-study-main > main section.contact .content .contact-icons a:hover,
+.case-study-main > main section.contact .content .contact-icons img:hover {
   opacity: 1;
+}
+.case-study-main > main section.contact .content .contact-icons img {
+  width: 5rem;
 }
 .card {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
@@ -771,6 +853,8 @@ body.case-study > nav a:hover {
   border-radius: 2px;
   overflow: hidden;
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
 }
 @media screen and (min-width: 600px) {
   .card {
@@ -781,7 +865,7 @@ body.case-study > nav a:hover {
 @media screen and (min-width: 768px) {
   .card {
     flex: 0 1;
-    flex-basis: calc(49% - 4rem);
+    flex-basis: calc(50% - 4rem);
   }
 }
 @media screen and (min-width: 1500px) {
@@ -894,6 +978,7 @@ body.case-study > nav a:hover {
   position: relative;
   font-family: 'Merriweather', serif;
   pointer-events: none;
+  z-index: 0;
 }
 .coming-soon:before {
   content: "";
@@ -932,6 +1017,9 @@ body.case-study > nav a:hover {
 }
 .card.pattern-library > header {
   background-image: url(/images/pattern-library/healthicity-pattern-library-small.jpg);
+}
+.card.documents > header {
+  background-image: url(/images/documents/documents-card.jpg);
 }
 .animated {
   opacity: 0;

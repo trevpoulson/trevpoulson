@@ -11,13 +11,16 @@
 	
 	.content {
 		padding: 1em;
+		@media screen and (min-width: @screen-sm){
+			padding: 0;
+		}
 		.container();
 	}
 
 	h2 {
 		border-bottom: solid 2px white;
 		padding-bottom: 0.4em;
-		
+
 	}
 	p {
 
@@ -34,7 +37,6 @@
 		.content {
 		}
 		section.overview {
-			text-align: left;
 			@media screen and (min-width: @screen-sm){
 				margin-bottom: 2rem;
 				background: @color-green-darker-a;
@@ -42,7 +44,7 @@
 				padding: 7em 1em;
 			}
 			a {
-				color: @color-blue-light;
+				color: @color-green-light;
 			}
 			@media screen and (min-width: @screen-sm) {
 				font-size: 1.2em;
@@ -63,7 +65,12 @@
 			
 			.content {
 				padding: 1em;
-				max-width: 30rem;
+				text-align: center;
+				max-width: 31rem;
+				
+				& > div {
+					border-bottom: solid 1px @color-white;
+				}
 				@media screen and (min-width: @screen-sm) {
 					.skew-outer(20deg);
 				}
@@ -87,7 +94,7 @@
 		.case-studies {
 			@media screen and (min-width: @screen-sm){
 				position: relative;
-				z-index: 8;
+				// z-index: 8;
 				padding: 5em 0 ;
 			}
 			 .content {
@@ -101,11 +108,60 @@
 				}
 			}
 		}
+		.dribbble {
+			position: relative;
+			z-index: 10;
+			
+			.shots {
+				display: flex;
+				flex-wrap: wrap;
+				// border: solid 2px @color-white;
+				padding: 1rem;	
+			}
+			.shot {
+				width: ~"calc(50% - 2rem)";
+				margin: 1rem;
+
+				background: @color-green-dark;
+				box-shadow: 0 0px .5rem rgba(0, 0, 0, 0.5);
+				.animate();
+				&:hover {
+					box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+				}
+				.middle {
+					
+					padding: 1rem;
+					color: @color-white;
+				}
+				.title {
+					font-weight: 200;
+				}
+				
+				img {
+					display: block;
+				}
+
+				@media screen and (min-width: @screen-md) {
+					width: ~"calc(33% - 2rem)";
+				}
+				@media screen and (min-width: @screen-lg) {
+					width: ~"calc(25% - 2rem)";
+				}
+				@media screen and (min-width: @screen-xl) {
+					-webkit-filter: grayscale(1);
+					.animate();
+					&:hover {
+							-webkit-filter: grayscale(0);
+					}
+				}
+				
+			}
+		}
 		section.contact {
 			text-align: center;
 			margin: 2rem 0;
 			position: relative;
-			z-index: 9;
+			z-index: 1;
 			@media screen and (min-width: @screen-sm) {
 				padding: 10em 0;
 				font-size: 2.0em;
@@ -131,9 +187,9 @@
 					.skew-inner(20deg);
 				}
 				.contact-icons {
-					a {
+					a, img {
 						color: @color-white;
-						font-size: 5em;
+						font-size: 4em;
 						opacity: 0.7;
 						.animate();
 						&:not(:last-child) {
@@ -142,6 +198,9 @@
 						&:hover {
 							opacity: 1;
 						}
+					}
+					img {
+						width: 5rem;	
 					}
 				}
 			}
@@ -158,13 +217,15 @@
 	border-radius: 2px;
 	overflow: hidden;
 	margin-bottom: 2rem;
+	position: relative;
+	z-index: 2;
 	@media screen and (min-width: @screen-sm) {
 		width: ~"calc(100% - 4rem)";
 		margin: 2rem;
 	}
 	@media screen and (min-width: @screen-md) {
 		flex: 0 1;
-		flex-basis: ~"calc(49% - 4rem)"; 
+		flex-basis: ~"calc(50% - 4rem)"; 
 	}
 	@media screen and (min-width: @screen-xl) {
 		flex-basis: ~"calc(33% - 4rem)"; 
@@ -309,6 +370,7 @@
 	position: relative;
 	font-family: @font-serif;
 	pointer-events: none;
+	z-index: 0;
 	&:before {
 		content: "";
 		background-color: rgba(150, 150, 150, 0.85);
@@ -349,6 +411,10 @@
 }
 .card.pattern-library > header {
 	background-image: url(/images/pattern-library/healthicity-pattern-library-small.jpg);
+}
+
+.card.documents > header {
+	background-image: url(/images/documents/documents-card.jpg);
 }
 
 

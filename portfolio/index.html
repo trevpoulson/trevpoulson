@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../styles/css/tp.css">
 
-	<title><title>Trev Poulson Portfolio</title></title>
+	<title>Trev Poulson Portfolio</title>
 	
 </head>
 <body class="case-study-main">
@@ -74,18 +74,30 @@
 						<button class="btn">View Case Study</button>
 					</footer>
 				</a>
-				<div class="card animated healthicity pattern-library coming-soon">
+				<a href="/portfolio/documents.html" class="card animated healthicity documents">
 					<header>
 						<div class="icon"><img src="/images/icon-healthicity-color.svg"></div>
 					</header>
 					<main>
-						<h4 class="title">Pattern Library</h4>
-						<p class="overview"> Coming Soon... </p>
+						<h4 class="title">Document Center</h4>
+						<p class="overview"> Healthicity needed a better Document Management solution for its Compliance Manager application. </p>
 					</main>
 					<footer>
-						<a href="#" class="btn">View Case Study</a>
+						<button class="btn">View Case Study</button>
 					</footer>
-				</div>
+				</a>
+				<a href="/portfolio/healthicity.html" class="card animated healthicity healthicity-branding">
+					<header>
+						<div class="icon"><img src="/images/icon-healthicity-color.svg"></div>
+					</header>
+					<main>
+						<h4 class="title">Healthicity</h4>
+						<p class="overview"> AAPC needed a visual identity it's new brand and new product lines.</p>
+					</main>
+					<footer>
+						<button class="btn">View Case Study</button>
+					</footer>
+				</a>
 				<div class="card animated needle coming-soon">
 					<header>
 						<div class="icon"><img src="/images/icon-needle-color.svg"></div>
@@ -98,28 +110,23 @@
 						<a href="#" class="btn">View Case Study</a>
 					</footer>
 				</div>
-				<div class="card animated healthicity coming-soon">
-					<header>
-						<div class="icon"><img src="/images/icon-healthicity-color.svg"></div>
-					</header>
-					<main>
-						<h4 class="title">Navigation</h4>
-						<p class="overview"> Coming Soon... </p>
-					</main>
-					<footer>
-						<a href="#" class="btn">View Case Study</a>
-					</footer>
-				</div>
+				
+			</div>
+		</section>
+		<section class="dribbble">
+			<div class="content">
+				<div class="shots"></div>
+				
 			</div>
 		</section>
 		<section class="contact">
 			<div class="content">
-				
 					<div class="contact-icons">
-						<a href="//www.linkedin.com/in/trevpoulson"><i class="fa fa-linkedin"></i></a>
-						<a href="//dribbble.com/trevpoulson"><i class="fa fa-dribbble"></i></a>
-						<a href="//medium.com/@TrevPoulson"><i class="fa fa-medium"></i></a>
-						<a href="mailto:trev.poulson@gmail.com"><i class="fa fa-envelope"></i></a>
+						<a href="mailto:trev.poulson@gmail.com"><img src="images/envelope-icon.svg"></a>
+						<a href="//dribbble.com/trevpoulson"><img src="images/dribble-icon.svg"></a>
+						<a href="//medium.com/@TrevPoulson"><img src="images/medium-icon.svg"></a>
+						<a href="//www.linkedin.com/in/trevpoulson"><img src="images/linkedin-icon.svg"></a>
+						
 					</div>
 			</div>
 		</section>
@@ -138,26 +145,37 @@
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery.inview/0.2/jquery.inview.min.js"></script>
+	<script src="/js/jribbble.min.js"></script>
 
 	<script>
 		$(function(){
 			
 			$('.animated').each(function(index, el) {
 				$(this).on('inview', function(event, isInView) {
-				var $this = $(this);
-				if (isInView) {
-					setTimeout(function () {
-    					$this.addClass('fadeInUp');
-					}, 300);
-					
-				
-				// } else {
-				// // element has gone out of viewport
-				
-				}
+					var $this = $(this);
+					if (isInView) {
+						setTimeout(function () {
+	    					$this.addClass('fadeInUp');
+						}, 300);
+					}
+				});
 			});
+			// $.jribbble.setToken('69b80a6cdcf2181b1d655db2b45a33c5066238b69fadeda3a27bfc0072a738b7');
+			// $.jribbble.users('trevpoulson').shots().then(function(shots) {
+			// 	console.log(shots)
+			// 	var html = [];
+
+			// 	shots.forEach(function(shot) {
+			// 		// See the Dribbble docs for all available shot properties.
+			// 		html.push('<div class="shot">');
+			// 		html.push('<a href="' + shot.html_url + '">');
+			// 		html.push('<img src="' + shot.images.normal + '" class="top">');
+			// 		html.push('</a></div>');
+			// 	});
+
+			// 	$('.dribbble .shots').html(html.join(''));
+			// 	});
 			});
-		});
 
 	</script>
 	<script>

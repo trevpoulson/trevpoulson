@@ -80,6 +80,10 @@
 			li {
 				margin-bottom: 0
 			}
+			a {
+				color: @color-green-dark;
+				font-weight: 700;
+			}
 		}
 		h2, h3, h4 {
 			// text-align: center;
@@ -115,7 +119,11 @@
 					}
 				}
 			}
+			
 		}
+		.prototype-image {
+				max-width: 20rem;
+			}
 		.results {
 			// max-width: 60rem;
 			.final {
@@ -127,6 +135,22 @@
 			// 	margin-right: auto;
 			// }
 			
+		}
+		blockquote {
+			font-size: 2em;
+			font-weight: 700;
+			color: @color-gray-light;
+			margin: 4rem 2rem;
+			position: relative;
+			&:before {
+				content: "“";
+				position: absolute;
+				left: -0.3em;
+				font-size: 5em;
+				top: -0.4em;
+				opacity: 0.3;
+				font-family: serif;
+			}
 		}
 	}
 	& > footer {
