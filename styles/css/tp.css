@@ -313,7 +313,7 @@ body > header {
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   body > header {
     font-size: 3rem;
   }
@@ -451,7 +451,7 @@ body.case-study > nav a:hover {
     margin-top: 35rem;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .case-study > main {
     margin-top: 40rem;
   }
@@ -639,9 +639,9 @@ body.case-study > nav a:hover {
     width: 766px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .case-study-main .content {
-    width: 1023px;
+    width: 1022px;
   }
 }
 @media (min-width: 1500px) {
@@ -653,7 +653,7 @@ body.case-study > nav a:hover {
   border-bottom: solid 2px white;
   padding-bottom: 0.4em;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .case-study-main > header {
     font-size: 4rem;
   }
@@ -686,7 +686,7 @@ body.case-study > nav a:hover {
     padding: 15em 0;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .case-study-main > main section.overview {
     padding: 30em 0;
     margin: -20em auto -25em;
@@ -779,7 +779,7 @@ body.case-study > nav a:hover {
     width: calc(33% - 2rem);
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .case-study-main > main .dribbble .shot {
     width: calc(25% - 2rem);
   }
@@ -815,7 +815,7 @@ body.case-study > nav a:hover {
     font-size: 2.2em;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .case-study-main > main section.contact {
     margin: -10em auto 0;
   }
