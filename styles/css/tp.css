@@ -533,7 +533,7 @@ body.case-study > nav a:hover {
 .case-study > main blockquote {
   font-size: 2em;
   font-weight: 700;
-  color: #bcbeb9;
+  color: #439785;
   margin: 4rem 2rem;
   position: relative;
 }
@@ -924,6 +924,16 @@ body.case-study > nav a:hover {
   line-height: 1.2em;
   color: #fff;
 }
+.card > main span.badge {
+  background: #fff;
+  color: black;
+  display: inline-block;
+  padding: .25rem .5rem;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: .5rem;
+  margin: 0 .25rem;
+}
 .card > footer {
   text-align: center;
 }
@@ -953,11 +963,17 @@ body.case-study > nav a:hover {
 .card.healthicity {
   background-color: #ff3d4d;
 }
+.card.healthicity span.badge {
+  color: #ff3d4d;
+}
 .card.healthicity > footer .btn:hover {
   color: #ff3d4d;
 }
 .card.experticity {
   background-color: #f04236;
+}
+.card.experticity span.badge {
+  color: #f04236;
 }
 .card.experticity > footer .btn:hover {
   color: #f04236;
@@ -965,11 +981,17 @@ body.case-study > nav a:hover {
 .card.verisk {
   background-color: #0177a9;
 }
+.card.verisk span.badge {
+  color: #0177a9;
+}
 .card.verisk > footer .btn:hover {
   color: #0177a9;
 }
 .card.needle {
   background-color: #02bfd3;
+}
+.card.needle span.badge {
+  color: #02bfd3;
 }
 .card.needle > footer .btn:hover {
   color: #02bfd3;
@@ -1021,6 +1043,9 @@ body.case-study > nav a:hover {
 }
 .card.documents > header {
   background-image: url(/images/documents/documents-card.jpg);
+}
+.card.login > header {
+  background-image: url(/images/login/login-small.jpg);
 }
 .animated {
   opacity: 0;
