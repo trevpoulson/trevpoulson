@@ -330,13 +330,18 @@ div.index .portfolio-piece:hover img {
 div.index footer {
   border-top: solid 1px #333735;
   margin: 50px 0;
-  padding: 50px 0 300px;
+  padding: 50px 0 50px;
   grid-column: 1 / span 4;
+}
+@media (min-width: 768px) {
+  div.index footer {
+    padding-bottom: 300px;
+  }
 }
 @media (min-width: 1200px) {
   div.index footer {
     grid-row: 7;
-    padding: 50px 0;
+    padding-bottom: 50px;
   }
 }
 div.index .quote {
