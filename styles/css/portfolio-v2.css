@@ -233,7 +233,7 @@ div.index .logo-color {
   mix-blend-mode: luminosity;
   transform: scaleX(-1);
   opacity: 0.1;
-  width: 2350px;
+  min-width: 2350px;
   height: 100%;
   margin: 0 auto;
 }
