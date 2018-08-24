@@ -960,6 +960,15 @@ body.case-study > nav a:hover {
   background-color: rgba(0, 0, 0, 0.2);
   background-size: 130%;
 }
+.card.blizzard {
+  background-color: #002650;
+}
+.card.blizzard span.badge {
+  color: #002650;
+}
+.card.blizzard > footer .btn:hover {
+  color: #002650;
+}
 .card.healthicity {
   background-color: #ff3d4d;
 }
@@ -1028,6 +1037,15 @@ body.case-study > nav a:hover {
 }
 .coming-soon footer .btn {
   visibility: hidden;
+}
+.card.blizzard-content > header {
+  background-image: url(/images/blizzard-content/card-small.jpg);
+}
+.card.blizzard-shop > header {
+  background-image: url(/images/blizzard-shop/card-small.jpg);
+}
+.card.blizzard-nav > header {
+  background-image: url(/images/blizzard-nav/card-small.jpg);
 }
 .card.dashboard > header {
   background-image: url(/images/dashboard/healthicity-dashboard-small.jpg);
