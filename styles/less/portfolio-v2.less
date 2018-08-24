@@ -1,8 +1,8 @@
 
 // Variables
-@color-text: 		#333735;
+@color-text: #333735;
 @color-accent: #B3413D;
-@color-background: 		#E7E7DB;
+@color-background: #E7E7DB;
 
 
 
@@ -72,19 +72,32 @@ img {
 // Type
 
 h1 {
-	font-size: 15em;
+	font-size: 5em;
 	font-weight: 800;
 	line-height: 0.9em;
 	margin: 0;
 	color: fade(@color-text, 80%);
+	@media (min-width: 768px) {
+		font-size: 10em;
+	}
+	@media (min-width: 1200px) {
+		font-size: 15em;
+	}
 
 }
 
 h2 {
-	font-size: 115px;
+	font-size: 5em;
 	font-weight: 800;
-	color: fade(@color-text, 15%);
+	color: fade(@color-text, 30%);
 	margin: 0;
+	@media (min-width: 768px) {
+		font-size: 8em;
+	}
+	@media (min-width: 1200px) {
+		color: fade(@color-text, 15%);
+		font-size: 11.5em;
+	}
 }
 
 h3 {
@@ -132,92 +145,152 @@ a {
 // Main page
 
 div.index {
-	max-width: 1200px;
-	margin: 100px auto 0;
+
 	padding-bottom: 100px;
 	position: relative;
 	width: 100%;
-	max-width: 1200px;
+	padding: 30px;
 	height: auto;
 	display: grid;
-	grid-template-columns: 1.75fr 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto auto auto auto;
+	@media (min-width: 768px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	@media (min-width: 1200px) {
+		grid-template-columns: 1.75fr 1fr 1fr 1fr;
+		padding: 0;
+		margin: 100px auto 0;
+		max-width: 1200px;
+	}
+
+
 	header, main {
 		display: contents;
 	}
 	.contact {
 		text-align: right;
-		font-weight: 600;
-		grid-column: 3 / span 2;
-		grid-row: 1;
 		font-weight: 500;
 		font-size: 18px;
-		line-height: 1.2em;
-		margin: 0 0 40px;
-		opacity: 0.4;
 		text-transform: uppercase;
-		letter-spacing: 7px;
+
+		line-height: 1.2em;
+		margin: 0 0 20px;
+		opacity: 0.4;
+
+		grid-column: 1 / span 4;
+		@media (min-width: 1200px) {
+			margin: 0 0 40px;
+			letter-spacing: 7px;
+			grid-row: 1;
+			grid-column: 3 / span 2;
+		}
 	}
 	.title-block {
 		grid-column: 1 / span 4;
 		grid-row: 2;
 		.name {
-			margin: 0 0 0 0;
-			font-size: 115px;
+
 		}
 		.title {
-			margin: -60px 0 0 0;
-			text-align: right;
+			@media (min-width: 768px) {
+				margin: -40px 0 0 0;
+				text-align: right;
+			}
+			@media (min-width: 1200px) {
+				margin: -60px 0 0 0;
+			}
 		}
 	}
 	.why-statement {
-		grid-column: 2 / span 3;
-		grid-row: 3;
 		text-align: right;
 		font-size: 2.5em;
 		font-weight: 300;
 		font-style: italic;
-		margin: 80px 0 80px;
+		margin: 40px 0 40px;
 		color: @color-accent;
+
+		grid-column: 1 / span 4;
+		@media (min-width: 1200px) {
+			margin: 80px 0 80px;
+			grid-row: 3;
+			grid-column: 2 / span 3;
+		}
 	}
 	.header-divider {
-		grid-column: 1 / span 4;
-		grid-row: 4;
 		border: none;
 		background-color: @color-text;
 		height: 1px;
-		margin: 30px 0 80px;
+		margin: 10px 0 20px;
+		grid-column: 1 / span 4;
+		@media (min-width: 1200px) {
+			grid-row: 4;
+			grid-column: 1 / span 4;
+			margin: 30px 0 80px;
+		}
 
 	}
 	.process-title {
 		margin: 0;
-		grid-column: 1;
-		grid-row: 5 /span 2;
-		transform: rotate(90deg);
-		position: absolute;
-		left: -364px;
-		top: 337px;
+		grid-column: 1 / span 4;
+
+
+
+		@media (min-width: 1200px) {
+
+			grid-column: 1;
+			grid-row: 5 /span 2;
+			transform: rotate(90deg);
+			position: absolute;
+			left: -364px;
+			top: 337px;
+		}
 	}
 	.design-process{
-		padding: 0px 40px 0px 100px;
+
 		border: none;
 		position: relative;
-		grid-column: 1;
-		grid-row: 5 /span 2;
-		border-right: solid 1px @color-text;
+		padding: 20px 0;
+
+
 		p {
 			font-weight: 300;
 			font-size: 16px;
-			// color: @color-accent;
+		}
+		grid-column: 1 / span 4;
+
+		@media (min-width: 768px) {
+			column-count: 3;
+			column-gap: 30px;
+			column-rule: solid 1px fade(@color-text, 20%);
+		}
+		@media (min-width: 1200px) {
+			columns: unset;
+			border-right: solid 1px @color-text;
+			padding: 0px 40px 0px 100px;
+			grid-column: 1;
+			grid-row: 5 /span 2;
 		}
 	}
 	.portfolio-title {
-		grid-column: 2 / span 3;
-		grid-row: 5;
-		margin: -25px 0 -41px 4px;
+
+		grid-column: 1 / span 4;
+		border-top: solid 1px @color-text;
+    		padding-top: 24px;
+		@media (min-width: 1200px) {
+			border: none;
+			padding: 0;
+			margin: -25px 0 -41px 4px;
+			grid-row: 5;
+			grid-column: 2 / span 3;
+		}
 	}
 	.portfolio-section {
-		padding: 0 30px;
+		@media (min-width: 768px) {
+			padding: 0 15px;
+		}
+		@media (min-width: 1200px) {
+			padding: 0 30px;
+		}
 		small {
 			font-size: 14px;
 			font-weight: 500;
@@ -227,21 +300,46 @@ div.index {
 		}
 	}
 	.blizzard-portfolio {
-		grid-column: 4;
-		grid-row: 6;
-		border-left: solid 1px @color-text;
+
+
+		grid-column: 1 / span 4;
+		@media (min-width: 768px) {
+			grid-column: 1;
+			grid-row: 8;
+		}
+		@media (min-width: 1200px) {
+			border-left: solid 1px @color-text;
+			grid-column: 4;
+			grid-row: 6;
+		}
 
 	}
 	.healthicity-portfolio {
-		grid-column: 3;
-		grid-row: 6;
 		// place-self: start stretch;
-		border-left: solid 1px @color-text;
+		grid-column: 1 / span 4;
+		@media (min-width: 768px) {
+			grid-column: 2;
+			grid-row: 8;
+		}
+		@media (min-width: 1200px) {
+			border-left: solid 1px @color-text;
+			grid-column: 3;
+			grid-row: 6;
+
+		}
 	}
 	.other-portfolio {
-		grid-column: 2;
-		grid-row: 6;
+
 		place-self: start stretch;
+		grid-column: 1 / span 4;
+		@media (min-width: 768px) {
+			grid-column: 3;
+			grid-row: 8;
+		}
+		@media (min-width: 1200px) {
+			grid-column: 2;
+			grid-row: 6;
+		}
 
 	}
 	.portfolio-piece {
@@ -279,9 +377,12 @@ div.index {
 	footer {
 		border-top: solid 1px @color-text;
 		margin: 50px 0;
-		padding: 50px 0;
+		padding: 50px 0 300px;
 		grid-column: 1 / span 4;
-		grid-row: 7;
+		@media (min-width: 1200px) {
+			grid-row: 7;
+			padding: 50px 0;
+		}
 
 	}
 	.quote {
@@ -299,23 +400,30 @@ div.index {
 	}
 }
 
-.trev-image{
-	background: url(/images/trev.png) 0 50% no-repeat;
-	background-size: contain;
-	mix-blend-mode: luminosity;
-	transform: scaleX(-1);
-	opacity: 0.1;
-	min-width: 2350px;
-	height: 100%;
-	margin: 0 auto;
-}
-.trev {
-	overflow: hidden;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	height: 871px;
+@media (min-width: 768px) {
+	.trev-image{
+		background: url(/images/trev.png) 100% 50% no-repeat;
+		background-size: contain;
+		mix-blend-mode: multiply;
+		opacity: 0.6;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		@media (min-width: 1200px) {
+			opacity: 0.1;
+			min-width: 2350px;
+		}
 
-
+	}
+	.trev {
+		overflow: hidden;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 400px;
+		@media (min-width: 1200px) {
+			height: 600px;
+		}
+	}
 }
