@@ -419,6 +419,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/dashboard\/icon-bw.jpg": {
+		"ft": 16384,
+		"iS": 62773,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/dashboard\/icon-bw.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/dashboard\/responsive.jpg": {
 		"ft": 16384,
 		"iS": 137551,
@@ -829,6 +840,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/experticity\/experticity-store-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/experticity\/icon-bw.jpg": {
+		"ft": 16384,
+		"iS": 69870,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/experticity\/icon-bw.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
