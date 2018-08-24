@@ -316,9 +316,13 @@ div.index .portfolio-piece h4 {
   margin: 12px 0 6px;
 }
 div.index .portfolio-piece img {
-  filter: grayscale(1);
-  mix-blend-mode: multiply;
   max-width: 100%;
+}
+@media (min-width: 1200px) {
+  div.index .portfolio-piece img {
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+  }
 }
 div.index .portfolio-piece:hover p,
 div.index .portfolio-piece:hover h4 {

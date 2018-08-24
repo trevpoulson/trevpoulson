@@ -361,9 +361,11 @@ div.index {
 		p {
 		}
 		img {
-			filter: grayscale(1);
-			mix-blend-mode: multiply;
 			max-width: 100%;
+			@media (min-width: 1200px) {
+				filter: grayscale(1);
+				mix-blend-mode: multiply;
+			}
 		}
 		&:hover {
 			p, h4 {
