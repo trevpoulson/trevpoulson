@@ -207,7 +207,117 @@
 		"oAP": "\/images\/blizzard-shop\/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/family-after.jpg": {
+		"ft": 16384,
+		"iS": 72676,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/family-after.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/family-before.jpg": {
+		"ft": 16384,
+		"iS": 75274,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/family-before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/home-after.jpg": {
+		"ft": 16384,
+		"iS": 113028,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/home-after.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/home-before.jpg": {
+		"ft": 16384,
+		"iS": 92658,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/home-before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/preview.jpg": {
+		"ft": 16384,
+		"iS": 653787,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/product-after.jpg": {
+		"ft": 16384,
+		"iS": 96709,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/product-after.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/product-before.jpg": {
+		"ft": 16384,
+		"iS": 86561,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/product-before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/shop-home-before.jpg": {
+		"ft": 16384,
+		"iS": 139973,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/shop-home-before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/shop.jpg": {
+		"ft": 16384,
+		"iS": 492369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/shop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/shop.png": {
+		"ft": 32768,
+		"iS": 2050317,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/shop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/dashboard\/final screenshot.png": {
@@ -2657,6 +2767,13 @@
 		"oAP": "\/portfolio\/blizzard-nav.html",
 		"oF": 0
 		},
+	"\/portfolio\/blizzard-shop-temp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/blizzard-shop-temp.html",
+		"oF": 0
+		},
 	"\/portfolio\/blizzard-shop.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2738,6 +2855,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/styles\/css\/mixins-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/styles\/css\/portfolio-piece.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/css\/portfolio-piece-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -2863,6 +2990,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/styles\/less\/index.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/css\/index.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/styles\/less\/mixins.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2880,6 +3024,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/styles\/less\/modal.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/css\/modal.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/styles\/less\/navigation.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2890,6 +3051,23 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/styles\/css\/navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/styles\/less\/portfolio-piece.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/css\/portfolio-piece.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,

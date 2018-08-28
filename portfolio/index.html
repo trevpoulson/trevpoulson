@@ -4,17 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <META NAME="robots" CONTENT="noindex,nofollow">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,500i,700,900" >
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,500i,700,900" >
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
 	<link rel="stylesheet" href="../../styles/css/portfolio-v2.css">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
 
 	<title>Trev Poulson Portfolio</title>
 
 </head>
 
 <body>
+
     <div class="index">
     <header>
       <p class="contact">+1 801.512.4302<br>trev.poulson@gmail.com</p>
@@ -28,11 +35,11 @@
     <main>
       <h2 class="process-title">Design Process</h2>
       <section class="design-process">
-          <p>Great products are created to solve problems — being able to articulate the problem, why it matters to our users, and establish clear KPIs is the first step in my design process.</p>
-          <p>Before design begins however, I work to discover the bigger picture by understanding the users, the competitive landscape, exsisting research, and stakeholders needs. By the end of the discovery phase, the team works together to identify How we should solve the problem with a set of hypotheses. </p>
-          <p>Armed with hypotheses, I involve the entire team in the design process through brainstorms, design reviews, and ad-hoc discussions. I strongly believe the best designs are discussed early and often with as many people as possible. Once a direction is decided upon, it is continually validated with users and iterated upon until the team is 80% confident it will solve the problems.</p>
-          <p>Now that we know What we're building, I work closely with the engineering team throughout the development process then A/B test the design to ensure it meets the established KPIs and goals. If all goes well, we launch the product.</p>
-          <p>After launch, it's important to continually monitor the KPIs and continue user research to understand where future improvment can be made.</p>
+          <p>Great products are created to solve problems — being able to articulate the problem, why it matters to our users, and establish clear goals  KPIs is the first step in my design process.</p>
+          <p>Before design begins, I work to discover the bigger picture by understanding the users, the competitive landscape, existing research, and stakeholders needs. By the end of the discovery phase, the team works together to identify How we should solve the problem with a set of hypotheses.</p>
+          <p>When it’s time to start designing, I prefer to involve the entire team in the creative process through design sprints,  brainstorms, design reviews, and ad-hoc discussions. I strongly believe the best designs are discussed early and often and with as many people as possible. Once a direction is decided upon, it is validated with users and iterated upon until the I’m is 80% confident it will achieve the goals outlined at the project onset. .</p>
+          <p>Now that we know what we're building, I work closely with the engineering team throughout the development process to ensure the design is being created as intended. Once build, we A/B test the solution to ensure it meets the established KPIs and goals. If all goes well, we launch the product.</p>
+          <p>After launch, it's important to continually monitor the KPIs and continue user research to understand where future improvement can be made.</p>
       </section>
       <h2 class="portfolio-title">Portfolio</h2>
       <section class="blizzard-portfolio portfolio-section">
@@ -43,7 +50,7 @@
           <h4>Battle.net Content</h4>
           <p>User's didn't have an easy way to access the epic content Blizzard was creating.</p>
         </a>
-        <a class="portfolio-piece" href="#">
+        <a class="portfolio-piece" href="blizzard-shop-temp.html">
           <img src="/images/blizzard-shop/card-small.jpg" alt="Blizzard Shop">
           <h4>Digital Shop</h4>
           <p>A shop that was designed five years ago wasn't scalable or optomized for multiple devices.</p>
@@ -93,26 +100,22 @@
     <div class="trev-image"></div>
   </div>
 
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    	<script src="https://cdn.jsdelivr.net/jquery.inview/0.2/jquery.inview.min.js"></script>
-    	<script src="/js/jribbble.min.js"></script>
 
-    	<!-- <script>
-    		$(function(){
 
-    			$('.animated').each(function(index, el) {
-    				$(this).on('inview', function(event, isInView) {
-    					var $this = $(this);
-    					if (isInView) {
-    						setTimeout(function () {
-    	    					$this.addClass('fadeInUp');
-    						}, 300);
-    					}
-    				});
-    			});
-    	});
 
-    	</script> -->
+
+    	<script>
+     $('.portfolio-piece').click(function(event) {
+          event.preventDefault();
+          this.blur(); // Manually remove focus from clicked link.
+          $.get(this.href, function(html) {
+               $(html).appendTo('body').modal({
+                    fadeDuration: 100
+               });
+
+          });
+     });
+         </script>
     	<script>
     	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

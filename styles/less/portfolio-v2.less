@@ -1,40 +1,27 @@
 
+@import "index";
+@import "portfolio-piece";
+@import "modal";
+
+
 // Variables
-@color-text: #333735;
-@color-accent: #B3413D;
-@color-background: #E7E7DB;
+@color-text: 			#333735;
+@color-accent: 		@color-shop;
+@color-background: 		#E7E7DB;
+
+@color-shop: 			#B3413D;
+
+@color-healthicity:   	#ff3d4d;
+@color-experticity: 	#f04236;
+@color-verisk:        	#0177a9;
+@color-needle:      	#02bfd3;
+@color-blizzard: 		#002650;
+
+
+@font-sans: 			'Roboto', sans-serif;
 
 
 
-@color-healthicity:   #ff3d4d;
-@color-experticity:   #f04236;
-@color-verisk:        #0177a9;
-@color-needle:        #02bfd3;
-@color-blizzard:      #002650;
-
-@box-padding:        1em;
-@box-padding-xs:     2em;
-
-@text-color: 			    #000;
-@link-color: 			    fade(@text-color, 80%);
-@nav-text-color:      gray;
-@text-size:				   16px;
-@text-line-height: 		1.6em;
-@font-serif:          'Merriweather', serif;
-@font-sans: 			     'Roboto', sans-serif;
-@text-weight:			    300;
-
-
-@screen-xs:             320px;
-@screen-sm:             600px;
-@screen-md:             768px;
-@screen-lg:             1024px;
-@screen-xl:             1500px;
-@screen-xxl:            1800px;
-
-@shadow-level-1:          0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-@shadow-level-2:          0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-@shadow-level-2r:          0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
 
 
 
@@ -42,6 +29,10 @@
 *, *::after, *::before{
 	box-sizing: border-box;
 	transition: all 300ms;
+}
+
+.todo {
+	color: red !important;
 }
 
 
@@ -66,8 +57,6 @@ body {
 img {
 	max-width: 100%;
 }
-
-
 
 // Type
 
@@ -123,6 +112,11 @@ p {
 	margin: 0 0 1rem;
 	line-height: 1.3em;
 }
+
+.large {
+	font-size: 2em;
+	font-weight: 200;
+}
 ul {
 	padding: 0
 }
@@ -137,296 +131,5 @@ a {
 	text-decoration: none;
 	&:hover {
 		color: inherit;
-	}
-}
-
-
-
-// Main page
-
-div.index {
-
-	padding-bottom: 100px;
-	position: relative;
-	width: 100%;
-	padding: 30px;
-	height: auto;
-	display: grid;
-	@media (min-width: 768px) {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	@media (min-width: 1200px) {
-		grid-template-columns: 1.75fr 1fr 1fr 1fr;
-		padding: 0;
-		margin: 100px auto 0;
-		max-width: 1200px;
-	}
-
-
-	header, main {
-		display: contents;
-	}
-	.contact {
-		text-align: right;
-		font-weight: 500;
-		font-size: 18px;
-		text-transform: uppercase;
-
-		line-height: 1.2em;
-		margin: 0 0 20px;
-		opacity: 0.4;
-
-		grid-column: 1 / span 4;
-		@media (min-width: 1200px) {
-			margin: 0 0 40px;
-			letter-spacing: 7px;
-			grid-row: 1;
-			grid-column: 3 / span 2;
-		}
-	}
-	.title-block {
-		grid-column: 1 / span 4;
-		grid-row: 2;
-		.name {
-
-		}
-		.title {
-			@media (min-width: 768px) {
-				margin: -40px 0 0 0;
-				text-align: right;
-			}
-			@media (min-width: 1200px) {
-				margin: -60px 0 0 0;
-			}
-		}
-	}
-	.why-statement {
-		text-align: right;
-		font-size: 2.5em;
-		font-weight: 300;
-		font-style: italic;
-		margin: 40px 0 40px;
-		color: @color-accent;
-
-		grid-column: 1 / span 4;
-		@media (min-width: 1200px) {
-			margin: 80px 0 80px;
-			grid-row: 3;
-			grid-column: 2 / span 3;
-		}
-	}
-	.header-divider {
-		border: none;
-		background-color: @color-text;
-		height: 1px;
-		margin: 10px 0 20px;
-		grid-column: 1 / span 4;
-		@media (min-width: 1200px) {
-			grid-row: 4;
-			grid-column: 1 / span 4;
-			margin: 30px 0 80px;
-		}
-
-	}
-	.process-title {
-		margin: 0;
-		grid-column: 1 / span 4;
-
-
-
-		@media (min-width: 1200px) {
-
-			grid-column: 1;
-			grid-row: 5 /span 2;
-			transform: rotate(90deg);
-			position: absolute;
-			left: -364px;
-			top: 337px;
-		}
-	}
-	.design-process{
-
-		border: none;
-		position: relative;
-		padding: 20px 0;
-
-
-		p {
-			font-weight: 300;
-			font-size: 16px;
-		}
-		grid-column: 1 / span 4;
-
-		@media (min-width: 768px) {
-			column-count: 3;
-			column-gap: 30px;
-			column-rule: solid 1px fade(@color-text, 20%);
-		}
-		@media (min-width: 1200px) {
-			columns: unset;
-			border-right: solid 1px @color-text;
-			padding: 0px 40px 0px 100px;
-			grid-column: 1;
-			grid-row: 5 /span 2;
-		}
-	}
-	.portfolio-title {
-
-		grid-column: 1 / span 4;
-		border-top: solid 1px @color-text;
-    		padding-top: 24px;
-		@media (min-width: 1200px) {
-			border: none;
-			padding: 0;
-			margin: -25px 0 -41px 4px;
-			grid-row: 5;
-			grid-column: 2 / span 3;
-		}
-	}
-	.portfolio-section {
-		@media (min-width: 768px) {
-			padding: 0 15px;
-		}
-		@media (min-width: 1200px) {
-			padding: 0 30px;
-		}
-		small {
-			font-size: 14px;
-			font-weight: 500;
-			color: fade(@color-text, 50%);
-			margin: -2px 0 12px;
-			display: block;
-		}
-	}
-	.blizzard-portfolio {
-
-
-		grid-column: 1 / span 4;
-		@media (min-width: 768px) {
-			grid-column: 1;
-			grid-row: 8;
-		}
-		@media (min-width: 1200px) {
-			border-left: solid 1px @color-text;
-			grid-column: 4;
-			grid-row: 6;
-		}
-
-	}
-	.healthicity-portfolio {
-		// place-self: start stretch;
-		grid-column: 1 / span 4;
-		@media (min-width: 768px) {
-			grid-column: 2;
-			grid-row: 8;
-		}
-		@media (min-width: 1200px) {
-			border-left: solid 1px @color-text;
-			grid-column: 3;
-			grid-row: 6;
-
-		}
-	}
-	.other-portfolio {
-
-		place-self: start stretch;
-		grid-column: 1 / span 4;
-		@media (min-width: 768px) {
-			grid-column: 3;
-			grid-row: 8;
-		}
-		@media (min-width: 1200px) {
-			grid-column: 2;
-			grid-row: 6;
-		}
-
-	}
-	.portfolio-piece {
-		display: block;
-		color: @color-text;
-		margin-bottom: 10px;
-		padding: 10px 0;
-		&:not(:last-child) {
-			border-bottom: solid 1px @color-text;
-		}
-
-		h4 {
-			font-size: 16px;
-			margin: 12px 0 6px;
-		}
-		img {
-
-		}
-		p {
-		}
-		img {
-			filter: grayscale(1);
-			mix-blend-mode: multiply;
-			max-width: 100%;
-		}
-		&:hover {
-			p, h4 {
-				color: @color-accent;
-			}
-			img {
-				filter: grayscale(0);
-			}
-		}
-	}
-	footer {
-		border-top: solid 1px @color-text;
-		margin: 50px 0;
-		padding: 50px 0 0px;
-		grid-column: 1 / span 4;
-		@media (min-width: 768px) {
-			padding-bottom: 300px;
-		}
-		@media (min-width: 1200px) {
-			grid-row: 7;
-			padding-bottom: 50px;
-		}
-
-	}
-	.quote {
-		font-size: 18px;
-		text-align: center;
-		font-size: 18px;
-	}
-	.tp-logo {
-		width: 150px;
-		display: block;
-		margin: 50px auto 0;
-	}
-	.logo-color {
-		fill: @color-accent;
-	}
-}
-
-@media (min-width: 768px) {
-	.trev-image{
-		background: url(/images/trev.png) 100% 50% no-repeat;
-		background-size: contain;
-		mix-blend-mode: multiply;
-		opacity: 0.6;
-		width: 100%;
-		height: 100%;
-		margin: 0 auto;
-		@media (min-width: 1200px) {
-			opacity: 0.1;
-			min-width: 2350px;
-		}
-
-	}
-	.trev {
-		overflow: hidden;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		width: 100%;
-		height: 400px;
-		@media (min-width: 1200px) {
-			height: 600px;
-		}
 	}
 }
