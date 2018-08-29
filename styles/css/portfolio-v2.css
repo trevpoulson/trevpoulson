@@ -293,6 +293,14 @@ div.index .logo-color {
 .blizzard-shop footer {
   background: #B3413D;
 }
+.blizzard-content header,
+.blizzard-content footer {
+  background: #1A5190;
+}
+.blizzard-nav header,
+.blizzard-nav footer {
+  background: #319984;
+}
 section.portfolio-piece {
   max-width: 1000px;
   margin: 0 auto;
@@ -303,12 +311,12 @@ section.portfolio-piece .section-title {
 }
 @media (min-width: 768px) {
   section.portfolio-piece .section-title {
-    margin: 100px 0 -30px -20px;
+    margin: 50px 0 -30px -20px;
   }
 }
 @media (min-width: 1200px) {
   section.portfolio-piece .section-title {
-    margin: 100px 0 -40px -30px;
+    margin: 50px 0 -40px -30px;
   }
 }
 section.portfolio-piece .title {
@@ -322,20 +330,25 @@ section.portfolio-piece .title {
 }
 @media (min-width: 1150px) {
   section.portfolio-piece .title {
-    font-size: 15em;
-    margin-bottom: -100px;
+    font-size: 12em;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 245px;
+    left: -92px;
+    width: 550px;
+    margin: 0;
   }
 }
 section.portfolio-piece .overview {
   padding-bottom: 24px;
 }
 @media (min-width: 1150px) {
-  section.portfolio-piece .overview {
-    padding-left: 70px;
-  }
 }
-section.portfolio-piece .overview p {
-  font-weight: 200;
+section.portfolio-piece .overview p,
+section.portfolio-piece .overview li {
+  font-weight: 300;
+  line-height: 1.4em;
+  font-size: 16px;
 }
 section.portfolio-piece header,
 section.portfolio-piece main,
@@ -361,28 +374,14 @@ section.portfolio-piece footer {
 section.portfolio-piece header h1,
 section.portfolio-piece header h3,
 section.portfolio-piece header h4,
-section.portfolio-piece header p {
+section.portfolio-piece header p,
+section.portfolio-piece header li {
   color: #E7E7DB;
 }
-section.portfolio-piece header .label {
+@media (min-width: 768px) {
+}
+section.portfolio-piece header .overview {
   padding-top: 50px;
-}
-@media (min-width: 768px) {
-  section.portfolio-piece header .label {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-  }
-}
-@media (min-width: 1200px) {
-  section.portfolio-piece header .label {
-    padding-top: 150px;
-  }
-}
-@media (min-width: 768px) {
-  section.portfolio-piece header .title {
-    grid-column: 1 / span 2;
-    grid-row: 3;
-  }
 }
 @media (min-width: 768px) {
   section.portfolio-piece header .overview {
@@ -393,6 +392,7 @@ section.portfolio-piece header .label {
 @media (min-width: 1200px) {
   section.portfolio-piece header .overview {
     grid-column: 2 / span 2;
+    grid-row: 3;
   }
 }
 section.portfolio-piece header .preview {
@@ -448,18 +448,36 @@ section.portfolio-piece main .deliver {
   section.portfolio-piece main .temp .section-title {
     grid-column: 1 / span 2;
   }
-  section.portfolio-piece main .temp .before {
+  section.portfolio-piece main .temp .left {
     grid-column: 1;
   }
-  section.portfolio-piece main .temp .after {
+  section.portfolio-piece main .temp .right {
     grid-column: 2;
+  }
+  section.portfolio-piece main .temp .all {
+    grid-column: 1 / span 2;
+  }
+  section.portfolio-piece main .temp .middle {
+    grid-column: 1 / span 2;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  section.portfolio-piece main .temp .middle h3 {
+    text-align: center;
+  }
+  section.portfolio-piece main .temp .overview {
+    grid-column: 1 / span 2;
+    font-weight: 400;
+    line-height: 1.4em;
+    font-size: 16px;
   }
 }
 section.portfolio-piece main .temp img {
   width: 100%;
 }
 section.portfolio-piece main .temp h3 {
-  text-align: center;
+  text-align: left;
+  margin-bottom: 30px;
 }
 section.portfolio-piece footer {
   color: #E7E7DB;
@@ -609,7 +627,8 @@ p {
   font-size: 2em;
   font-weight: 200;
 }
-ul {
+ul,
+ol {
   padding: 0;
 }
 li {

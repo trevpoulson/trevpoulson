@@ -188,6 +188,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/blizzard-nav\/blizzard-nav.jpg": {
+		"ft": 16384,
+		"iS": 489143,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-nav\/blizzard-nav.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/blizzard-nav\/card-small.jpg": {
 		"ft": 16384,
 		"iS": 139061,
@@ -196,7 +207,62 @@
 		"oAP": "\/images\/blizzard-nav\/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/blizzard-nav\/game-site.jpg": {
+		"ft": 16384,
+		"iS": 298745,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-nav\/game-site.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-nav\/mobile.png": {
+		"ft": 32768,
+		"iS": 269031,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-nav\/mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blizzard-nav\/overwatch.png": {
+		"ft": 32768,
+		"iS": 468219,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-nav\/overwatch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blizzard-nav\/shop-nav-before.jpg": {
+		"ft": 16384,
+		"iS": 123184,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-nav\/shop-nav-before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-nav\/visual-design.png": {
+		"ft": 32768,
+		"iS": 630496,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-nav\/visual-design.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/blizzard-shop\/card-small.jpg": {
@@ -285,6 +351,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/blizzard-shop\/responsive.png": {
+		"ft": 32768,
+		"iS": 471173,
+		"oA": 0,
+		"oAP": "\/images\/blizzard-shop\/responsive.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/blizzard-shop\/shop-home-before.jpg": {
@@ -2786,6 +2863,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/casestudies.html",
+		"oF": 0
+		},
+	"\/portfolio\/content.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/content.html",
 		"oF": 0
 		},
 	"\/portfolio\/dashboard.html": {
