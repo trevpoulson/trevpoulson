@@ -2388,6 +2388,20 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/portfolio\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/.htaccess",
+		"oF": 0
+		},
+	"\/portfolio\/.htpasswd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/.htpasswd",
+		"oF": 0
+		},
 	"\/portfolio\/answers.html": {
 		"cB": 0,
 		"ft": 8192,
