@@ -201,12 +201,12 @@
 		},
 	"\/images\/artwork\/controllers.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 47286,
 		"oA": 0,
 		"oAP": "\/images\/artwork\/controllers.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -278,13 +278,13 @@
 		},
 	"\/images\/artwork\/photo3.jpg": {
 		"ft": 16384,
-		"iS": 2252434,
+		"iS": 390458,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/artwork\/photo3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/artwork\/photo4.jpg": {
@@ -322,24 +322,24 @@
 		},
 	"\/images\/artwork\/photo7.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 331038,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/artwork\/photo7.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/artwork\/photo8.jpg": {
 		"ft": 16384,
-		"iS": 2342294,
+		"iS": 179300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/artwork\/photo8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/artwork\/punchout.jpg": {
@@ -413,7 +413,7 @@
 		"oAP": "\/images\/blizzard-content\/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/blizzard-content\/concept-0.jpg": {
@@ -451,7 +451,7 @@
 		},
 	"\/images\/blizzard-content\/concept-3.jpg": {
 		"ft": 16384,
-		"iS": 256039,
+		"iS": 258471,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blizzard-content\/concept-3.jpg",
@@ -495,7 +495,7 @@
 		},
 	"\/images\/blizzard-content\/concept-7.jpg": {
 		"ft": 16384,
-		"iS": 229082,
+		"iS": 231514,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blizzard-content\/concept-7.jpg",
@@ -506,7 +506,7 @@
 		},
 	"\/images\/blizzard-content\/current.jpg": {
 		"ft": 16384,
-		"iS": 219517,
+		"iS": 221949,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blizzard-content\/current.jpg",
@@ -526,22 +526,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/final.98136.1231453642219521.m4v": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/final.98136.1231453642219521.m4v",
-		"oF": 0
-		},
 	"\/images\/blizzard-content\/final.jpg": {
 		"ft": 16384,
-		"iS": 376580,
+		"iS": 362711,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blizzard-content\/final.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/blizzard-content\/final.mp4": {
@@ -787,13 +780,13 @@
 		},
 	"\/images\/dashboard\/card-small.jpg": {
 		"ft": 16384,
-		"iS": 71426,
+		"iS": 40902,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/dashboard\/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/dashboard\/final screenshot.png": {
@@ -812,6 +805,28 @@
 		"iS": 172945,
 		"oA": 0,
 		"oAP": "\/images\/dashboard\/final.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dashboard\/future1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/dashboard\/future1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dashboard\/future2.png": {
+		"ft": 32768,
+		"iS": 183535,
+		"oA": 0,
+		"oAP": "\/images\/dashboard\/future2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -977,28 +992,6 @@
 		"iS": 18631,
 		"oA": 0,
 		"oAP": "\/images\/dashboard\/home-v8-S.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/dashboard\/home-v9-1.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v9-1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/dashboard\/home-v9-2.png": {
-		"ft": 32768,
-		"iS": 183535,
-		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v9-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1847,13 +1840,13 @@
 		},
 	"\/images\/login\/card-small.jpg": {
 		"ft": 16384,
-		"iS": 94549,
+		"iS": 39738,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/login\/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/login\/card-small.png": {
@@ -2188,13 +2181,13 @@
 		},
 	"\/images\/login\/old-hm2.jpg": {
 		"ft": 16384,
-		"iS": 55649,
+		"iS": 54821,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/login\/old-hm2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/login\/old-tc.jpg": {
@@ -2368,6 +2361,79 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/promoted-content\/card-small.jpg": {
+		"ft": 16384,
+		"iS": 37477,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/card-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/promoted-content\/design1.jpg": {
+		"ft": 16384,
+		"iS": 164608,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/design1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/promoted-content\/design2.jpg": {
+		"ft": 16384,
+		"iS": 233272,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/design2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/promoted-content\/design3.jpg": {
+		"ft": 16384,
+		"iS": 142568,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/design3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/promoted-content\/final.jpg": {
+		"ft": 16384,
+		"iS": 220022,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/final.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/promoted-content\/final.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/final.mp4",
+		"oF": 0
+		},
+	"\/images\/promoted-content\/original.jpg": {
+		"ft": 16384,
+		"iS": 95111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/promoted-content\/original.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/store\/1-cropped.jpg": {
 		"ft": 16384,
 		"iS": 149506,
@@ -2436,13 +2502,13 @@
 		},
 	"\/images\/store\/card-small.jpg": {
 		"ft": 16384,
-		"iS": 29994,
+		"iS": 32289,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/store\/card-small.png": {
@@ -2480,7 +2546,7 @@
 		},
 	"\/images\/store\/icon-bw.jpg": {
 		"ft": 16384,
-		"iS": 69870,
+		"iS": 72302,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/icon-bw.jpg",
@@ -2491,7 +2557,7 @@
 		},
 	"\/images\/store\/large1.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 183774,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/large1.jpg",
@@ -2524,7 +2590,7 @@
 		},
 	"\/images\/store\/large2.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 814374,
 		"oA": 0,
 		"oAP": "\/images\/store\/large2.png",
 		"oF": 0,
@@ -2546,7 +2612,7 @@
 		},
 	"\/images\/store\/large3.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 603265,
 		"oA": 0,
 		"oAP": "\/images\/store\/large3.png",
 		"oF": 0,
@@ -2568,7 +2634,7 @@
 		},
 	"\/images\/store\/medium1.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 521024,
 		"oA": 0,
 		"oAP": "\/images\/store\/medium1.png",
 		"oF": 0,
@@ -2579,7 +2645,7 @@
 		},
 	"\/images\/store\/medium2.jpg": {
 		"ft": 16384,
-		"iS": 150831,
+		"iS": 150913,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/medium2.jpg",
@@ -2590,7 +2656,7 @@
 		},
 	"\/images\/store\/medium2.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 449840,
 		"oA": 0,
 		"oAP": "\/images\/store\/medium2.png",
 		"oF": 0,
@@ -2612,7 +2678,7 @@
 		},
 	"\/images\/store\/medium3.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 254814,
 		"oA": 0,
 		"oAP": "\/images\/store\/medium3.png",
 		"oF": 0,
@@ -2623,7 +2689,7 @@
 		},
 	"\/images\/store\/old1.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 92878,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/old1.jpg",
@@ -2634,7 +2700,7 @@
 		},
 	"\/images\/store\/old2.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 87679,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/old2.jpg",
@@ -2645,7 +2711,7 @@
 		},
 	"\/images\/store\/old3.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 92840,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/old3.jpg",
@@ -2656,7 +2722,7 @@
 		},
 	"\/images\/store\/old4.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 70602,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store\/old4.jpg",
@@ -2678,7 +2744,7 @@
 		},
 	"\/images\/store\/preview.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 259123,
 		"oA": 0,
 		"oAP": "\/images\/store\/preview.png",
 		"oF": 0,
@@ -2722,7 +2788,7 @@
 		},
 	"\/images\/store\/promotive1.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 606314,
 		"oA": 0,
 		"oAP": "\/images\/store\/promotive1.png",
 		"oF": 0,
@@ -2733,7 +2799,7 @@
 		},
 	"\/images\/store\/promotive2.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 796885,
 		"oA": 0,
 		"oAP": "\/images\/store\/promotive2.png",
 		"oF": 0,
@@ -2744,7 +2810,7 @@
 		},
 	"\/images\/store\/promotive3.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 727842,
 		"oA": 0,
 		"oAP": "\/images\/store\/promotive3.png",
 		"oF": 0,
@@ -2766,7 +2832,7 @@
 		},
 	"\/images\/store\/small1.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 467068,
 		"oA": 0,
 		"oAP": "\/images\/store\/small1.png",
 		"oF": 0,
@@ -2788,7 +2854,7 @@
 		},
 	"\/images\/store\/small2.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 319336,
 		"oA": 0,
 		"oAP": "\/images\/store\/small2.png",
 		"oF": 0,
@@ -2810,7 +2876,7 @@
 		},
 	"\/images\/store\/small3.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 272441,
 		"oA": 0,
 		"oAP": "\/images\/store\/small3.png",
 		"oF": 0,
@@ -2821,7 +2887,7 @@
 		},
 	"\/images\/store\/store-finished.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 381383,
 		"oA": 0,
 		"oAP": "\/images\/store\/store-finished.png",
 		"oF": 0,
@@ -3371,13 +3437,6 @@
 		"oAP": "\/portfolio\/artwork.html",
 		"oF": 0
 		},
-	"\/portfolio\/blizzard-content.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/portfolio\/blizzard-content.html",
-		"oF": 0
-		},
 	"\/portfolio\/blizzard-nav.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3441,11 +3500,25 @@
 		"oAP": "\/portfolio\/login.html",
 		"oF": 0
 		},
+	"\/portfolio\/promoted-content.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/promoted-content.html",
+		"oF": 0
+		},
 	"\/portfolio\/store.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/store.html",
+		"oF": 0
+		},
+	"\/previous versions\/blizzard-content.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/previous versions\/blizzard-content.html",
 		"oF": 0
 		},
 	"\/previous versions\/dashboard.html": {
