@@ -202,6 +202,7 @@ div.index .other-portfolio {
   div.index .other-portfolio {
     grid-column: 4;
     grid-row: 6;
+    border-left: solid 1px rgba(51, 55, 53, 0.2);
   }
 }
 div.index .portfolio-piece {
@@ -295,11 +296,23 @@ div.index .logo-color {
 }
 .blizzard-content header,
 .blizzard-content footer {
-  background: #1A5190;
+  background: #B3413D;
 }
 .blizzard-nav header,
 .blizzard-nav footer {
-  background: #319984;
+  background: #B3413D;
+}
+.healthicity-login header,
+.healthicity-login footer {
+  background: #B3413D;
+}
+.experticity-store header,
+.experticity-store footer {
+  background: #B3413D;
+}
+.healthicity-dashboard header,
+.healthicity-dashboard footer {
+  background: #B3413D;
 }
 section.portfolio-piece {
   max-width: 1000px;
@@ -328,7 +341,7 @@ section.portfolio-piece .title {
     font-size: 10em;
   }
 }
-@media (min-width: 1150px) {
+@media (min-width: 1200px) {
   section.portfolio-piece .title {
     font-size: 12em;
     transform: rotate(90deg);
@@ -396,6 +409,7 @@ section.portfolio-piece header .overview {
   }
 }
 section.portfolio-piece header .preview {
+  width: 100%;
   margin-bottom: -200px;
 }
 @media (min-width: 768px) {
@@ -447,23 +461,32 @@ section.portfolio-piece main .deliver {
   }
   section.portfolio-piece main .temp .section-title {
     grid-column: 1 / span 2;
+    z-index: 101;
   }
   section.portfolio-piece main .temp .left {
     grid-column: 1;
+    margin-bottom: 24px;
   }
   section.portfolio-piece main .temp .right {
     grid-column: 2;
+    margin-bottom: 24px;
   }
   section.portfolio-piece main .temp .all {
     grid-column: 1 / span 2;
+    margin-bottom: 24px;
   }
   section.portfolio-piece main .temp .middle {
     grid-column: 1 / span 2;
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 24px;
   }
-  section.portfolio-piece main .temp .middle h3 {
+  section.portfolio-piece main .temp .middle h5 {
     text-align: center;
+  }
+  section.portfolio-piece main .temp .full {
+    grid-column: 1 / span 2;
+    max-width: 100%;
   }
   section.portfolio-piece main .temp .overview {
     grid-column: 1 / span 2;
@@ -472,12 +495,16 @@ section.portfolio-piece main .deliver {
     font-size: 16px;
   }
 }
-section.portfolio-piece main .temp img {
+section.portfolio-piece main .temp img,
+section.portfolio-piece main .temp video {
   width: 100%;
 }
-section.portfolio-piece main .temp h3 {
+section.portfolio-piece main .temp h4 {
   text-align: left;
-  margin-bottom: 30px;
+  margin: 50px 0 10px;
+}
+section.portfolio-piece main .temp h5 {
+  margin-bottom: 24px;
 }
 section.portfolio-piece footer {
   color: #E7E7DB;

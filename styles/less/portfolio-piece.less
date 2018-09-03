@@ -1,13 +1,22 @@
 
 header, footer {
 	.blizzard-shop & {
-		background: @color-shop;
+		background: @color-accent;
 	}
 	.blizzard-content & {
-		background: @color-content;
+		background: @color-accent;
 	}
 	.blizzard-nav & {
-		background: @color-nav;
+		background: @color-accent;
+	}
+	.healthicity-login & {
+		background: @color-accent;
+	}
+	.experticity-store & {
+		background: @color-accent;
+	}
+	.healthicity-dashboard & {
+		background: @color-accent;
 	}
 }
 
@@ -32,7 +41,7 @@ section.portfolio-piece {
 		@media (min-width: 768px) {
 			font-size: 10em;
 		}
-		@media (min-width: 1150px) {
+		@media (min-width: 1200px) {
 			font-size: 12em;
 		    transform: rotate(90deg);
 		    position: absolute;
@@ -93,8 +102,9 @@ section.portfolio-piece {
 				grid-row: 3;
 			}
 		}
-		.preview {
 
+		.preview {
+			width: 100%;
 			margin-bottom: -200px;
 			@media (min-width: 768px) {
 				grid-column: 1 / span 2;
@@ -139,23 +149,32 @@ section.portfolio-piece {
 				grid-template-columns: 1fr 1fr;
 				.section-title {
 					grid-column: 1 / span 2;
+					z-index: 101;
 				}
 				.left {
 					grid-column: 1;
+					margin-bottom: 24px;
 				}
 				.right {
 					grid-column: 2;
+					margin-bottom: 24px;
 				}
 				.all {
 					grid-column: 1 / span 2;
+					margin-bottom: 24px;
 				}
 				.middle {
 					grid-column: 1 / span 2;
 					max-width: 600px;
 					margin: 0 auto;
-					h3 {
+					margin-bottom: 24px;
+					h5 {
 						text-align: center;
 					}
+				}
+				.full {
+					grid-column: 1 / span 2;
+					max-width: 100%;
 				}
 				.overview {
 					grid-column: 1 / span 2;
@@ -164,14 +183,16 @@ section.portfolio-piece {
 					font-size: 16px;
 				}
 			}
-			img {
+			img, video {
 				width: 100%;
 			}
-			h3 {
+			h4 {
 				text-align: left;
-				margin-bottom: 30px;
+				margin: 50px 0 10px;
 			}
-
+			h5 {
+				margin-bottom: 24px;
+			}
 
 		}
 		// .background {
