@@ -210,6 +210,12 @@ div.index .portfolio-piece {
   color: #333735;
   margin-bottom: 10px;
   padding: 10px 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  div.index .portfolio-piece {
+    text-align: left;
+  }
 }
 div.index .portfolio-piece h4 {
   font-size: 16px;
