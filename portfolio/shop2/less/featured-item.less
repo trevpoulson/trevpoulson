@@ -1,0 +1,93 @@
+header.home, header.family{
+	padding: 100px 0 20px;
+	background-size: 768px auto;
+	background-position: 50% (@nav-height-shop-sm * -1);
+	background-repeat: no-repeat;
+	position: relative;
+	
+
+	@media (min-width: 768px){
+		padding: 0px;
+		box-shadow: inset 0 -30px 60px rgba(0,0,0,0.5);
+		height: 400px;
+		background-size: 1280px;
+		background-position: 50% (@nav-height-total-lg * -1);
+
+	}
+
+	@media (min-width: 1280px){
+		height: 500px;
+		background-size: 1600px;
+	}
+	@media (min-width: 1600px){
+		background-size: 1920px;
+		height: 600px;
+
+	}
+	@media (min-width: 1920px){
+		background-size: 100%;
+	}
+
+	.content-box{
+		width: 100%;
+		margin: 0 auto;
+		@media (min-width: 768px){
+			width: 50%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateY(-50%);
+
+		}
+		@media (min-width: 1024px){
+			// margin: 0 33% 0 auto;
+			// transform: translateX(320px);
+		}
+	}
+	.content{
+		text-align: center;
+		img {
+			width: 100%;
+			max-width: 320px;
+			margin: 0 auto;
+
+			@media (min-width: 1280px){
+				max-width: 500px;
+			}
+
+		}
+	}
+	.cta-container{
+		margin-top: 0px;
+
+	}
+	.cta {
+		.button-primary();
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
+
+@feature001-background-lg: 'images/featured/wow001.png';
+@feature001-background-sm: 'images/featured/wow001-sm.png';
+
+@feature002-background-lg: 'images/featured/sc2-001.png';
+@feature002-background-sm: 'images/featured/sc2-001-sm.png';
+
+
+
+header.featured001 {
+	background-image: url(@feature001-background-sm) ;
+		@media (min-width: 768px){
+			background-image: url(@feature001-background-lg) ;
+		}
+}
+header.featured002 {
+	background-image: url(@feature002-background-sm) ;
+		@media (min-width: 768px){
+			background-image: url(@feature002-background-lg) ;
+		}
+}

@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,3542 +7,4437 @@
 		"uuidString": "5CD396F3-9C3A-4FA8-8513-C8E58508DE92"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/CNAME": {
+	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/CNAME",
+		"oAP": "/CNAME",
 		"oF": 0
 		},
-	"\/images\/answers\/final-lander.jpg": {
+	"/images/answers/final-lander.jpg": {
 		"ft": 16384,
 		"iS": 654891,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/answers\/final-lander.jpg",
+		"oAP": "/images/answers/final-lander.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/answers\/large-wireframe-cutoff.png": {
+	"/images/answers/large-wireframe-cutoff.png": {
 		"ft": 32768,
 		"iS": 28482,
 		"oA": 0,
-		"oAP": "\/images\/answers\/large-wireframe-cutoff.png",
+		"oAP": "/images/answers/large-wireframe-cutoff.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/large-wireframe.png": {
+	"/images/answers/large-wireframe.png": {
 		"ft": 32768,
 		"iS": 111070,
 		"oA": 0,
-		"oAP": "\/images\/answers\/large-wireframe.png",
+		"oAP": "/images/answers/large-wireframe.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/medium-wireframe-cutoff.png": {
+	"/images/answers/medium-wireframe-cutoff.png": {
 		"ft": 32768,
 		"iS": 20680,
 		"oA": 0,
-		"oAP": "\/images\/answers\/medium-wireframe-cutoff.png",
+		"oAP": "/images/answers/medium-wireframe-cutoff.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/medium-wireframe.png": {
+	"/images/answers/medium-wireframe.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/answers\/medium-wireframe.png",
+		"oAP": "/images/answers/medium-wireframe.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/preview.png": {
+	"/images/answers/preview.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/answers\/preview.png",
+		"oAP": "/images/answers/preview.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/small-wireframe-cutoff.png": {
+	"/images/answers/small-wireframe-cutoff.png": {
 		"ft": 32768,
 		"iS": 20965,
 		"oA": 0,
-		"oAP": "\/images\/answers\/small-wireframe-cutoff.png",
+		"oAP": "/images/answers/small-wireframe-cutoff.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/small-wireframe.png": {
+	"/images/answers/small-wireframe.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/answers\/small-wireframe.png",
+		"oAP": "/images/answers/small-wireframe.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/v1-download.png": {
+	"/images/answers/v1-download.png": {
 		"ft": 32768,
 		"iS": 40269,
 		"oA": 0,
-		"oAP": "\/images\/answers\/v1-download.png",
+		"oAP": "/images/answers/v1-download.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/v1-lander.png": {
+	"/images/answers/v1-lander.png": {
 		"ft": 32768,
 		"iS": 51406,
 		"oA": 0,
-		"oAP": "\/images\/answers\/v1-lander.png",
+		"oAP": "/images/answers/v1-lander.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/v1-video.png": {
+	"/images/answers/v1-video.png": {
 		"ft": 32768,
 		"iS": 46642,
 		"oA": 0,
-		"oAP": "\/images\/answers\/v1-video.png",
+		"oAP": "/images/answers/v1-video.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/answers\/verisk-answers-large-blur.jpg": {
+	"/images/answers/verisk-answers-large-blur.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/answers\/verisk-answers-large-blur.jpg",
+		"oAP": "/images/answers/verisk-answers-large-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/answers\/verisk-answers-small.jpg": {
+	"/images/answers/verisk-answers-small.jpg": {
 		"ft": 16384,
 		"iS": 74122,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/answers\/verisk-answers-small.jpg",
+		"oAP": "/images/answers/verisk-answers-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/boo.jpg": {
+	"/images/artwork/boo.jpg": {
 		"ft": 16384,
 		"iS": 315782,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/boo.jpg",
+		"oAP": "/images/artwork/boo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/card-small.jpg": {
+	"/images/artwork/card-small.jpg": {
 		"ft": 16384,
 		"iS": 77579,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/card-small.jpg",
+		"oAP": "/images/artwork/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/contra.jpg": {
+	"/images/artwork/contra.jpg": {
 		"ft": 16384,
 		"iS": 377327,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/contra.jpg",
+		"oAP": "/images/artwork/contra.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/controllers.png": {
+	"/images/artwork/controllers.png": {
 		"ft": 32768,
 		"iS": 47286,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/controllers.png",
+		"oAP": "/images/artwork/controllers.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/artwork\/hippo.jpg": {
+	"/images/artwork/hippo.jpg": {
 		"ft": 16384,
 		"iS": 445843,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/hippo.jpg",
+		"oAP": "/images/artwork/hippo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/n64.png": {
+	"/images/artwork/n64.png": {
 		"ft": 32768,
 		"iS": 38216,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/n64.png",
+		"oAP": "/images/artwork/n64.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/artwork\/pacman.png": {
+	"/images/artwork/pacman.png": {
 		"ft": 32768,
 		"iS": 17188,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/pacman.png",
+		"oAP": "/images/artwork/pacman.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/artwork\/peach.jpg": {
+	"/images/artwork/peach.jpg": {
 		"ft": 16384,
 		"iS": 785250,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/peach.jpg",
+		"oAP": "/images/artwork/peach.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo1.jpg": {
+	"/images/artwork/photo1.jpg": {
 		"ft": 16384,
 		"iS": 397163,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo1.jpg",
+		"oAP": "/images/artwork/photo1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo2.jpg": {
+	"/images/artwork/photo2.jpg": {
 		"ft": 16384,
 		"iS": 313529,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo2.jpg",
+		"oAP": "/images/artwork/photo2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo3.jpg": {
+	"/images/artwork/photo3.jpg": {
 		"ft": 16384,
 		"iS": 390458,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo3.jpg",
+		"oAP": "/images/artwork/photo3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo4.jpg": {
+	"/images/artwork/photo4.jpg": {
 		"ft": 16384,
 		"iS": 151656,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo4.jpg",
+		"oAP": "/images/artwork/photo4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo5.jpg": {
+	"/images/artwork/photo5.jpg": {
 		"ft": 16384,
 		"iS": 334835,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo5.jpg",
+		"oAP": "/images/artwork/photo5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo6.jpg": {
+	"/images/artwork/photo6.jpg": {
 		"ft": 16384,
 		"iS": 229967,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo6.jpg",
+		"oAP": "/images/artwork/photo6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo7.jpg": {
+	"/images/artwork/photo7.jpg": {
 		"ft": 16384,
 		"iS": 331038,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo7.jpg",
+		"oAP": "/images/artwork/photo7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/photo8.jpg": {
+	"/images/artwork/photo8.jpg": {
 		"ft": 16384,
 		"iS": 179300,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/photo8.jpg",
+		"oAP": "/images/artwork/photo8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/punchout.jpg": {
+	"/images/artwork/punchout.jpg": {
 		"ft": 16384,
 		"iS": 251212,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/punchout.jpg",
+		"oAP": "/images/artwork/punchout.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/ryu.jpg": {
+	"/images/artwork/ryu.jpg": {
 		"ft": 16384,
 		"iS": 245120,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/ryu.jpg",
+		"oAP": "/images/artwork/ryu.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/artwork\/tusken-raider.jpg": {
+	"/images/artwork/tusken-raider.jpg": {
 		"ft": 16384,
 		"iS": 187785,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/artwork\/tusken-raider.jpg",
+		"oAP": "/images/artwork/tusken-raider.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/background-texture.jpg": {
+	"/images/background-texture.jpg": {
 		"ft": 16384,
 		"iS": 15223,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/background-texture.jpg",
+		"oAP": "/images/background-texture.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/before.jpg": {
+	"/images/blizzard-content/before.jpg": {
 		"ft": 16384,
 		"iS": 245608,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/before.jpg",
+		"oAP": "/images/blizzard-content/before.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/card-hover.gif": {
+	"/images/blizzard-content/card-hover.gif": {
 		"ft": 4194304,
 		"iS": 6952443,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/card-hover.gif",
+		"oAP": "/images/blizzard-content/card-hover.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/blizzard-content\/card-small.jpg": {
+	"/images/blizzard-content/card-small.jpg": {
 		"ft": 16384,
 		"iS": 507399,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/card-small.jpg",
+		"oAP": "/images/blizzard-content/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-0.jpg": {
+	"/images/blizzard-content/concept-0.jpg": {
 		"ft": 16384,
 		"iS": 421871,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-0.jpg",
+		"oAP": "/images/blizzard-content/concept-0.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-1.jpg": {
+	"/images/blizzard-content/concept-1.jpg": {
 		"ft": 16384,
 		"iS": 406449,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-1.jpg",
+		"oAP": "/images/blizzard-content/concept-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-2.jpg": {
+	"/images/blizzard-content/concept-2.jpg": {
 		"ft": 16384,
 		"iS": 213555,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-2.jpg",
+		"oAP": "/images/blizzard-content/concept-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-3.jpg": {
+	"/images/blizzard-content/concept-3.jpg": {
 		"ft": 16384,
 		"iS": 258471,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-3.jpg",
+		"oAP": "/images/blizzard-content/concept-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-4.jpg": {
+	"/images/blizzard-content/concept-4.jpg": {
 		"ft": 16384,
 		"iS": 305377,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-4.jpg",
+		"oAP": "/images/blizzard-content/concept-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-5.jpg": {
+	"/images/blizzard-content/concept-5.jpg": {
 		"ft": 16384,
 		"iS": 296179,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-5.jpg",
+		"oAP": "/images/blizzard-content/concept-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-6.jpg": {
+	"/images/blizzard-content/concept-6.jpg": {
 		"ft": 16384,
 		"iS": 891389,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-6.jpg",
+		"oAP": "/images/blizzard-content/concept-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/concept-7.jpg": {
+	"/images/blizzard-content/concept-7.jpg": {
 		"ft": 16384,
 		"iS": 231514,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/concept-7.jpg",
+		"oAP": "/images/blizzard-content/concept-7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/current.jpg": {
+	"/images/blizzard-content/current.jpg": {
 		"ft": 16384,
 		"iS": 221949,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/current.jpg",
+		"oAP": "/images/blizzard-content/current.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/final-consume.jpg": {
+	"/images/blizzard-content/final-consume.jpg": {
 		"ft": 16384,
 		"iS": 437032,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/final-consume.jpg",
+		"oAP": "/images/blizzard-content/final-consume.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/final.jpg": {
+	"/images/blizzard-content/final.jpg": {
 		"ft": 16384,
 		"iS": 362711,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/final.jpg",
+		"oAP": "/images/blizzard-content/final.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/final.mp4": {
+	"/images/blizzard-content/final.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/final.mp4",
+		"oAP": "/images/blizzard-content/final.mp4",
 		"oF": 0
 		},
-	"\/images\/blizzard-content\/idea2.jpg": {
+	"/images/blizzard-content/idea2.jpg": {
 		"ft": 16384,
 		"iS": 155720,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/idea2.jpg",
+		"oAP": "/images/blizzard-content/idea2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-content\/idea2.mp4": {
+	"/images/blizzard-content/idea2.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-content\/idea2.mp4",
+		"oAP": "/images/blizzard-content/idea2.mp4",
 		"oF": 0
 		},
-	"\/images\/blizzard-nav\/blizzard-nav.jpg": {
+	"/images/blizzard-nav/blizzard-nav.jpg": {
 		"ft": 16384,
 		"iS": 489143,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/blizzard-nav.jpg",
+		"oAP": "/images/blizzard-nav/blizzard-nav.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-nav\/blizzard-nav.mp4": {
+	"/images/blizzard-nav/blizzard-nav.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/blizzard-nav.mp4",
+		"oAP": "/images/blizzard-nav/blizzard-nav.mp4",
 		"oF": 0
 		},
-	"\/images\/blizzard-nav\/card-small.jpg": {
+	"/images/blizzard-nav/card-small.jpg": {
 		"ft": 16384,
 		"iS": 139061,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/card-small.jpg",
+		"oAP": "/images/blizzard-nav/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-nav\/game-site.jpg": {
+	"/images/blizzard-nav/game-site.jpg": {
 		"ft": 16384,
 		"iS": 298745,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/game-site.jpg",
+		"oAP": "/images/blizzard-nav/game-site.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-nav\/mobile.png": {
+	"/images/blizzard-nav/mobile.png": {
 		"ft": 32768,
 		"iS": 269031,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/mobile.png",
+		"oAP": "/images/blizzard-nav/mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-nav\/overwatch.png": {
+	"/images/blizzard-nav/overwatch.png": {
 		"ft": 32768,
 		"iS": 468219,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/overwatch.png",
+		"oAP": "/images/blizzard-nav/overwatch.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-nav\/shop-nav-before.jpg": {
+	"/images/blizzard-nav/shop-nav-before.jpg": {
 		"ft": 16384,
 		"iS": 123184,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/shop-nav-before.jpg",
+		"oAP": "/images/blizzard-nav/shop-nav-before.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-nav\/visual-design.png": {
+	"/images/blizzard-nav/visual-design.png": {
 		"ft": 32768,
 		"iS": 630496,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-nav\/visual-design.png",
+		"oAP": "/images/blizzard-nav/visual-design.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/card-small.jpg": {
+	"/images/blizzard-shop/browsing-behaviors.png": {
+		"ft": 32768,
+		"iS": 11408,
+		"oA": 0,
+		"oAP": "/images/blizzard-shop/browsing-behaviors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/blizzard-shop/card-small.jpg": {
 		"ft": 16384,
 		"iS": 653787,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/card-small.jpg",
+		"oAP": "/images/blizzard-shop/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/family-after.jpg": {
+	"/images/blizzard-shop/family-after.jpg": {
 		"ft": 16384,
 		"iS": 72676,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/family-after.jpg",
+		"oAP": "/images/blizzard-shop/family-after.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/family-before.jpg": {
+	"/images/blizzard-shop/family-before.jpg": {
 		"ft": 16384,
 		"iS": 75274,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/family-before.jpg",
+		"oAP": "/images/blizzard-shop/family-before.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/home-after.jpg": {
+	"/images/blizzard-shop/home-after.jpg": {
 		"ft": 16384,
 		"iS": 113028,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/home-after.jpg",
+		"oAP": "/images/blizzard-shop/home-after.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/home-before.jpg": {
+	"/images/blizzard-shop/home-before.jpg": {
 		"ft": 16384,
 		"iS": 92658,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/home-before.jpg",
+		"oAP": "/images/blizzard-shop/home-before.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/preview.jpg": {
+	"/images/blizzard-shop/preview.jpg": {
 		"ft": 16384,
 		"iS": 653787,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/preview.jpg",
+		"oAP": "/images/blizzard-shop/preview.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/product-after.jpg": {
+	"/images/blizzard-shop/product-after.jpg": {
 		"ft": 16384,
 		"iS": 96709,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/product-after.jpg",
+		"oAP": "/images/blizzard-shop/product-after.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/product-before.jpg": {
+	"/images/blizzard-shop/product-before.jpg": {
 		"ft": 16384,
 		"iS": 86561,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/product-before.jpg",
+		"oAP": "/images/blizzard-shop/product-before.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/responsive.png": {
+	"/images/blizzard-shop/responsive.png": {
 		"ft": 32768,
 		"iS": 471173,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/responsive.png",
+		"oAP": "/images/blizzard-shop/responsive.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/shop-home-before.jpg": {
+	"/images/blizzard-shop/shop-home-before.jpg": {
 		"ft": 16384,
 		"iS": 139973,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/shop-home-before.jpg",
+		"oAP": "/images/blizzard-shop/shop-home-before.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/shop.jpg": {
+	"/images/blizzard-shop/shop.jpg": {
 		"ft": 16384,
 		"iS": 492369,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/shop.jpg",
+		"oAP": "/images/blizzard-shop/shop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blizzard-shop\/shop.png": {
+	"/images/blizzard-shop/shop.png": {
 		"ft": 32768,
 		"iS": 2050317,
 		"oA": 0,
-		"oAP": "\/images\/blizzard-shop\/shop.png",
+		"oAP": "/images/blizzard-shop/shop.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/card-small.jpg": {
+	"/images/dashboard/card-small.jpg": {
 		"ft": 16384,
 		"iS": 40902,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/card-small.jpg",
+		"oAP": "/images/dashboard/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/final screenshot.png": {
+	"/images/dashboard/final screenshot.png": {
 		"ft": 32768,
 		"iS": 196229,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/final screenshot.png",
+		"oAP": "/images/dashboard/final screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/final.png": {
+	"/images/dashboard/final.png": {
 		"ft": 32768,
 		"iS": 172945,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/final.png",
+		"oAP": "/images/dashboard/final.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/future1.png": {
+	"/images/dashboard/future1.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/future1.png",
+		"oAP": "/images/dashboard/future1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/future2.png": {
+	"/images/dashboard/future2.png": {
 		"ft": 32768,
 		"iS": 183535,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/future2.png",
+		"oAP": "/images/dashboard/future2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/healthicity-dashboard-large-blur.jpg": {
+	"/images/dashboard/healthicity-dashboard-large-blur.jpg": {
 		"ft": 16384,
 		"iS": 99982,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/healthicity-dashboard-large-blur.jpg",
+		"oAP": "/images/dashboard/healthicity-dashboard-large-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/healthicity-dashboard-large.jpg": {
+	"/images/dashboard/healthicity-dashboard-large.jpg": {
 		"ft": 16384,
 		"iS": 229035,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/healthicity-dashboard-large.jpg",
+		"oAP": "/images/dashboard/healthicity-dashboard-large.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/healthicity-dashboard-small.jpg": {
+	"/images/dashboard/healthicity-dashboard-small.jpg": {
 		"ft": 16384,
 		"iS": 71788,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/healthicity-dashboard-small.jpg",
+		"oAP": "/images/dashboard/healthicity-dashboard-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v0.jpg": {
+	"/images/dashboard/home-v0.jpg": {
 		"ft": 16384,
 		"iS": 123445,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v0.jpg",
+		"oAP": "/images/dashboard/home-v0.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v0.png": {
+	"/images/dashboard/home-v0.png": {
 		"ft": 32768,
 		"iS": 1540010,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v0.png",
+		"oAP": "/images/dashboard/home-v0.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v1.png": {
+	"/images/dashboard/home-v1.png": {
 		"ft": 32768,
 		"iS": 97103,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v1.png",
+		"oAP": "/images/dashboard/home-v1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v2.png": {
+	"/images/dashboard/home-v2.png": {
 		"ft": 32768,
 		"iS": 133667,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v2.png",
+		"oAP": "/images/dashboard/home-v2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v3.png": {
+	"/images/dashboard/home-v3.png": {
 		"ft": 32768,
 		"iS": 74017,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v3.png",
+		"oAP": "/images/dashboard/home-v3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v4.png": {
+	"/images/dashboard/home-v4.png": {
 		"ft": 32768,
 		"iS": 79887,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v4.png",
+		"oAP": "/images/dashboard/home-v4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v5.png": {
+	"/images/dashboard/home-v5.png": {
 		"ft": 32768,
 		"iS": 90282,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v5.png",
+		"oAP": "/images/dashboard/home-v5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v6.png": {
+	"/images/dashboard/home-v6.png": {
 		"ft": 32768,
 		"iS": 85764,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v6.png",
+		"oAP": "/images/dashboard/home-v6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v7.png": {
+	"/images/dashboard/home-v7.png": {
 		"ft": 32768,
 		"iS": 60464,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v7.png",
+		"oAP": "/images/dashboard/home-v7.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v8-L.png": {
+	"/images/dashboard/home-v8-L.png": {
 		"ft": 32768,
 		"iS": 51881,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v8-L.png",
+		"oAP": "/images/dashboard/home-v8-L.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v8-M.png": {
+	"/images/dashboard/home-v8-M.png": {
 		"ft": 32768,
 		"iS": 30967,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v8-M.png",
+		"oAP": "/images/dashboard/home-v8-M.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/home-v8-S.png": {
+	"/images/dashboard/home-v8-S.png": {
 		"ft": 32768,
 		"iS": 18631,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/home-v8-S.png",
+		"oAP": "/images/dashboard/home-v8-S.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dashboard\/icon-bw.jpg": {
+	"/images/dashboard/icon-bw.jpg": {
 		"ft": 16384,
 		"iS": 62773,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/icon-bw.jpg",
+		"oAP": "/images/dashboard/icon-bw.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/responsive.jpg": {
+	"/images/dashboard/responsive.jpg": {
 		"ft": 16384,
 		"iS": 137551,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/responsive.jpg",
+		"oAP": "/images/dashboard/responsive.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/sketch-1.jpg": {
+	"/images/dashboard/sketch-1.jpg": {
 		"ft": 16384,
 		"iS": 36121,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/sketch-1.jpg",
+		"oAP": "/images/dashboard/sketch-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/sketch-2.jpg": {
+	"/images/dashboard/sketch-2.jpg": {
 		"ft": 16384,
 		"iS": 38045,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/sketch-2.jpg",
+		"oAP": "/images/dashboard/sketch-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/whiteboard-1.jpg": {
+	"/images/dashboard/whiteboard-1.jpg": {
 		"ft": 16384,
 		"iS": 90486,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/whiteboard-1.jpg",
+		"oAP": "/images/dashboard/whiteboard-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/dashboard\/whiteboard-2.jpg": {
+	"/images/dashboard/whiteboard-2.jpg": {
 		"ft": 16384,
 		"iS": 60184,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/dashboard\/whiteboard-2.jpg",
+		"oAP": "/images/dashboard/whiteboard-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/desktop-skew.jpg": {
+	"/images/desktop-skew.jpg": {
 		"ft": 16384,
 		"iS": 668880,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/desktop-skew.jpg",
+		"oAP": "/images/desktop-skew.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/desktop.jpg": {
+	"/images/desktop.jpg": {
 		"ft": 16384,
 		"iS": 850024,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/desktop.jpg",
+		"oAP": "/images/desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/documents\/analytics.png": {
+	"/images/documents/analytics.png": {
 		"ft": 32768,
 		"iS": 32288,
 		"oA": 0,
-		"oAP": "\/images\/documents\/analytics.png",
+		"oAP": "/images/documents/analytics.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/documents-card.jpg": {
+	"/images/documents/documents-card.jpg": {
 		"ft": 16384,
 		"iS": 111993,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/documents\/documents-card.jpg",
+		"oAP": "/images/documents/documents-card.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/documents\/documents-final.png": {
+	"/images/documents/documents-final.png": {
 		"ft": 32768,
 		"iS": 233818,
 		"oA": 0,
-		"oAP": "\/images\/documents\/documents-final.png",
+		"oAP": "/images/documents/documents-final.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/final.png": {
+	"/images/documents/final.png": {
 		"ft": 32768,
 		"iS": 280117,
 		"oA": 0,
-		"oAP": "\/images\/documents\/final.png",
+		"oAP": "/images/documents/final.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/invision.png": {
+	"/images/documents/invision.png": {
 		"ft": 32768,
 		"iS": 67365,
 		"oA": 0,
-		"oAP": "\/images\/documents\/invision.png",
+		"oAP": "/images/documents/invision.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v0.png": {
+	"/images/documents/v0.png": {
 		"ft": 32768,
 		"iS": 57163,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v0.png",
+		"oAP": "/images/documents/v0.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v1_document.png": {
+	"/images/documents/v1_document.png": {
 		"ft": 32768,
 		"iS": 88508,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v1_document.png",
+		"oAP": "/images/documents/v1_document.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v1_filters.png": {
+	"/images/documents/v1_filters.png": {
 		"ft": 32768,
 		"iS": 87318,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v1_filters.png",
+		"oAP": "/images/documents/v1_filters.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v1_folder.png": {
+	"/images/documents/v1_folder.png": {
 		"ft": 32768,
 		"iS": 62733,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v1_folder.png",
+		"oAP": "/images/documents/v1_folder.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v1_search.png": {
+	"/images/documents/v1_search.png": {
 		"ft": 32768,
 		"iS": 89392,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v1_search.png",
+		"oAP": "/images/documents/v1_search.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v2_document.png": {
+	"/images/documents/v2_document.png": {
 		"ft": 32768,
 		"iS": 94278,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v2_document.png",
+		"oAP": "/images/documents/v2_document.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v2_filters.png": {
+	"/images/documents/v2_filters.png": {
 		"ft": 32768,
 		"iS": 87305,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v2_filters.png",
+		"oAP": "/images/documents/v2_filters.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v2_folder.png": {
+	"/images/documents/v2_folder.png": {
 		"ft": 32768,
 		"iS": 64782,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v2_folder.png",
+		"oAP": "/images/documents/v2_folder.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v2_main.png": {
+	"/images/documents/v2_main.png": {
 		"ft": 32768,
 		"iS": 61376,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v2_main.png",
+		"oAP": "/images/documents/v2_main.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v2_search.png": {
+	"/images/documents/v2_search.png": {
 		"ft": 32768,
 		"iS": 89392,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v2_search.png",
+		"oAP": "/images/documents/v2_search.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v3_document.png": {
+	"/images/documents/v3_document.png": {
 		"ft": 32768,
 		"iS": 161994,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v3_document.png",
+		"oAP": "/images/documents/v3_document.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v3_modal.png": {
+	"/images/documents/v3_modal.png": {
 		"ft": 32768,
 		"iS": 75087,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v3_modal.png",
+		"oAP": "/images/documents/v3_modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v4_dashboard.png": {
+	"/images/documents/v4_dashboard.png": {
 		"ft": 32768,
 		"iS": 64346,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v4_dashboard.png",
+		"oAP": "/images/documents/v4_dashboard.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v4_explorer.png": {
+	"/images/documents/v4_explorer.png": {
 		"ft": 32768,
 		"iS": 90982,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v4_explorer.png",
+		"oAP": "/images/documents/v4_explorer.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v4_filters on.png": {
+	"/images/documents/v4_filters on.png": {
 		"ft": 32768,
 		"iS": 60064,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v4_filters on.png",
+		"oAP": "/images/documents/v4_filters on.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v4_filters.png": {
+	"/images/documents/v4_filters.png": {
 		"ft": 32768,
 		"iS": 90551,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v4_filters.png",
+		"oAP": "/images/documents/v4_filters.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v4_hover.png": {
+	"/images/documents/v4_hover.png": {
 		"ft": 32768,
 		"iS": 92073,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v4_hover.png",
+		"oAP": "/images/documents/v4_hover.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/documents\/v4_modal.png": {
+	"/images/documents/v4_modal.png": {
 		"ft": 32768,
 		"iS": 95790,
 		"oA": 0,
-		"oAP": "\/images\/documents\/v4_modal.png",
+		"oAP": "/images/documents/v4_modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dribble-icon.svg": {
+	"/images/dribble-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/dribble-icon.svg",
+		"oAP": "/images/dribble-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/dribble-logo.svg": {
+	"/images/dribble-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/dribble-logo.svg",
+		"oAP": "/images/dribble-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/envelope-icon.svg": {
+	"/images/envelope-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/envelope-icon.svg",
+		"oAP": "/images/envelope-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/faces.gif": {
+	"/images/faces.gif": {
 		"ft": 4194304,
 		"iS": 1802296,
 		"oA": 0,
-		"oAP": "\/images\/faces.gif",
+		"oAP": "/images/faces.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/healthicity\/final.png": {
+	"/images/healthicity/final.png": {
 		"ft": 32768,
 		"iS": 252343,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/final.png",
+		"oAP": "/images/healthicity/final.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/healthicity.svg": {
+	"/images/healthicity/healthicity.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/healthicity\/healthicity.svg",
+		"oAP": "/images/healthicity/healthicity.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/healthicity\/marketing1.jpg": {
+	"/images/healthicity/marketing1.jpg": {
 		"ft": 16384,
 		"iS": 76469,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/marketing1.jpg",
+		"oAP": "/images/healthicity/marketing1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/marketing2.jpg": {
+	"/images/healthicity/marketing2.jpg": {
 		"ft": 16384,
 		"iS": 63375,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/marketing2.jpg",
+		"oAP": "/images/healthicity/marketing2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/marketing3.jpg": {
+	"/images/healthicity/marketing3.jpg": {
 		"ft": 16384,
 		"iS": 142804,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/marketing3.jpg",
+		"oAP": "/images/healthicity/marketing3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/marketing4.jpg": {
+	"/images/healthicity/marketing4.jpg": {
 		"ft": 16384,
 		"iS": 129345,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/marketing4.jpg",
+		"oAP": "/images/healthicity/marketing4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/marketing5.jpg": {
+	"/images/healthicity/marketing5.jpg": {
 		"ft": 16384,
 		"iS": 73982,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/marketing5.jpg",
+		"oAP": "/images/healthicity/marketing5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/marketing6.jpg": {
+	"/images/healthicity/marketing6.jpg": {
 		"ft": 16384,
 		"iS": 85259,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/marketing6.jpg",
+		"oAP": "/images/healthicity/marketing6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/pl1.png": {
+	"/images/healthicity/pl1.png": {
 		"ft": 32768,
 		"iS": 88415,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/pl1.png",
+		"oAP": "/images/healthicity/pl1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/pl2.png": {
+	"/images/healthicity/pl2.png": {
 		"ft": 32768,
 		"iS": 65591,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/pl2.png",
+		"oAP": "/images/healthicity/pl2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/pl3.png": {
+	"/images/healthicity/pl3.png": {
 		"ft": 32768,
 		"iS": 106452,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/pl3.png",
+		"oAP": "/images/healthicity/pl3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/pl4.png": {
+	"/images/healthicity/pl4.png": {
 		"ft": 32768,
 		"iS": 99998,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/pl4.png",
+		"oAP": "/images/healthicity/pl4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/pl5.png": {
+	"/images/healthicity/pl5.png": {
 		"ft": 32768,
 		"iS": 43192,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/pl5.png",
+		"oAP": "/images/healthicity/pl5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/pl6.png": {
+	"/images/healthicity/pl6.png": {
 		"ft": 32768,
 		"iS": 109270,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/pl6.png",
+		"oAP": "/images/healthicity/pl6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/product1.png": {
+	"/images/healthicity/product1.png": {
 		"ft": 32768,
 		"iS": 230180,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/product1.png",
+		"oAP": "/images/healthicity/product1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/product2.png": {
+	"/images/healthicity/product2.png": {
 		"ft": 32768,
 		"iS": 185247,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/product2.png",
+		"oAP": "/images/healthicity/product2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/product3.png": {
+	"/images/healthicity/product3.png": {
 		"ft": 32768,
 		"iS": 86675,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/product3.png",
+		"oAP": "/images/healthicity/product3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/product4.png": {
+	"/images/healthicity/product4.png": {
 		"ft": 32768,
 		"iS": 134581,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/product4.png",
+		"oAP": "/images/healthicity/product4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/product5.jpg": {
+	"/images/healthicity/product5.jpg": {
 		"ft": 16384,
 		"iS": 42354,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/product5.jpg",
+		"oAP": "/images/healthicity/product5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/sg1.png": {
+	"/images/healthicity/sg1.png": {
 		"ft": 32768,
 		"iS": 48585,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/sg1.png",
+		"oAP": "/images/healthicity/sg1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/sg2.png": {
+	"/images/healthicity/sg2.png": {
 		"ft": 32768,
 		"iS": 62397,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/sg2.png",
+		"oAP": "/images/healthicity/sg2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/sg3.png": {
+	"/images/healthicity/sg3.png": {
 		"ft": 32768,
 		"iS": 55928,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/sg3.png",
+		"oAP": "/images/healthicity/sg3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/sg4.png": {
+	"/images/healthicity/sg4.png": {
 		"ft": 32768,
 		"iS": 74305,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/sg4.png",
+		"oAP": "/images/healthicity/sg4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/sg5.png": {
+	"/images/healthicity/sg5.png": {
 		"ft": 32768,
 		"iS": 105177,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/sg5.png",
+		"oAP": "/images/healthicity/sg5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/sg6.png": {
+	"/images/healthicity/sg6.png": {
 		"ft": 32768,
 		"iS": 89917,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/sg6.png",
+		"oAP": "/images/healthicity/sg6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/start1.jpg": {
+	"/images/healthicity/start1.jpg": {
 		"ft": 16384,
 		"iS": 123445,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/start1.jpg",
+		"oAP": "/images/healthicity/start1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/start2.jpg": {
+	"/images/healthicity/start2.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/start2.jpg",
+		"oAP": "/images/healthicity/start2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/start3.jpg": {
+	"/images/healthicity/start3.jpg": {
 		"ft": 16384,
 		"iS": 214654,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/start3.jpg",
+		"oAP": "/images/healthicity/start3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/start4.jpg": {
+	"/images/healthicity/start4.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/start4.jpg",
+		"oAP": "/images/healthicity/start4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/healthicity\/start5.png": {
+	"/images/healthicity/start5.png": {
 		"ft": 32768,
 		"iS": 129647,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/start5.png",
+		"oAP": "/images/healthicity/start5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/healthicity\/start6.jpg": {
+	"/images/healthicity/start6.jpg": {
 		"ft": 16384,
 		"iS": 83595,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/healthicity\/start6.jpg",
+		"oAP": "/images/healthicity/start6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/icon-battlenet.png": {
+	"/images/icon-battlenet.png": {
 		"ft": 32768,
 		"iS": 190190,
 		"oA": 0,
-		"oAP": "\/images\/icon-battlenet.png",
+		"oAP": "/images/icon-battlenet.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/icon-experticity-color.svg": {
+	"/images/icon-experticity-color.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-experticity-color.svg",
+		"oAP": "/images/icon-experticity-color.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-experticity.svg": {
+	"/images/icon-experticity.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-experticity.svg",
+		"oAP": "/images/icon-experticity.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-healthicity-color.svg": {
+	"/images/icon-healthicity-color.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-healthicity-color.svg",
+		"oAP": "/images/icon-healthicity-color.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-healthicity.svg": {
+	"/images/icon-healthicity.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-healthicity.svg",
+		"oAP": "/images/icon-healthicity.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-needle-color.svg": {
+	"/images/icon-needle-color.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-needle-color.svg",
+		"oAP": "/images/icon-needle-color.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-needle.svg": {
+	"/images/icon-needle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-needle.svg",
+		"oAP": "/images/icon-needle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-verisk-color.svg": {
+	"/images/icon-verisk-color.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-verisk-color.svg",
+		"oAP": "/images/icon-verisk-color.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-verisk.svg": {
+	"/images/icon-verisk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon-verisk.svg",
+		"oAP": "/images/icon-verisk.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon.svg": {
+	"/images/icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/icon.svg",
+		"oAP": "/images/icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/linkedin-icon.svg": {
+	"/images/linkedin-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/linkedin-icon.svg",
+		"oAP": "/images/linkedin-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/linkedin-logo.svg": {
+	"/images/linkedin-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/linkedin-logo.svg",
+		"oAP": "/images/linkedin-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/login\/card-small.jpg": {
+	"/images/login/card-small.jpg": {
 		"ft": 16384,
 		"iS": 39738,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/card-small.jpg",
+		"oAP": "/images/login/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/card-small.png": {
+	"/images/login/card-small.png": {
 		"ft": 32768,
 		"iS": 550490,
 		"oA": 0,
-		"oAP": "\/images\/login\/card-small.png",
+		"oAP": "/images/login/card-small.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/concept-1.jpg": {
+	"/images/login/concept-1.jpg": {
 		"ft": 16384,
 		"iS": 30446,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/concept-1.jpg",
+		"oAP": "/images/login/concept-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/concept-2.jpg": {
+	"/images/login/concept-2.jpg": {
 		"ft": 16384,
 		"iS": 62129,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/concept-2.jpg",
+		"oAP": "/images/login/concept-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/confusion.png": {
+	"/images/login/confusion.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/confusion.png",
+		"oAP": "/images/login/confusion.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/flow-1.png": {
+	"/images/login/flow-1.png": {
 		"ft": 32768,
 		"iS": 49434,
 		"oA": 0,
-		"oAP": "\/images\/login\/flow-1.png",
+		"oAP": "/images/login/flow-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/flow-2.png": {
+	"/images/login/flow-2.png": {
 		"ft": 32768,
 		"iS": 47701,
 		"oA": 0,
-		"oAP": "\/images\/login\/flow-2.png",
+		"oAP": "/images/login/flow-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/flow-3.png": {
+	"/images/login/flow-3.png": {
 		"ft": 32768,
 		"iS": 55798,
 		"oA": 0,
-		"oAP": "\/images\/login\/flow-3.png",
+		"oAP": "/images/login/flow-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/flow-4.png": {
+	"/images/login/flow-4.png": {
 		"ft": 32768,
 		"iS": 52096,
 		"oA": 0,
-		"oAP": "\/images\/login\/flow-4.png",
+		"oAP": "/images/login/flow-4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/flow-5.png": {
+	"/images/login/flow-5.png": {
 		"ft": 32768,
 		"iS": 51765,
 		"oA": 0,
-		"oAP": "\/images\/login\/flow-5.png",
+		"oAP": "/images/login/flow-5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/login-1.jpg": {
+	"/images/login/login-1.jpg": {
 		"ft": 16384,
 		"iS": 117125,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-1.jpg",
+		"oAP": "/images/login/login-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-10.jpg": {
+	"/images/login/login-10.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-10.jpg",
+		"oAP": "/images/login/login-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-2.jpg": {
+	"/images/login/login-2.jpg": {
 		"ft": 16384,
 		"iS": 116829,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-2.jpg",
+		"oAP": "/images/login/login-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-3.jpg": {
+	"/images/login/login-3.jpg": {
 		"ft": 16384,
 		"iS": 123852,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-3.jpg",
+		"oAP": "/images/login/login-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-4.jpg": {
+	"/images/login/login-4.jpg": {
 		"ft": 16384,
 		"iS": 68593,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-4.jpg",
+		"oAP": "/images/login/login-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-5.jpg": {
+	"/images/login/login-5.jpg": {
 		"ft": 16384,
 		"iS": 190005,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-5.jpg",
+		"oAP": "/images/login/login-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-6.jpg": {
+	"/images/login/login-6.jpg": {
 		"ft": 16384,
 		"iS": 98809,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-6.jpg",
+		"oAP": "/images/login/login-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-7.jpg": {
+	"/images/login/login-7.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-7.jpg",
+		"oAP": "/images/login/login-7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-8.jpg": {
+	"/images/login/login-8.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-8.jpg",
+		"oAP": "/images/login/login-8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-9.jpg": {
+	"/images/login/login-9.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-9.jpg",
+		"oAP": "/images/login/login-9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-am.jpg": {
+	"/images/login/login-am.jpg": {
 		"ft": 16384,
 		"iS": 91476,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-am.jpg",
+		"oAP": "/images/login/login-am.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-cm.jpg": {
+	"/images/login/login-cm.jpg": {
 		"ft": 16384,
 		"iS": 116684,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-cm.jpg",
+		"oAP": "/images/login/login-cm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-final.png": {
+	"/images/login/login-final.png": {
 		"ft": 32768,
 		"iS": 1117190,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-final.png",
+		"oAP": "/images/login/login-final.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/login-hy.jpg": {
+	"/images/login/login-hy.jpg": {
 		"ft": 16384,
 		"iS": 117125,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-hy.jpg",
+		"oAP": "/images/login/login-hy.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-small.jpg": {
+	"/images/login/login-small.jpg": {
 		"ft": 16384,
 		"iS": 129778,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-small.jpg",
+		"oAP": "/images/login/login-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/login-tc.jpg": {
+	"/images/login/login-tc.jpg": {
 		"ft": 16384,
 		"iS": 95014,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/login-tc.jpg",
+		"oAP": "/images/login/login-tc.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-am.jpg": {
+	"/images/login/old-am.jpg": {
 		"ft": 16384,
 		"iS": 31806,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-am.jpg",
+		"oAP": "/images/login/old-am.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-am2.jpg": {
+	"/images/login/old-am2.jpg": {
 		"ft": 16384,
 		"iS": 66591,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-am2.jpg",
+		"oAP": "/images/login/old-am2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-cm.jpg": {
+	"/images/login/old-cm.jpg": {
 		"ft": 16384,
 		"iS": 29279,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-cm.jpg",
+		"oAP": "/images/login/old-cm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-cm2.jpg": {
+	"/images/login/old-cm2.jpg": {
 		"ft": 16384,
 		"iS": 70160,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-cm2.jpg",
+		"oAP": "/images/login/old-cm2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-hm.jpg": {
+	"/images/login/old-hm.jpg": {
 		"ft": 16384,
 		"iS": 30461,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-hm.jpg",
+		"oAP": "/images/login/old-hm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-hm2.jpg": {
+	"/images/login/old-hm2.jpg": {
 		"ft": 16384,
 		"iS": 54821,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-hm2.jpg",
+		"oAP": "/images/login/old-hm2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-tc.jpg": {
+	"/images/login/old-tc.jpg": {
 		"ft": 16384,
 		"iS": 37270,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-tc.jpg",
+		"oAP": "/images/login/old-tc.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/old-tc2.jpg": {
+	"/images/login/old-tc2.jpg": {
 		"ft": 16384,
 		"iS": 109515,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/old-tc2.jpg",
+		"oAP": "/images/login/old-tc2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/password.gif": {
+	"/images/login/password.gif": {
 		"ft": 4194304,
 		"iS": 50444,
 		"oA": 0,
-		"oAP": "\/images\/login\/password.gif",
+		"oAP": "/images/login/password.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/login\/presentation-1.png": {
+	"/images/login/presentation-1.png": {
 		"ft": 32768,
 		"iS": 25213,
 		"oA": 0,
-		"oAP": "\/images\/login\/presentation-1.png",
+		"oAP": "/images/login/presentation-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/presentation-2.png": {
+	"/images/login/presentation-2.png": {
 		"ft": 32768,
 		"iS": 26064,
 		"oA": 0,
-		"oAP": "\/images\/login\/presentation-2.png",
+		"oAP": "/images/login/presentation-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/presentation-3.png": {
+	"/images/login/presentation-3.png": {
 		"ft": 32768,
 		"iS": 29641,
 		"oA": 0,
-		"oAP": "\/images\/login\/presentation-3.png",
+		"oAP": "/images/login/presentation-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/presentation-4.png": {
+	"/images/login/presentation-4.png": {
 		"ft": 32768,
 		"iS": 29512,
 		"oA": 0,
-		"oAP": "\/images\/login\/presentation-4.png",
+		"oAP": "/images/login/presentation-4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/login\/process-1.jpg": {
+	"/images/login/process-1.jpg": {
 		"ft": 16384,
 		"iS": 134423,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/process-1.jpg",
+		"oAP": "/images/login/process-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/process-2.jpg": {
+	"/images/login/process-2.jpg": {
 		"ft": 16384,
 		"iS": 133978,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/process-2.jpg",
+		"oAP": "/images/login/process-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/process-3.jpg": {
+	"/images/login/process-3.jpg": {
 		"ft": 16384,
 		"iS": 94531,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/process-3.jpg",
+		"oAP": "/images/login/process-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/process-4.jpg": {
+	"/images/login/process-4.jpg": {
 		"ft": 16384,
 		"iS": 135034,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/process-4.jpg",
+		"oAP": "/images/login/process-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/login\/sketches.jpg": {
+	"/images/login/sketches.jpg": {
 		"ft": 16384,
 		"iS": 382605,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/login\/sketches.jpg",
+		"oAP": "/images/login/sketches.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/logo-blizzard.png": {
+	"/images/logo-blizzard.png": {
 		"ft": 32768,
 		"iS": 225867,
 		"oA": 0,
-		"oAP": "\/images\/logo-blizzard.png",
+		"oAP": "/images/logo-blizzard.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/medium-icon.svg": {
+	"/images/medium-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/medium-icon.svg",
+		"oAP": "/images/medium-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/medium-logo.svg": {
+	"/images/medium-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/medium-logo.svg",
+		"oAP": "/images/medium-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/page-background.jpg": {
+	"/images/page-background.jpg": {
 		"ft": 16384,
 		"iS": 838725,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/page-background.jpg",
+		"oAP": "/images/page-background.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/promoted-content\/card-small.jpg": {
+	"/images/ParkSLC.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/ParkSLC.mp4",
+		"oF": 0
+		},
+	"/images/promoted-content/card-small.jpg": {
 		"ft": 16384,
 		"iS": 37477,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/card-small.jpg",
+		"oAP": "/images/promoted-content/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/promoted-content\/design1.jpg": {
+	"/images/promoted-content/design1.jpg": {
 		"ft": 16384,
 		"iS": 164608,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/design1.jpg",
+		"oAP": "/images/promoted-content/design1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/promoted-content\/design2.jpg": {
+	"/images/promoted-content/design2.jpg": {
 		"ft": 16384,
 		"iS": 233272,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/design2.jpg",
+		"oAP": "/images/promoted-content/design2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/promoted-content\/design3.jpg": {
+	"/images/promoted-content/design3.jpg": {
 		"ft": 16384,
 		"iS": 142568,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/design3.jpg",
+		"oAP": "/images/promoted-content/design3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/promoted-content\/final.jpg": {
+	"/images/promoted-content/final.jpg": {
 		"ft": 16384,
 		"iS": 220022,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/final.jpg",
+		"oAP": "/images/promoted-content/final.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/promoted-content\/final.mp4": {
+	"/images/promoted-content/final.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/final.mp4",
+		"oAP": "/images/promoted-content/final.mp4",
 		"oF": 0
 		},
-	"\/images\/promoted-content\/original.jpg": {
+	"/images/promoted-content/original.jpg": {
 		"ft": 16384,
 		"iS": 95111,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/promoted-content\/original.jpg",
+		"oAP": "/images/promoted-content/original.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/1-cropped.jpg": {
+	"/images/store/1-cropped.jpg": {
 		"ft": 16384,
 		"iS": 149506,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/1-cropped.jpg",
+		"oAP": "/images/store/1-cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/2-cropped.jpg": {
+	"/images/store/2-cropped.jpg": {
 		"ft": 16384,
 		"iS": 135972,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/2-cropped.jpg",
+		"oAP": "/images/store/2-cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/3-cropped.jpg": {
+	"/images/store/3-cropped.jpg": {
 		"ft": 16384,
 		"iS": 110653,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/3-cropped.jpg",
+		"oAP": "/images/store/3-cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/3point5-categories.jpg": {
+	"/images/store/3point5-categories.jpg": {
 		"ft": 16384,
 		"iS": 36490,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/3point5-categories.jpg",
+		"oAP": "/images/store/3point5-categories.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/3point5-product.jpg": {
+	"/images/store/3point5-product.jpg": {
 		"ft": 16384,
 		"iS": 63645,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/3point5-product.jpg",
+		"oAP": "/images/store/3point5-product.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/3point5-products.jpg": {
+	"/images/store/3point5-products.jpg": {
 		"ft": 16384,
 		"iS": 53576,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/3point5-products.jpg",
+		"oAP": "/images/store/3point5-products.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/card-small.jpg": {
+	"/images/store/card-small.jpg": {
 		"ft": 16384,
 		"iS": 32289,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/card-small.jpg",
+		"oAP": "/images/store/card-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/card-small.png": {
+	"/images/store/card-small.png": {
 		"ft": 32768,
 		"iS": 252619,
 		"oA": 0,
-		"oAP": "\/images\/store\/card-small.png",
+		"oAP": "/images/store/card-small.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/experticity-store-large-blur.jpg": {
+	"/images/store/experticity-store-large-blur.jpg": {
 		"ft": 16384,
 		"iS": 139440,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/experticity-store-large-blur.jpg",
+		"oAP": "/images/store/experticity-store-large-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/experticity-store-small.jpg": {
+	"/images/store/experticity-store-small.jpg": {
 		"ft": 16384,
 		"iS": 87235,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/experticity-store-small.jpg",
+		"oAP": "/images/store/experticity-store-small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/icon-bw.jpg": {
+	"/images/store/icon-bw.jpg": {
 		"ft": 16384,
 		"iS": 72302,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/icon-bw.jpg",
+		"oAP": "/images/store/icon-bw.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/large1.jpg": {
+	"/images/store/large1.jpg": {
 		"ft": 16384,
 		"iS": 183774,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/large1.jpg",
+		"oAP": "/images/store/large1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/large1.png": {
+	"/images/store/large1.png": {
 		"ft": 32768,
 		"iS": 877471,
 		"oA": 0,
-		"oAP": "\/images\/store\/large1.png",
+		"oAP": "/images/store/large1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/large2.jpg": {
+	"/images/store/large2.jpg": {
 		"ft": 16384,
 		"iS": 198755,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/large2.jpg",
+		"oAP": "/images/store/large2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/large2.png": {
+	"/images/store/large2.png": {
 		"ft": 32768,
 		"iS": 814374,
 		"oA": 0,
-		"oAP": "\/images\/store\/large2.png",
+		"oAP": "/images/store/large2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/large3.jpg": {
+	"/images/store/large3.jpg": {
 		"ft": 16384,
 		"iS": 154774,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/large3.jpg",
+		"oAP": "/images/store/large3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/large3.png": {
+	"/images/store/large3.png": {
 		"ft": 32768,
 		"iS": 603265,
 		"oA": 0,
-		"oAP": "\/images\/store\/large3.png",
+		"oAP": "/images/store/large3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/medium1.jpg": {
+	"/images/store/medium1.jpg": {
 		"ft": 16384,
 		"iS": 122014,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/medium1.jpg",
+		"oAP": "/images/store/medium1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/medium1.png": {
+	"/images/store/medium1.png": {
 		"ft": 32768,
 		"iS": 521024,
 		"oA": 0,
-		"oAP": "\/images\/store\/medium1.png",
+		"oAP": "/images/store/medium1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/medium2.jpg": {
+	"/images/store/medium2.jpg": {
 		"ft": 16384,
 		"iS": 150913,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/medium2.jpg",
+		"oAP": "/images/store/medium2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/medium2.png": {
+	"/images/store/medium2.png": {
 		"ft": 32768,
 		"iS": 449840,
 		"oA": 0,
-		"oAP": "\/images\/store\/medium2.png",
+		"oAP": "/images/store/medium2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/medium3.jpg": {
+	"/images/store/medium3.jpg": {
 		"ft": 16384,
 		"iS": 112591,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/medium3.jpg",
+		"oAP": "/images/store/medium3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/medium3.png": {
+	"/images/store/medium3.png": {
 		"ft": 32768,
 		"iS": 254814,
 		"oA": 0,
-		"oAP": "\/images\/store\/medium3.png",
+		"oAP": "/images/store/medium3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/old1.jpg": {
+	"/images/store/old1.jpg": {
 		"ft": 16384,
 		"iS": 92878,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/old1.jpg",
+		"oAP": "/images/store/old1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/old2.jpg": {
+	"/images/store/old2.jpg": {
 		"ft": 16384,
 		"iS": 87679,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/old2.jpg",
+		"oAP": "/images/store/old2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/old3.jpg": {
+	"/images/store/old3.jpg": {
 		"ft": 16384,
 		"iS": 92840,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/old3.jpg",
+		"oAP": "/images/store/old3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/old4.jpg": {
+	"/images/store/old4.jpg": {
 		"ft": 16384,
 		"iS": 70602,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/old4.jpg",
+		"oAP": "/images/store/old4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/pattern-library.png": {
+	"/images/store/pattern-library.png": {
 		"ft": 32768,
 		"iS": 163635,
 		"oA": 0,
-		"oAP": "\/images\/store\/pattern-library.png",
+		"oAP": "/images/store/pattern-library.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/preview.png": {
+	"/images/store/preview.png": {
 		"ft": 32768,
 		"iS": 259123,
 		"oA": 0,
-		"oAP": "\/images\/store\/preview.png",
+		"oAP": "/images/store/preview.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/promotive-categories.jpg": {
+	"/images/store/promotive-categories.jpg": {
 		"ft": 16384,
 		"iS": 31832,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/promotive-categories.jpg",
+		"oAP": "/images/store/promotive-categories.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/promotive-product.jpg": {
+	"/images/store/promotive-product.jpg": {
 		"ft": 16384,
 		"iS": 40136,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/promotive-product.jpg",
+		"oAP": "/images/store/promotive-product.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/promotive-products.jpg": {
+	"/images/store/promotive-products.jpg": {
 		"ft": 16384,
 		"iS": 47536,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/promotive-products.jpg",
+		"oAP": "/images/store/promotive-products.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/promotive1.png": {
+	"/images/store/promotive1.png": {
 		"ft": 32768,
 		"iS": 606314,
 		"oA": 0,
-		"oAP": "\/images\/store\/promotive1.png",
+		"oAP": "/images/store/promotive1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/promotive2.png": {
+	"/images/store/promotive2.png": {
 		"ft": 32768,
 		"iS": 796885,
 		"oA": 0,
-		"oAP": "\/images\/store\/promotive2.png",
+		"oAP": "/images/store/promotive2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/promotive3.png": {
+	"/images/store/promotive3.png": {
 		"ft": 32768,
 		"iS": 727842,
 		"oA": 0,
-		"oAP": "\/images\/store\/promotive3.png",
+		"oAP": "/images/store/promotive3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/small1.jpg": {
+	"/images/store/small1.jpg": {
 		"ft": 16384,
 		"iS": 94929,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/small1.jpg",
+		"oAP": "/images/store/small1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/small1.png": {
+	"/images/store/small1.png": {
 		"ft": 32768,
 		"iS": 467068,
 		"oA": 0,
-		"oAP": "\/images\/store\/small1.png",
+		"oAP": "/images/store/small1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/small2.jpg": {
+	"/images/store/small2.jpg": {
 		"ft": 16384,
 		"iS": 106515,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/small2.jpg",
+		"oAP": "/images/store/small2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/small2.png": {
+	"/images/store/small2.png": {
 		"ft": 32768,
 		"iS": 319336,
 		"oA": 0,
-		"oAP": "\/images\/store\/small2.png",
+		"oAP": "/images/store/small2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/small3.jpg": {
+	"/images/store/small3.jpg": {
 		"ft": 16384,
 		"iS": 84096,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/store\/small3.jpg",
+		"oAP": "/images/store/small3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/store\/small3.png": {
+	"/images/store/small3.png": {
 		"ft": 32768,
 		"iS": 272441,
 		"oA": 0,
-		"oAP": "\/images\/store\/small3.png",
+		"oAP": "/images/store/small3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/store\/store-finished.png": {
+	"/images/store/store-finished.png": {
 		"ft": 32768,
 		"iS": 381383,
 		"oA": 0,
-		"oAP": "\/images\/store\/store-finished.png",
+		"oAP": "/images/store/store-finished.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/tp-logo.svg": {
+	"/images/tp-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/tp-logo.svg",
+		"oAP": "/images/tp-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/trev.jpg": {
+	"/images/trev.jpg": {
 		"ft": 16384,
 		"iS": 42497,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/trev.jpg",
+		"oAP": "/images/trev.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/trev.png": {
+	"/images/trev.png": {
 		"ft": 32768,
 		"iS": 536273,
 		"oA": 0,
-		"oAP": "\/images\/trev.png",
+		"oAP": "/images/trev.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/index-old.html": {
+	"/index-old.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index-old.html",
+		"oAP": "/index-old.html",
 		"oF": 0
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/js\/bootstrapbits.min.js": {
+	"/js/bootstrapbits.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/bootstrapbits.min-min.js",
+		"oAP": "/js/min/bootstrapbits.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/jribbble.min.js": {
+	"/js/jribbble.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/min\/jribbble.min-min.js",
+		"oAP": "/js/min/jribbble.min-min.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/tp-min.js": {
+	"/js/tp-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/min\/tp-min-min.js",
+		"oAP": "/js/min/tp-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/tp.js": {
+	"/js/tp.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/tp-min.js",
+		"oAP": "/js/tp-min.js",
 		"oF": 2,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/node_modules": {
+	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
-		"oAP": "\/build\/node_modules",
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"\/portfolio\/answers.html": {
+	"/portfolio/answers.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers.html",
+		"oAP": "/portfolio/answers.html",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/css\/answers.css": {
+	"/portfolio/answers/css/answers.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/css\/answers-min.css",
+		"oAP": "/portfolio/answers/css/answers-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/portfolio\/answers\/css\/bootstrap.min.css": {
+	"/portfolio/answers/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/css\/bootstrap.min-min.css",
+		"oAP": "/portfolio/answers/css/bootstrap.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/portfolio\/answers\/css\/font-awesome.min.css": {
+	"/portfolio/answers/css/font-awesome.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/css\/font-awesome.min-min.css",
+		"oAP": "/portfolio/answers/css/font-awesome.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/portfolio\/answers\/css\/fonts.css": {
+	"/portfolio/answers/css/fonts.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/css\/fonts-min.css",
+		"oAP": "/portfolio/answers/css/fonts-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/portfolio\/answers\/fonts\/fontawesome-webfont.eot": {
+	"/portfolio/answers/fonts/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/fontawesome-webfont.eot",
+		"oAP": "/portfolio/answers/fonts/fontawesome-webfont.eot",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/fontawesome-webfont.svg": {
+	"/portfolio/answers/fonts/fontawesome-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/fonts\/fontawesome-webfont.svg",
+		"oAP": "/portfolio/answers/fonts/fontawesome-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/fonts\/fontawesome-webfont.ttf": {
+	"/portfolio/answers/fonts/fontawesome-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/fontawesome-webfont.ttf",
+		"oAP": "/portfolio/answers/fonts/fontawesome-webfont.ttf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/fontawesome-webfont.woff": {
+	"/portfolio/answers/fonts/fontawesome-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/fontawesome-webfont.woff",
+		"oAP": "/portfolio/answers/fonts/fontawesome-webfont.woff",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/FontAwesome.otf": {
+	"/portfolio/answers/fonts/FontAwesome.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/FontAwesome.otf",
+		"oAP": "/portfolio/answers/fonts/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Black.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Black.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Black.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Black.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Bold.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Bold.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Bold.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Bold.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Heavy.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Heavy.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Heavy.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Heavy.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Light.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Light.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Light.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Light.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Medium.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Medium.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Medium.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Medium.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Roman.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Roman.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Roman.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Roman.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-Thin.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-Thin.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-Thin.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-Thin.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/fonts\/HelveticaNeue-UltraLight.otf": {
+	"/portfolio/answers/fonts/HelveticaNeue-UltraLight.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/fonts\/HelveticaNeue-UltraLight.otf",
+		"oAP": "/portfolio/answers/fonts/HelveticaNeue-UltraLight.otf",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/img\/answsers-bg.jpg": {
+	"/portfolio/answers/img/answsers-bg.jpg": {
 		"ft": 16384,
 		"iS": 105667,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/answsers-bg.jpg",
+		"oAP": "/portfolio/answers/img/answsers-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/blue-blur.jpg": {
+	"/portfolio/answers/img/blue-blur.jpg": {
 		"ft": 16384,
 		"iS": 37864,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/blue-blur.jpg",
+		"oAP": "/portfolio/answers/img/blue-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-hor1.png": {
+	"/portfolio/answers/img/dummy-hor1.png": {
 		"ft": 32768,
 		"iS": 262978,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-hor1.png",
+		"oAP": "/portfolio/answers/img/dummy-hor1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-hor2.png": {
+	"/portfolio/answers/img/dummy-hor2.png": {
 		"ft": 32768,
 		"iS": 213595,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-hor2.png",
+		"oAP": "/portfolio/answers/img/dummy-hor2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-large1.png": {
+	"/portfolio/answers/img/dummy-large1.png": {
 		"ft": 32768,
 		"iS": 325828,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-large1.png",
+		"oAP": "/portfolio/answers/img/dummy-large1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-large2.png": {
+	"/portfolio/answers/img/dummy-large2.png": {
 		"ft": 32768,
 		"iS": 308780,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-large2.png",
+		"oAP": "/portfolio/answers/img/dummy-large2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-small1.png": {
+	"/portfolio/answers/img/dummy-small1.png": {
 		"ft": 32768,
 		"iS": 131897,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-small1.png",
+		"oAP": "/portfolio/answers/img/dummy-small1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-small2.png": {
+	"/portfolio/answers/img/dummy-small2.png": {
 		"ft": 32768,
 		"iS": 104828,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-small2.png",
+		"oAP": "/portfolio/answers/img/dummy-small2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-small3.png": {
+	"/portfolio/answers/img/dummy-small3.png": {
 		"ft": 32768,
 		"iS": 79381,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-small3.png",
+		"oAP": "/portfolio/answers/img/dummy-small3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-small4.png": {
+	"/portfolio/answers/img/dummy-small4.png": {
 		"ft": 32768,
 		"iS": 97929,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-small4.png",
+		"oAP": "/portfolio/answers/img/dummy-small4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-small5.png": {
+	"/portfolio/answers/img/dummy-small5.png": {
 		"ft": 32768,
 		"iS": 103154,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-small5.png",
+		"oAP": "/portfolio/answers/img/dummy-small5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-small6.png": {
+	"/portfolio/answers/img/dummy-small6.png": {
 		"ft": 32768,
 		"iS": 96847,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-small6.png",
+		"oAP": "/portfolio/answers/img/dummy-small6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/dummy-vert1.png": {
+	"/portfolio/answers/img/dummy-vert1.png": {
 		"ft": 32768,
 		"iS": 294964,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/dummy-vert1.png",
+		"oAP": "/portfolio/answers/img/dummy-vert1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/icon-payment.svg": {
+	"/portfolio/answers/img/icon-payment.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/img\/icon-payment.svg",
+		"oAP": "/portfolio/answers/img/icon-payment.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/img\/icon-population.svg": {
+	"/portfolio/answers/img/icon-population.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/img\/icon-population.svg",
+		"oAP": "/portfolio/answers/img/icon-population.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/img\/icon-quality.svg": {
+	"/portfolio/answers/img/icon-quality.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/img\/icon-quality.svg",
+		"oAP": "/portfolio/answers/img/icon-quality.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/img\/icon-revenue.svg": {
+	"/portfolio/answers/img/icon-revenue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/img\/icon-revenue.svg",
+		"oAP": "/portfolio/answers/img/icon-revenue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/img\/laptop.png": {
+	"/portfolio/answers/img/laptop.png": {
 		"ft": 32768,
 		"iS": 449661,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/img\/laptop.png",
+		"oAP": "/portfolio/answers/img/laptop.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/portfolio\/answers\/img\/vh-logo-midnight.svg": {
+	"/portfolio/answers/img/vh-logo-midnight.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/img\/vh-logo-midnight.svg",
+		"oAP": "/portfolio/answers/img/vh-logo-midnight.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/img\/vh-logo-white.svg": {
+	"/portfolio/answers/img/vh-logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/portfolio\/answers\/img\/vh-logo-white.svg",
+		"oAP": "/portfolio/answers/img/vh-logo-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/portfolio\/answers\/index.html": {
+	"/portfolio/answers/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/index.html",
+		"oAP": "/portfolio/answers/index.html",
 		"oF": 0
 		},
-	"\/portfolio\/answers\/js\/answers.js": {
+	"/portfolio/answers/js/answers.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/min\/answers-min.js",
+		"oAP": "/portfolio/answers/js/min/answers-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/bootstrap.js": {
+	"/portfolio/answers/js/vendor/bootstrap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/bootstrap-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/bootstrap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/bootstrap.min.js": {
+	"/portfolio/answers/js/vendor/bootstrap.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/bootstrap.min-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/inview.js": {
+	"/portfolio/answers/js/vendor/inview.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/inview-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/inview-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/jquery-1.10.1.min.js": {
+	"/portfolio/answers/js/vendor/jquery-1.10.1.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/jquery-1.10.1.min-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/jquery-1.10.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/jquery-2.1.0.min.js": {
+	"/portfolio/answers/js/vendor/jquery-2.1.0.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/jquery-2.1.0.min-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/jquery-2.1.0.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/jquery.parallax-1.1.3.js": {
+	"/portfolio/answers/js/vendor/jquery.parallax-1.1.3.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/jquery.parallax-1.1.3-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/jquery.parallax-1.1.3-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/answers\/js\/vendor\/jquery.scrollTo.min.js": {
+	"/portfolio/answers/js/vendor/jquery.scrollTo.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/portfolio\/answers\/js\/vendor\/min\/jquery.scrollTo.min-min.js",
+		"oAP": "/portfolio/answers/js/vendor/min/jquery.scrollTo.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/portfolio\/artwork.html": {
+	"/portfolio/App Ideas.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/artwork.html",
+		"oAP": "/portfolio/App Ideas.sketch",
 		"oF": 0
 		},
-	"\/portfolio\/blizzard-nav.html": {
+	"/portfolio/artwork.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/blizzard-nav.html",
+		"oAP": "/portfolio/artwork.html",
 		"oF": 0
 		},
-	"\/portfolio\/blizzard-shop-full.html": {
+	"/portfolio/blizzard-nav.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/blizzard-shop-full.html",
+		"oAP": "/portfolio/blizzard-nav.html",
 		"oF": 0
 		},
-	"\/portfolio\/blizzard-shop.html": {
+	"/portfolio/blizzard-shop-full.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/blizzard-shop.html",
+		"oAP": "/portfolio/blizzard-shop-full.html",
 		"oF": 0
 		},
-	"\/portfolio\/content.html": {
+	"/portfolio/blizzard-shop.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/content.html",
+		"oAP": "/portfolio/blizzard-shop.html",
 		"oF": 0
 		},
-	"\/portfolio\/dashboard.html": {
+	"/portfolio/content.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/dashboard.html",
+		"oAP": "/portfolio/content.html",
 		"oF": 0
 		},
-	"\/portfolio\/documents.html": {
+	"/portfolio/dashboard.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/documents.html",
+		"oAP": "/portfolio/dashboard.html",
 		"oF": 0
 		},
-	"\/portfolio\/healthicity.html": {
+	"/portfolio/documents.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/healthicity.html",
+		"oAP": "/portfolio/documents.html",
 		"oF": 0
 		},
-	"\/portfolio\/index.html": {
+	"/portfolio/healthicity.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/index.html",
+		"oAP": "/portfolio/healthicity.html",
 		"oF": 0
 		},
-	"\/portfolio\/login.html": {
+	"/portfolio/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/login.html",
+		"oAP": "/portfolio/index.html",
 		"oF": 0
 		},
-	"\/portfolio\/promoted-content.html": {
+	"/portfolio/login.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/promoted-content.html",
+		"oAP": "/portfolio/login.html",
 		"oF": 0
 		},
-	"\/portfolio\/store.html": {
+	"/portfolio/promoted-content.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/portfolio\/store.html",
+		"oAP": "/portfolio/promoted-content.html",
 		"oF": 0
 		},
-	"\/previous versions\/blizzard-content.html": {
+	"/portfolio/shop2/cards.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/cards-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/portfolio/shop2/family.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous versions\/blizzard-content.html",
+		"oAP": "/portfolio/shop2/family.html",
 		"oF": 0
 		},
-	"\/previous versions\/dashboard.html": {
+	"/portfolio/shop2/home.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous versions\/dashboard.html",
+		"oAP": "/portfolio/shop2/home.html",
 		"oF": 0
 		},
-	"\/previous versions\/login.html": {
+	"/portfolio/shop2/images/1-small.png": {
+		"ft": 32768,
+		"iS": 289806,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/1-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/1.png": {
+		"ft": 32768,
+		"iS": 237243,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/2-small.png": {
+		"ft": 32768,
+		"iS": 391772,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/2-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/2.png": {
+		"ft": 32768,
+		"iS": 293884,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/3-small.png": {
+		"ft": 32768,
+		"iS": 259391,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/3-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/3.png": {
+		"ft": 32768,
+		"iS": 331643,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/4-small.png": {
+		"ft": 32768,
+		"iS": 349445,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/4-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/4.png": {
+		"ft": 32768,
+		"iS": 260818,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/5-small.png": {
+		"ft": 32768,
+		"iS": 235050,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/5-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/5.png": {
+		"ft": 32768,
+		"iS": 305802,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/6-small.png": {
+		"ft": 32768,
+		"iS": 196622,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/6-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/6.png": {
+		"ft": 32768,
+		"iS": 248048,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/7-small.png": {
+		"ft": 32768,
+		"iS": 283718,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/7-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/7.png": {
+		"ft": 32768,
+		"iS": 353276,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/8-small.png": {
+		"ft": 32768,
+		"iS": 310772,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/8-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/8.png": {
+		"ft": 32768,
+		"iS": 402238,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/background1.jpg": {
+		"ft": 16384,
+		"iS": 133986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/background1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/portfolio/shop2/images/background1.png": {
+		"ft": 32768,
+		"iS": 301127,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/background1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/background2.jpg": {
+		"ft": 16384,
+		"iS": 62269,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/background2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/portfolio/shop2/images/background2.png": {
+		"ft": 32768,
+		"iS": 304163,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/background2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/carousel-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/carousel-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/carousel-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/carousel-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/chevron-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/chevron-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/down_chevron.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/down_chevron.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/featured/sc2-001-sm.png": {
+		"ft": 32768,
+		"iS": 257208,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/featured/sc2-001-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/featured/sc2-001.png": {
+		"ft": 32768,
+		"iS": 634686,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/featured/sc2-001.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/featured/wow001-sm.png": {
+		"ft": 32768,
+		"iS": 430145,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/featured/wow001-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/featured/wow001.png": {
+		"ft": 32768,
+		"iS": 738023,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/featured/wow001.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/footer-temp.png": {
+		"ft": 32768,
+		"iS": 8634,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/footer-temp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/icon-search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icon-search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/icons/diablo_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icons/diablo_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/icons/hearthstone_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icons/hearthstone_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/icons/heros_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icons/heros_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/icons/overwatch_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icons/overwatch_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/icons/starcraft_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icons/starcraft_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/icons/wow_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/portfolio/shop2/images/icons/wow_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/portfolio/shop2/images/logos/classic_logo.png": {
+		"ft": 32768,
+		"iS": 14936,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/classic_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/diablo_logo.png": {
+		"ft": 32768,
+		"iS": 22589,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/diablo_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/hearthstone_logo.png": {
+		"ft": 32768,
+		"iS": 15280,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/hearthstone_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/heroes_logo.png": {
+		"ft": 32768,
+		"iS": 22443,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/heroes_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/legion.png": {
+		"ft": 32768,
+		"iS": 201406,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/legion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/overwatch_logo.png": {
+		"ft": 32768,
+		"iS": 18322,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/overwatch_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/starcraft_logo.png": {
+		"ft": 32768,
+		"iS": 145431,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/starcraft_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/logos/wow_logo.png": {
+		"ft": 32768,
+		"iS": 19941,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/logos/wow_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/promoted/001.png": {
+		"ft": 32768,
+		"iS": 614401,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/promoted/001.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/promoted/002.jpg": {
+		"ft": 16384,
+		"iS": 134890,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/promoted/002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/portfolio/shop2/images/Thumbnails/thumb1.jpg": {
+		"ft": 16384,
+		"iS": 640242,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/Thumbnails/thumb1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/portfolio/shop2/images/Thumbnails/thumb1.png": {
+		"ft": 32768,
+		"iS": 2639577,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/Thumbnails/thumb1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/portfolio/shop2/images/Thumbnails/thumb2.jpg": {
+		"ft": 16384,
+		"iS": 844590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/images/Thumbnails/thumb2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/portfolio/shop2/js/shop.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/js/min/shop-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/portfolio/shop2/less/animations.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/less/animations-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/portfolio/shop2/less/animations.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous versions\/login.html",
+		"oAP": "/portfolio/shop2/less/animations.css.map",
 		"oF": 0
 		},
-	"\/previous versions\/store.html": {
+	"/portfolio/shop2/less/animations.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/card-module.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/card-module.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/cards.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/cards.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/featured-item.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/featured-item.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/franchise-bar.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/franchise-bar.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/main-styles.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/main-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/mixins.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/less/mixins-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/portfolio/shop2/less/mixins.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/on-page-nav.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/on-page-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/product-page.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/css/product-page.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/promoted-item.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/promoted-item.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/shop-nav.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/portfolio/shop2/css/shop-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/less/wm-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/less/wm-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/portfolio/shop2/less/wm-styles.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/css/wm-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/Results.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/previous versions\/store.html",
+		"oAP": "/portfolio/shop2/Results.html",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/portfolio/shop2/shop.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/shop-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/portfolio/shop2/shop.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/shop.css.map",
+		"oF": 0
+		},
+	"/portfolio/shop2/shop.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/portfolio/css/shop.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/portfolio/shop2/templates/featured large.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/templates/featured large.psd",
+		"oF": 0
+		},
+	"/portfolio/shop2/templates/featured small.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/templates/featured small.psd",
+		"oF": 0
+		},
+	"/portfolio/shop2/templates/tall card.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/templates/tall card.psd",
+		"oF": 0
+		},
+	"/portfolio/shop2/templates/wide card.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio/shop2/templates/wide card.psd",
+		"oF": 0
+		},
+	"/portfolio/store.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/portfolio/store.html",
+		"oF": 0
+		},
+	"/previous versions/blizzard-content.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/previous versions/blizzard-content.html",
+		"oF": 0
+		},
+	"/previous versions/dashboard.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/previous versions/dashboard.html",
+		"oF": 0
+		},
+	"/previous versions/login.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/previous versions/login.html",
+		"oF": 0
+		},
+	"/previous versions/store.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/previous versions/store.html",
+		"oF": 0
+		},
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -3551,7 +4446,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -3560,265 +4455,265 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/styles\/css\/mixins.css": {
+	"/styles/css/mixins.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/mixins-min.css",
+		"oAP": "/styles/css/mixins-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/styles\/css\/portfolio-piece.css": {
+	"/styles/css/portfolio-piece.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles\/css\/portfolio-piece-min.css",
+		"oAP": "/styles/css/portfolio-piece-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/styles\/css\/portfolio-v2.css": {
+	"/styles/css/portfolio-v2.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles\/css\/portfolio-v2-min.css",
+		"oAP": "/styles/css/portfolio-v2-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/styles\/css\/tp.css": {
+	"/styles/css/tp.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/tp-min.css",
+		"oAP": "/styles/css/tp-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/styles\/less\/animations.less": {
+	"/styles/less/animations.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/animations.css",
+		"oAP": "/styles/css/animations.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/case-studies.less": {
+	"/styles/less/case-studies.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/case-studies.css",
+		"oAP": "/styles/css/case-studies.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/casestudy.less": {
+	"/styles/less/casestudy.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/casestudy.css",
+		"oAP": "/styles/css/casestudy.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/footer.less": {
+	"/styles/less/footer.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/footer.css",
+		"oAP": "/styles/css/footer.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/header.less": {
+	"/styles/less/header.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/header.css",
+		"oAP": "/styles/css/header.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/home.less": {
+	"/styles/less/home.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/home.css",
+		"oAP": "/styles/css/home.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/index.less": {
+	"/styles/less/index.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/index.css",
+		"oAP": "/styles/css/index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/mixins.less": {
+	"/styles/less/mixins.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/mixins.css",
+		"oAP": "/styles/css/mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/modal.less": {
+	"/styles/less/modal.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/modal.css",
+		"oAP": "/styles/css/modal.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/navigation.less": {
+	"/styles/less/navigation.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/navigation.css",
+		"oAP": "/styles/css/navigation.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/portfolio-piece.less": {
+	"/styles/less/portfolio-piece.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/styles\/css\/portfolio-piece.css",
+		"oAP": "/styles/css/portfolio-piece.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/portfolio-v2.less": {
+	"/styles/less/portfolio-v2.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 0,
-		"oAP": "\/styles\/css\/portfolio-v2.css",
+		"oAP": "/styles/css/portfolio-v2.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/less\/tp.less": {
+	"/styles/less/tp.less": {
 		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 0,
-		"oAP": "\/styles\/css\/tp.css",
+		"oAP": "/styles/css/tp.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		}
 	},
@@ -3838,141 +4733,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -3984,7 +4832,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -3996,7 +4865,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -4032,53 +4919,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -4087,6 +4967,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -4444,6 +5325,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -4455,6 +5340,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -4500,6 +5389,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -4518,10 +5411,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -4720,9 +5609,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -5076,6 +5969,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -5104,6 +6001,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -5111,6 +6012,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -5166,7 +6071,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -5226,7 +6131,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -5621,7 +6526,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -5640,7 +6544,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -5672,19 +6576,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -5740,7 +6644,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -5769,7 +6673,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -5793,36 +6697,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5830,11 +6768,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -5858,6 +6796,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -5874,7 +6816,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -5882,20 +6832,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -5910,6 +6872,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -5918,12 +6888,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -5934,12 +6912,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -5950,23 +6936,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5978,9 +6992,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",

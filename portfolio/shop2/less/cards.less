@@ -1,0 +1,255 @@
+
+
+
+@default-card-bg-color: #000;
+@background-position-large: 50% 0%;
+@background-position-small: 100% 50%;
+@card-bg-percent: 80%;
+
+
+@card-001-bg-color: #1f243a;
+@card-001-bg-image: '@{root-img}1.png';
+@card-001-bg-image-small: '@{root-img}1-small.png';
+
+@card-002-bg-color: #0f1714;
+@card-002-bg-image: '@{root-img}2.png';
+@card-002-bg-image-small: '@{root-img}2-small.png';
+
+@card-003-bg-color: #040a16;
+@card-003-bg-image: '@{root-img}3.png';
+@card-003-bg-image-small: '@{root-img}3-small.png';
+
+@card-004-bg-color: @default-card-bg-color;
+@card-004-bg-image: '@{root-img}4.png';
+@card-004-bg-image-small: '@{root-img}4-small.png';
+
+@card-005-bg-color: #170c23;
+@card-005-bg-image: '@{root-img}5.png';
+@card-005-bg-image-small: '@{root-img}5-small.png';
+
+@card-006-bg-color: #1a0f34;
+@card-006-bg-image: '@{root-img}6.png';
+@card-006-bg-image-small: '@{root-img}6-small.png';
+
+@card-007-bg-color: #0f1928;
+@card-007-bg-image: '@{root-img}7.png';
+@card-007-bg-image-small: '@{root-img}7-small.png';
+
+@card-008-bg-color: #251204;
+@card-008-bg-image: '@{root-img}8.png';
+@card-008-bg-image-small: '@{root-img}8-small.png';
+
+
+
+
+.card-container .card {
+	border: solid 1px fade(@blizzard-blue, 40);
+	transition: box-shadow 0.3s  ease, transform 0.3s  ease, border 0.3s  ease;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+	background-size: 100%, 600px 300px;
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
+	&:hover {
+		box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+		transform: translateY(-5px);
+		border: solid 1px fade(@blizzard-blue, 80);
+	}
+	@media (min-width: 960px){
+		background-size: 100%, 330px;
+	}
+	@media (min-width: 1600px){
+    // padding: 238px 20px 70px 20px;
+}
+.card-content{
+	padding:20px 20px 50px;
+	@media (min-width: 960px){
+		padding: 200px 20px 70px 20px;
+	}
+}
+.franchise-logo {
+	display: none;
+}
+&.game-card {
+	.card-type {
+		display: none;
+	}
+	@media (min-width: 960px){
+		display: block;
+	}
+	.card-type {
+		color: @blizzard-accent;
+	}
+	@media (min-width: 960px){
+		text-align: center;
+		.franchise-icon, .card-name {
+			display: none;
+		}
+
+		.franchise-logo {
+			display: block;
+			width: 100%;
+			max-width: 240px;
+			margin: 0 auto;
+		}
+		.card-type {
+
+
+		}
+		.card-action {
+			left: 0;
+			text-align: center;
+			width: 100%;
+		}
+
+	}
+}
+
+.franchise-icon {
+	width: 30px;
+	margin-bottom: 10px;
+	@media (min-width: 960px){
+		width: 35px;
+	}
+	@media (min-width: 1024px){
+				// width: 45px;
+			}
+			@media (min-width: 1600px){
+				// width: 50px;
+			}
+		}
+
+
+		.card-name {
+			margin: 0 0 2px 0;
+			overflow: hidden;
+			max-width: 66.6%;
+			color: white;
+			text-align: left;
+			line-height: initial;
+
+			@media (min-width: 960px){
+				max-width: initial;
+			}
+			@media (min-width: 1024px){
+			}
+			@media (min-width: 1600px){
+			}
+		}
+		.card-type, .notification{
+			font-size: 15px;
+			font-weight: 400;
+			margin: 0;
+			max-width: 66.6%;
+			color: @white-transparent;
+			overflow: hidden;
+			line-height: initial;
+			margin-bottom: 2px;
+			@media (min-width: 960px){
+				font-size: 16px;
+				max-width: initial;
+			}
+			@media (min-width: 1024px){
+				font-size: 18px;
+				max-width: initial;
+			}
+		}
+		.notification{
+			color: @blizzard-accent;
+			font-size: 15px;
+			font-weight: 800;
+		}
+		.card-action {
+			font-weight: 400;
+			margin: 0;
+			margin-top: 15px;
+			line-height: initial;
+			color: @blizzard-blue;
+			overflow: hidden;
+			position: absolute;
+			bottom: 20px;
+			@media (min-width: 960px){
+
+				font-size: 16px;
+			}
+			@media (min-width: 1024px){
+				font-size: 18px;
+			}
+		}
+	}
+
+
+
+
+// Adds the gap in the first card slot on the franchise pages
+.franchise-page {
+	.card-module {
+		@media (min-width: @card-break-xl){
+			main {
+				padding-left: 100% / (@number-cards-xl);
+				.card-container {
+					width: 100% / (@number-cards-xl - 1);
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+.card001{
+	background: linear-gradient(to right, fade(@card-001-bg-color, @card-bg-percent), fade(@card-001-bg-color, @card-bg-percent), fade(@card-001-bg-color, 0%), fade(@card-001-bg-color, 0%)), @card-001-bg-color url(@card-001-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-001-bg-color, @card-bg-percent), fade(@card-001-bg-color, @card-bg-percent), fade(@card-001-bg-color, 0%), fade(@card-001-bg-color, 0%)), @card-001-bg-color url(@card-001-bg-image) @background-position-large no-repeat;
+	}
+}
+.card002{
+	background: linear-gradient(to right, fade(@card-002-bg-color, @card-bg-percent), fade(@card-002-bg-color, @card-bg-percent), fade(@card-002-bg-color, 0%), fade(@card-002-bg-color, 0%)), @card-002-bg-color url(@card-002-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-002-bg-color, @card-bg-percent), fade(@card-002-bg-color, @card-bg-percent), fade(@card-002-bg-color, 0%), fade(@card-002-bg-color, 0%)), @card-002-bg-color url(@card-002-bg-image) @background-position-large no-repeat;
+	}
+}
+.card003{
+	background: linear-gradient(to right, fade(@card-003-bg-color, @card-bg-percent), fade(@card-003-bg-color, @card-bg-percent), fade(@card-003-bg-color, 0%), fade(@card-003-bg-color, 0%)), @card-003-bg-color url(@card-003-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-003-bg-color, @card-bg-percent), fade(@card-003-bg-color, @card-bg-percent), fade(@card-003-bg-color, 0%), fade(@card-003-bg-color, 0%)), @card-003-bg-color url(@card-003-bg-image) @background-position-large no-repeat;
+	}
+}
+.card004{
+	background: linear-gradient(to right, fade(@card-004-bg-color, @card-bg-percent), fade(@card-004-bg-color, @card-bg-percent), fade(@card-004-bg-color, 0%), fade(@card-004-bg-color, 0%)), @card-004-bg-color url(@card-004-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-004-bg-color, @card-bg-percent), fade(@card-004-bg-color, @card-bg-percent), fade(@card-004-bg-color, 0%), fade(@card-004-bg-color, 0%)), @card-004-bg-color url(@card-004-bg-image) @background-position-large no-repeat;
+	}
+}
+.card005{
+	background: linear-gradient(to right, fade(@card-005-bg-color, @card-bg-percent), fade(@card-005-bg-color, @card-bg-percent), fade(@card-005-bg-color, 0%), fade(@card-005-bg-color, 0%)), @card-005-bg-color url(@card-005-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-005-bg-color, @card-bg-percent), fade(@card-005-bg-color, @card-bg-percent), fade(@card-005-bg-color, 0%), fade(@card-005-bg-color, 0%)), @card-005-bg-color url(@card-005-bg-image) @background-position-large no-repeat;
+	}
+}
+.card006{
+	background: linear-gradient(to right, fade(@card-006-bg-color, @card-bg-percent), fade(@card-006-bg-color, @card-bg-percent), fade(@card-006-bg-color, 0%), fade(@card-006-bg-color, 0%)), @card-006-bg-color url(@card-006-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-006-bg-color, @card-bg-percent), fade(@card-006-bg-color, @card-bg-percent), fade(@card-006-bg-color, 0%), fade(@card-006-bg-color, 0%)), @card-006-bg-color url(@card-006-bg-image) @background-position-large no-repeat;
+	}
+}
+.card007{
+	background: linear-gradient(to right, fade(@card-007-bg-color, @card-bg-percent), fade(@card-007-bg-color, @card-bg-percent), fade(@card-007-bg-color, 0%), fade(@card-007-bg-color, 0%)), @card-007-bg-color url(@card-007-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-007-bg-color, @card-bg-percent), fade(@card-007-bg-color, @card-bg-percent), fade(@card-007-bg-color, 0%), fade(@card-007-bg-color, 0%)), @card-007-bg-color url(@card-007-bg-image) @background-position-large no-repeat;
+	}
+}
+.card008{
+	background: linear-gradient(to right, fade(@card-008-bg-color, @card-bg-percent), fade(@card-008-bg-color, @card-bg-percent), fade(@card-008-bg-color, 0%), fade(@card-008-bg-color, 0%)), @card-008-bg-color url(@card-008-bg-image-small) @background-position-small no-repeat;
+	@media (min-width: 960px){
+		background: linear-gradient(to top, fade(@card-008-bg-color, @card-bg-percent), fade(@card-008-bg-color, @card-bg-percent), fade(@card-008-bg-color, 0%), fade(@card-008-bg-color, 0%)), @card-008-bg-color url(@card-008-bg-image) @background-position-large no-repeat;
+	}
+}

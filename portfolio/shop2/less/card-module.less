@@ -1,0 +1,118 @@
+@card-break-sm: 600px;
+@card-break-md: 960px;
+@card-break-lg: 1024px;
+@card-break-xl: 1400px;
+
+@number-cards-sm: 2;
+@number-cards-md: 3;
+@number-cards-lg: 4;
+@number-cards-xl: 5;
+
+
+.card-module{
+	.add-page-padding(@item-margin);
+	width: 100%;
+	max-width: @content-max-width;
+	margin: 0 auto;
+	position: relative;
+	background: url('images/background1.png') no-repeat 50% 0%, url('images/background2.png') no-repeat 50% 100%;
+	@media (min-width: 768px){
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	p.description {
+		color: rgba(255,255,255,0.8);
+	}
+	&:first-of-type{
+		background: url('images/background2.png') no-repeat 50% 100%;
+	}
+	&:last-of-type{
+		background: url('images/background1.png') no-repeat 50% 0%;
+	}
+
+	.basic-page  & {
+		background: none;
+	}
+
+	header{
+		display: flex;
+		align-items: flex-end;
+		.module-title{
+			flex: 1 0 auto;
+		}
+		.card-actions{
+			flex: 0 0 auto;
+		}
+
+	}
+
+	.module-title {
+		small {
+			font-weight: 100;
+			font-size: inherit;
+			opacity: 0.7;
+		}
+	}
+
+	> main {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: left;
+		align-items: stretch;
+
+
+		@media (min-width: 600px){
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+
+	}
+}
+
+.card-container {
+	padding: 10px 0;
+	width: 100%;
+
+	@media (min-width: @card-break-sm){
+		width: 100% / @number-cards-sm;
+		padding: 10px;
+	}
+	@media (min-width:@card-break-md){
+		width: 100% / @number-cards-md;
+		padding: 10px;
+	}
+	@media (min-width:@card-break-lg){
+		width: 100% / @number-cards-lg;
+	}
+	@media (min-width: @card-break-xl){
+		width: 100% / @number-cards-xl;
+	}
+	display: flex;
+
+
+}
+
+
+
+.franchise-page {
+	.card-module {
+		background: none;
+		border-bottom: solid 1px @white-transparent;
+		&:last-of-type{
+			border: none;
+		}
+		> header {
+			@media (min-width: @card-break-xl){
+				position: absolute;
+				top:60px;
+				left: 30px;
+				width: 100% / (@number-cards-xl);
+				padding: 10px 20px 10px 10px;
+			}
+		}
+		@media (min-width: @card-break-xl){
+
+		}
+	}
+}

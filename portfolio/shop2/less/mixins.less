@@ -1,0 +1,19 @@
+.center(){
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.add-page-padding(@top:0px) {
+	padding: @top @page-padding-xs;
+	@media (min-width: 768px){
+		padding: @top @page-padding-sm;
+	}
+	@media (min-width: 1024px){
+		padding: @top @page-padding-md;
+	}
+}
+
+
+.gradent-background() {
+	background: linear-gradient(to bottom, @gray-light, @gray-dark);
+}
