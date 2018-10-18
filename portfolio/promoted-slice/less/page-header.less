@@ -1,0 +1,210 @@
+@nav-main-height: 60px;
+@nav-app-height: 40px;
+@franchise-bar-height: 60px;
+@nav-height: @nav-main-height + @nav-app-height;
+
+@content-max-width: 1600px;
+
+
+@header-height-break-regular: 1160px;
+@header-height-break-tall: 1460px;
+@header-width-break-sm: 768px;
+@header-width-break-md: 1025px;
+@header-width-break-lg: 1601px;
+@header-width-break-xl: 1921px;
+
+
+@header-height-short: 300px;
+@header-height-regular: 500px;
+@header-height-tall: 700px;
+
+
+
+
+div.page-background {
+	display: none;
+	@media (min-width: 768px) {
+		display: block;
+		position: sticky;
+		top: 60px;
+		height: 0;
+		width: 2280px;
+		max-width: 100%;
+		margin: 0 auto;
+		z-index: -101;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+nav.page {
+	background-color: rgba(255,255,255,0.1);
+	position: relative;
+	z-index: 2;
+	.main {
+		height: @nav-main-height;
+		border-bottom: solid 1px rgba(255,255,255,0.3);
+	}
+	.app {
+		height: @nav-app-height;
+		border-bottom: solid 1px rgba(255,255,255,0.3);
+	}
+}
+
+header.page {
+	position: relative;
+	overflow: hidden;
+	@media (min-width: @header-width-break-sm) {
+		height: @header-height-short + @nav-height;
+	}
+
+	@media (min-width: @header-width-break-xl) and (min-height: @header-height-break-regular) {
+		height: @header-height-regular + @nav-height;
+	}
+	@media (min-width: @header-width-break-xl) and (min-height: @header-height-break-tall) {
+		height: @header-height-tall + @nav-height;
+	}
+	.background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+		z-index: -1;
+		img {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		video {
+			display: none;
+			@media (min-width: @header-width-break-lg){
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+		}
+
+	}
+	.content {
+		height: auto;
+		display: flex;
+    flex-direction: column;
+		justify-content: center;
+		font-size: 16px;
+		padding: 150px 24px 36px;
+		max-width: @content-max-width;
+		margin: 0 auto;
+		@media (min-width: 768px) {
+			padding: 15px;
+			height: @header-height-short;
+		}
+		@media (min-width: 1600px) {
+			padding: 24px;
+		}
+		@media (min-width: @header-width-break-xl) and (min-height: @header-height-break-regular) {
+			font-size: 20px;
+			height: @header-height-regular;
+
+			margin: 0 auto;
+		}
+		@media (min-width: @header-width-break-xl) and (min-height: @header-height-break-tall) {
+			font-size: 24px;
+			height: @header-height-tall;
+		}
+		.content-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			* {
+				text-align: center;
+			}
+			width: 600px;
+			max-width: 100%;
+			margin: 0 auto;
+			@media (min-width: 768px) {
+				margin: 0;
+				max-width: 50%;
+				justify-content: center;
+				align-items: left;
+				* {
+					text-align: left;
+				}
+			}
+			&.center {
+				width: 400px;
+
+				justify-content: center;
+				align-items: center;
+				* {
+					text-align: center;
+				}
+			}
+
+		}
+
+		.logo {
+			max-width: 15em;
+			@media (min-width: 768px) {
+				max-width: auto;
+				max-height: 8em;
+			}
+			@media (min-width: @header-width-break-xl) and (min-height: @header-height-break-regular) {
+				max-height: 10em;
+			}
+			@media (min-width: @header-width-break-xl) and (min-height: @header-height-break-tall) {
+				max-height: 12em;
+			}
+		}
+		.main-title {
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 3em;
+
+
+		}
+		.sub-title {
+			color: rgba(255,255,255,0.5);
+			text-transform: uppercase;
+			font-size: 1.25em;
+		}
+		.cta{
+			display: inline;
+			display: block;
+			width: auto;
+			max-width: max-content;
+			margin-top: 1.25em;
+		}
+	}
+}
+
+
+
+
+.fadeInHeader {
+	opacity: 0;
+	&.fadeInHeader.animated{
+		animation-name: fadeInHeader;
+		animation-duration: 1.0s;
+		animation-timing-function: cubic-bezier(0,.19,.35,1);
+	}
+}
+
+
+@keyframes fadeInHeader {
+  0% {
+    opacity: 0;
+		transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

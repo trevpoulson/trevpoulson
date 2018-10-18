@@ -1,0 +1,140 @@
+nav.on-page {
+	width: 100%;
+	background: #002044;
+	border-bottom: solid 1px rgba(255,255,255,0.3);
+	border-top: solid 1px rgba(255,255,255,0.3);
+
+	top: 0;
+	z-index: 3;
+	box-shadow: 0 0 40px rgba(0,0,0,0.3);
+	transition: 0.3s ease;
+	@media (min-width: 768px) {
+		position: sticky;
+		&.sticky {
+			background: #0e86ca;
+		}
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 1600px;
+		padding: 0 0px;
+		margin: 0 auto;
+
+		@media (min-width: 1600px) {
+			justify-content: space-between;
+			flex-direction: row;
+			height: 60px;
+			padding: 0 40px;
+		}
+
+	}
+	.dropdown-nav {
+
+		display: none;
+		@media (min-width: 1600px) {
+			display: block;
+			margin: 0;
+			font-size: 15px;
+			line-height: 60px;
+		}
+
+
+	}
+	.franchise {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px 0 ;
+		flex-wrap: wrap;
+		@media (min-width: 1600px) {
+			margin: 0;
+		}
+
+		p {
+			display: none;
+			@media (min-width: 768px) {
+				display: block;
+				margin: 0;
+				font-size: 15px;
+			}
+		}
+		img {
+			display: block;
+			height: 40px;
+			margin: 0 5px;
+		}
+		.divider {
+			border-left: solid 1px white;
+			width: 1px;
+			height: 40px;
+			margin: 0 20px;
+		}
+	}
+	.search {
+
+		display: none;
+		@media (min-width: 1600px) {
+			display: block;
+			margin: 0;
+		}
+		label {
+			font-size: 15px;
+			margin-right: 10px;
+			line-height: 60px;
+		}
+
+	}
+}
+
+
+ .dropdown-nav {
+	@media (min-width: 960px) {
+		opacity: 0;
+		.sticky &{
+			animation-name: fadeInDropdown;
+			animation-duration: 1.0s;
+			animation-timing-function: cubic-bezier(0,.19,.35,1);
+			opacity: 1;
+		}
+	}
+}
+
+
+@keyframes fadeInDropdown {
+  0% {
+    opacity: 0;
+		transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.search {
+	@media (min-width: 960px) {
+	 	opacity: 0;
+	 .sticky &{
+		 animation-name: fadeInSearch;
+		 animation-duration: 1.0s;
+		 animation-timing-function: cubic-bezier(0,.19,.35,1);
+		 opacity: 1;
+	 }
+ }
+}
+
+
+@keyframes fadeInSearch {
+ 0% {
+	 opacity: 0;
+	 transform: translateX(20px);
+ }
+ 100% {
+	 opacity: 1;
+	 transform: none;
+ }
+}
