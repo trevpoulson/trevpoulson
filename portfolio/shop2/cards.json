@@ -1,0 +1,91 @@
+{
+	"id": "001",
+	"cards": [
+		{
+			"cardId": "001",
+			"franchise": "overwatch",
+			"name": "Lootboxes",
+			"type": "In-Game Item",
+			"price": {
+				"prefix": "Starting at",
+				"currency": "USD",
+				"cost": 1.99
+			}
+		},
+		{
+			"cardId": "002",
+			"franchise": "wow",
+			"name": "Mischeif",
+			"notification": "Available until 07/07/17",
+			"type": "Pet",
+			"price": {
+				"currency": "USD",
+				"cost": 4.99
+			}
+		},
+		{
+			"cardId": "003",
+			"franchise": "starcraft",
+			"name": "Fenix",
+			"type": "Comander",
+			"price": {
+				"currency": "USD",
+				"cost": 4.99
+			}
+		},
+		{
+			"cardId": "004",
+			"franchise": "diablo",
+			"name": "Necromancer",
+			"notification": "Available for Prepurchse",
+			"type": "Game Add-on",
+			"price": {
+				"prefix": "Pre-purchase today"
+			}
+		},
+		{
+			"cardId": "005",
+			"franchise": "hearthstone",
+			"name": "Welcome Bundle",
+			"type": "Card Pack",
+			"price": {
+				"prefix": "Starting at",
+				"currency": "USD",
+				"cost": 4.99
+			}
+		},
+		{
+			"cardId": "007",
+			"franchise": "starcraft",
+			"name": "Starcraft 2: Wings of Liberty",
+			"notification": "Latest Expansion",
+			"type": "game",
+			"price": {
+				"prefix": "Starting at",
+				"currency": "USD",
+				"cost": 49.99
+			}
+		},
+		{
+			"cardId": "006",
+			"franchise": "heroes",
+			"name": "Gems",
+			"type": "In-Game Currency",
+			"price": {
+				"prefix": "Starting at",
+				"currency": "USD",
+				"cost": 4.99
+			}
+		},
+		{
+			"cardId": "008",
+			"franchise": "wow",
+			"name": "Warlords of Draenor™ Digital Deluxe Items",
+			"type": "Bundle",
+			"price": {
+				"currency": "USD",
+				"cost": 20.00
+			}
+		}
+	]
+}

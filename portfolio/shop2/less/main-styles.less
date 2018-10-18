@@ -1,0 +1,77 @@
+h1, h2, h3, h4, h5, h6 {
+	text-align: left;
+	@media (min-width: 768px){
+		text-align: left
+	}
+}
+
+
+
+p {
+
+	&.large{
+		color: rgba(255,255,255,0.8);
+		@media (min-width: 1024px){
+			font-size: 22px;
+			font-weight: 200;
+		}
+	}
+}
+
+
+
+.button-primary(){
+
+}
+.button-featured(){
+	border: solid 1px fade(white, 20);
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+	color: @blizzard-blue;
+	padding: 15px 24px;
+	width: auto;
+	display: block;
+	font-size: 18px;
+	position: relative;
+}
+
+.button-link() {
+	border:none;
+	background: none;
+	color: @button-blue;
+	font-size: 15px;
+	position: relative;
+	transition: 0.3s ease;
+	font-weight: 500;
+	&:hover {
+		color: @blizzard-blue;
+	}
+	@media (min-width: 1024px){
+		font-size: 22px;
+	}
+}
+.button-secondary() {
+	border: solid 1px @button-blue;;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	color: @button-blue;;
+	padding: 12px;
+	width: auto;
+	display: block;
+	font-size: 18px;
+	position: relative;
+}
+.button-nav(){
+	background: none;
+	border: none;
+	font-size: @nav-font-size;
+	padding: 0 12px;
+	line-height: @nav-height-shop-sm;
+	color: white;
+	opacity: 0.8;
+	padding-right: 24px;
+	position: relative;
+	@media (min-width: 1024px){
+		line-height: @nav-height-shop-lg;
+	}
+}

@@ -1,0 +1,144 @@
+
+
+nav.top {
+	position: relative;
+	box-shadow: 0 0 40px black;
+	background: rgba(255,255,255,0.1);
+	.background-container {
+		position: absolute;
+		top:0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		overflow: hidden;
+	}
+	.background {
+		background-repeat: no-repeat;
+		background-size: 767px auto;
+		background-position: 50% 30px;
+		-webkit-filter:blur(20px);
+		position: absolute;
+		top: -30px;
+		bottom: -30px;
+		left: -30px;
+		right: -30px;
+		z-index: -1;
+		overflow: hidden;
+		@media (min-width: 768px){
+			background-size: 1280px;
+		}
+		@media (min-width: 1280px){
+			background-size: 1600px;
+		}
+		@media (min-width: 1600px){
+			background-size: 1920px
+		}
+		@media (min-width: 1920px){
+			background-size: cover;
+		}
+	}
+}
+
+div.shop {
+	position: relative;
+	height: @nav-height-shop-sm;
+	border-bottom: solid 1px @white-transparent;
+	// background: rgba(255,255,255,0.1);
+	.add-page-padding();
+	@media (min-width: 960px){
+		height: @nav-height-shop-lg;
+	}
+	.content-container{
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		align-content: space-between;
+	}
+	.spacer{
+		flex: 1 0 auto;
+	}
+	.games-services-button{
+		.button-nav();
+		padding: 0 36px 0 12px;
+	}
+	.balance-button{
+		.button-nav();
+		padding: 0 36px 0 12px;
+		margin: 0 12px;
+		display: none;
+		@media (min-width: 960px){
+			display: block;
+		}
+	}
+	.search-button{
+		.button-nav();
+		padding: 0 60px 0 24px;
+		.text {
+			display: none;
+			@media (min-width: 768px){
+				display: inline;
+			}
+		}
+
+
+		@media (min-width: 960px){
+			border-right: solid 1px rgba(255, 255, 255, 0.4);
+			margin: 0 12px
+		}
+	}
+}
+
+i.down-icon{
+	&:after {
+		display: block;
+     content: ' ';
+     background-image: url(images/chevron-down.svg);
+     background-size: 100%;
+     width: 12px;
+     position: absolute;
+     right: 12px;
+     top: 0;
+     bottom: 0;
+     background-repeat: no-repeat;
+     background-position: 50%;
+		 opacity: 0.8;
+	}
+}
+
+i.search-icon{
+	&:after {
+		display: block;
+     content: ' ';
+     background-image: url(images/icon-search.svg);
+     background-size: 100%;
+     width: 24px;
+     position: absolute;
+     right: 24px;
+     top: 0;
+     bottom: 0;
+     background-repeat: no-repeat;
+     background-position: 50%;
+		 opacity: 0.8;
+	}
+}
+
+
+nav.top.featured001 {
+	.background-container{
+		.background {
+			background-image: url(@feature001-background-sm);
+			@media (min-width: 768px){
+				background-image: url(@feature001-background-lg);
+			}
+		}
+	}
+}
+nav.top.featured002 {
+	.background {
+		background-image: url(@feature002-background-sm);
+		@media (min-width: 768px){
+			background-image: url(@feature002-background-lg);
+		}
+	}
+}

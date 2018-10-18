@@ -1,0 +1,113 @@
+@import 'less/cards';
+@import 'less/card-module';
+@import 'less/mixins';
+@import 'less/franchise-bar';
+@import 'less/shop-nav';
+@import 'less/promoted-item';
+@import 'less/featured-item';
+@import 'less/main-styles';
+@import 'less/on-page-nav';
+@import 'less/animations';
+
+
+
+@dark-blue: #002650;
+@blizzard-blue: #00AEFF;
+@button-blue: #0e86ca;
+@blizzard-accent: #fecc00;
+@white-transparent: rgba(255,255,255,0.3);
+@gray-light: #273143;
+@gray-dark: #1a212c;
+
+@page-padding-xs: 15px;
+@page-padding-sm: 24px;
+@page-padding-md: 40px;
+
+@content-max-width: 1600px;
+@item-margin: 24px; //Margin between components
+
+
+@root-img: "images/";
+@dir-icons: "icons/";
+@dir-logos: "logos/";
+@dir-promoted: "promoted/";
+
+@nav-height-global-sm: 48px;
+@nav-height-global-lg: 60px;
+@nav-height-shop-sm: 40px;
+@nav-height-shop-lg: 50px;
+@nav-height-total-sm: @nav-height-shop-sm + @nav-height-global-sm;
+@nav-height-total-lg: @nav-height-shop-lg + @nav-height-global-lg;
+@nav-font-size: 15px;
+@nav-basic-background: 'images/background1.png';
+
+@main-nav-border-top-height: 4px;
+
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: white;
+  font-family: "open-sans", sans-serif;
+	min-width: 320px;
+
+}
+
+body > main {
+	background:  @dark-blue url(@nav-basic-background) no-repeat 50% 0%;
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+}
+
+body > footer {
+	padding: 100px 0;
+	text-align: center;
+	background: @dark-blue url('images/background2.png') no-repeat 50% 100%;
+	img {
+		max-width: 100%;
+	}
+}
+
+// basic blue page background
+.basic-page {
+	nav.top{
+		.background-container{
+			.background {
+
+				background-image: url(@nav-basic-background);
+			}
+		}
+	}
+
+}
+
+
+
+
+nav > div.main {
+	height: @nav-height-global-sm;
+	border-bottom: solid 1px @white-transparent;
+	.add-page-padding();
+	background: rgba(11,13,18,.95);
+	@media (min-width: 768px){
+		height: @nav-height-global-lg;
+		background: transparent;
+	}
+
+}
+
+.content-container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	max-width: @content-max-width;
+	margin: 0 auto;
+}

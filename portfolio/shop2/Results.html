@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="shopApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Results POC</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/shop.js"></script>
+
+	<link rel="stylesheet" href="https://blzcareers-a.akamaihd.net/blizzard-dae050dbb8cbd989ec092ed65159ab40de29769a7f5f5ad113b192aab1924cf7a612caa93e8e27505907466021ac4fbedd2087f1c627b275826b8bc92c9afdbe.css">
+	<link rel="stylesheet" href="https://blzcareers-a.akamaihd.net/careers-ccc5a0cc4b4eeb83fa99c44b321595455c7fb0853941f32a42f1ed13b52b556ee0124bd29eb61e815f3ebef552719207cd59e95486ef80cf5bdf1cd2357d9ecc.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="shop.css">
+</head>
+<body class="results-page basic-page">
+	<nav class="top">
+		<div class="background-container">
+			<div class="background"></div>
+		</div>
+		<div class="main"></div>
+		<div class="shop">
+			<div class="content-container" >
+				<button class="games-services-button">Games &amp; Services <i class="down-icon"></i></button>
+				<div class="spacer"></div>
+				<button class="search-button"><span class="text">Search Shop</span> <i class="search-icon"></i></button>
+				<button class="balance-button">Blizzard Balance <i class="down-icon"></i></button>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<div class="card-module" ng-controller="SearchResultsController as searchResults">
+			<header>
+				<h3 class="module-title"><small>Search Blizzard Products:</small> <input type="text" ng-model="searchResults.search"></h3>
+				<div class="card-actions">
+					<label for="sortOrder">Sort By: </label>
+					<select name="sorOrder" id="mySelect"
+				       ng-options="option.order as option.orderName for option in searchResults.orderTypes"
+				       ng-model="searchResults.sortOrder"></select>
+
+				</div>
+			</header>
+			<main>
+				<div class="card-container animate-repeat" ng-repeat="result in searchResults.results | orderBy: searchResults.sortOrder | filter : searchResults.search">
+					<div class="card card{{result.cardId}}" ng-class="{'game-card': result.type == 'game'}">
+						<div class="card-content">
+							<img class="franchise-icon" ng-src="{{searchResults.getIcon(result.franchise)}}" >
+							<img class="franchise-logo" ng-src="{{searchResults.getLogo(result.franchise)}}" >
+							<div class="notification" ng-show="result.notification">{{result.notification}}</div>
+							<h5 class="card-name">{{result.name}}</h5>
+							<p class="card-type">{{result.type}}</p>
+							<p class="card-action large">{{result.price.prefix}} {{result.price.currency}} {{result.price.cost}}</p>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer></footer>
+		</div>
+	</main>
+	<footer>
+		<img src="images/footer-temp.png" alt="">
+	</footer>
+
+</body>
+</html>
