@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="shopApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Promoted Slice</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="js/jquery.inview.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/cms.js"></script>
+
+	<link rel="stylesheet" href="blizzard.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="demo.css">
+</head>
+<body ng-controller="ShopController as shop">
+	<div class="cms">
+		<nav class="debug">Debug Console</nav>
+		<div class="content">
+		<h5>Content</h5>
+			<div>
+				<label for="background-xs">Content Alignment</label>
+				<select ng-model="shop.header.content.alignment">
+				  <option value="left">Left</option>
+				  <option value="center">Center</option>
+				</select>
+			</div>
+			<div>
+				<label for="content-logo">logo</label>
+				<input type="text" id="content-logo" ng-model="shop.header.content.logo">
+			</div>
+			<div>
+				<label for="content-main-title">Main Title (only displays if no logo)</label>
+				<input type="text" id="content-main-title" ng-model="shop.header.content.mainTitle">
+			</div>
+			<div>
+				<label for="content-sub-title">Sub Title</label>
+				<input type="text" id="content-sub-title" ng-model="shop.header.content.subTitle">
+			</div>
+			<div>
+				<label for="content-cta">CTA Text</label>
+				<input type="text" id="content-cta" ng-model="shop.header.content.cta.copy">
+			</div>
+		</div>
+		<div class="background">
+			<h5>Background Images</h5>
+			<div>
+				<label for="background-color">Color</label>
+				<input type="text" id="background-color" ng-model="shop.header.background.color">
+			</div>
+			<div>
+				<label for="background-xs">XS (>767)</label>
+				<input type="text" id="background-xs" ng-model="shop.header.background.xs">
+			</div>
+			<div>
+				<label for="background-sm">SM (768-1024)</label>
+				<input type="text" id="background-sm" ng-model="shop.header.background.sm">
+			</div>
+			<div>
+				<label for="background-md">MD (1025-1600)</label>
+				<input type="text" id="background-md" ng-model="shop.header.background.md">
+			</div>
+			<div>
+				<label for="background-lg">LG (1601-1920) </label>
+				<input type="text" id="background-lg" ng-model="shop.header.background.lg">
+			</div>
+			<div>
+				<label for="background-xl">XL Short (1921+)</label>
+				<input type="text" id="background-xl" ng-model="shop.header.background.xls">
+			</div>
+			<div>
+				<label for="background-xl">XL Regular (1921+)</label>
+				<input type="text" id="background-xl" ng-model="shop.header.background.xlr">
+			</div>
+			<div>
+				<label for="background-xl">XL Tall (1921+)</label>
+				<input type="text" id="background-xl" ng-model="shop.header.background.xlt">
+			</div>
+			<div>
+				<label for="background-video">Video</label>
+				<input type="text" id="background-video" ng-model="shop.header.background.video">
+			</div>
+		</div>
+	</div>
+	<header class="page">
+		<nav class="page">
+			<section class="main"></section>
+			<section class="app"></section>
+		</nav>
+		<section class="background"  style="background-color: {{shop.header.background.color}};">
+			<picture>
+				<source media="(min-width: 1921px) and (min-height: 1460px)" ng-srcset="{{shop.header.background.xlt}}">
+				<source media="(min-width: 1921px) and (min-height: 1160px)" ng-srcset="{{shop.header.background.xlr}}">
+				<source media="(min-width: 1921px)" ng-srcset="{{shop.header.background.xls}}">
+				<source media="(min-width: 1601px)" ng-srcset="{{shop.header.background.lg}}">
+				<source media="(min-width: 1025px)" ng-srcset="{{shop.header.background.md}}">
+				<source media="(min-width: 768px)" ng-srcset="{{shop.header.background.sm}}">
+				<img ng-src="{{shop.header.background.xs}}">
+			</picture>
+			<video loop="loop" webkit-playsinline="true" autoplay  ng-show="shop.header.background.video" ng-src="{{shop.header.background.video}}"></video>
+		</section>
+		<section class="content fadeInHeader" >
+			<div class="content-container {{shop.header.content.alignment}}">
+				<img ng-src="{{shop.header.content.logo}}" class="logo" ng-show="shop.header.content.logo">
+				<h1 class="main-title" ng-hide="shop.header.content.logo">{{shop.header.content.mainTitle}}</h1>
+				<h5 class="sub-title" ng-show="shop.header.content.subTitle">{{shop.header.content.subTitle}}</h5>
+				<button class="cta" ng-show="shop.header.content.cta.copy">{{shop.header.content.cta.copy}}</button>
+			</div>
+		</section>
+	</header>
+	<nav class="on-page">
+		<div class="content">
+			<p class="dropdown-nav ">All Shop Games and Services <i class="fa fa-caret-down"></i></p>
+			<div class="franchise">
+				<p>Blizzard</p>
+				<img src="images/icons/diablo-ii.svg">
+				<img src="images/icons/diablo-iii.svg">
+				<img src="images/icons/hearthstone.svg">
+				<img src="images/icons/heroes-of-the-storm.svg">
+				<img src="images/icons/overwatch.svg">
+				<img src="images/icons/starcraft-ii.svg">
+				<img src="images/icons/starcraft-remastered.svg">
+				<img src="images/icons/warcraft-iii.svg">
+				<img src="images/icons/world-of-warcraft.svg">
+				<span class="divider"></span>
+				<p>Activision</p>
+				<img src="images/icons/destiny-2.svg">
+			</div>
+			<div class="search">
+				<label for="search">Search Shop</label>
+				<input type="text" id="search" placeholder="Enter Search Term">
+			</div>
+
+		</div>
+	</nav>
+	<div class="page-background">
+		<img src="images/page-background.png">
+	</div>
+	<div class="spacer module">
+		<img src="images/module.png">
+	</div>
+	<aside class="slice slice-1" style="margin: 84px 0 34px">
+		<section
+			class="background"
+			data-parallax="scroll"
+			data-image-src="images/background-1-p.png"
+			data-natural-width="2280"
+			data-natural-height="600"
+			data-speed="0.5"
+			data-background-color="#061822"
+		></section>
+		<section class="content-wrapper">
+			<div class="content centered fadeInContent">
+				<img src="images/logo-1.png" alt="">
+				<button class="cta">Buy Some Cardpacks</button>
+			</div>
+		</section>
+		<section class="forground-image ">
+			<img src="images/foreground-1.png" class="fadeInForeground">
+		</section>
+	</aside>
+	<div class="spacer module">
+		<img src="images/module.png">
+	</div>
+	<aside class="slice slice-2" style="margin: 100px 0 50px">
+		<section class="background" data-parallax="scroll" data-image-src="images/background-2-p.png" data-natural-width="2280" data-natural-height="600" data-speed="0.8" data-background-color="#061822"></section>
+		<section class="content-wrapper">
+			<div class="content centered  fadeInContent">
+				<img src="images/logo-2.png" alt="">
+				<h4>Game of the Year Edition</h4>
+			</div>
+		</section>
+		<section class="forground-image ">
+			<img src="images/foreground-2.png" class="fadeInForeground">
+		</section>
+	</aside>
+	<div class="spacer">
+		<img src="images/module.png">
+	</div>
+	<aside class="slice slice-3" style="margin: 84px 0 34px">
+		<section class="background" data-parallax="scroll" data-image-src="images/background-1-p.png" data-natural-width="2280" data-natural-height="600" data-speed="0.8" data-background-color="#061822">	</section>
+		<section class="content-wrapper">
+				<div class="content fadeInContent">
+					<h1>New From Hearthstone</h1>
+					<h4>Check out the newest Expansion!</h4>
+					<button class="cta ">Learn More</button>
+				</div>
+		</section>
+		<section class="forground-image ">
+			<img src="images/foreground-1.png" class="fadeInForeground">
+		</section>
+	</aside>
+	<div class="spacer">
+		<img src="images/footer.png">
+	</div>
+</body>
+</html>

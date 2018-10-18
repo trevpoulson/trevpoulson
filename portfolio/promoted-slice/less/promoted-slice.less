@@ -1,0 +1,118 @@
+
+.slice {
+	height: 400px;
+	position: relative;
+
+	.background {
+		height: 400px;
+		background-position: 50% 50%;
+
+	}
+
+.content-wrapper {
+	width: 50%;
+	max-width: 800px;
+	max-height: 400px;
+
+	padding: 0 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-100%, -50%);
+}
+
+	.content {
+		margin: 0 auto;
+		max-width: 100%;
+		img {
+			display: block;
+			max-width: 100%;
+		}
+		&.centered {
+			width: 384px;
+			img {
+				margin: 0 auto;
+			}
+			.cta {
+				display: block;
+				margin: 24px auto 0;
+			}
+			h4 {
+				text-align: center;
+			}
+		}
+		h1 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		h4 {
+			opacity: 0.7;
+			text-transform: uppercase;
+		}
+		.cta {
+			margin-top: 24px;
+		}
+
+
+	}
+	.forground-image {
+		position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+		max-width: 100%;
+		img {
+			display: block;
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+}
+
+
+
+
+.fadeInForeground {
+	opacity: 0;
+ &.animated{
+		animation-name: fadeInForeground;
+		animation-duration: 1.5s;
+	  animation-delay: 0.5s;
+		animation-timing-function: cubic-bezier(0,.7,.35,1);
+	}
+}
+
+.fadeInContent {
+	opacity: 0;
+	&.fadeInContent.animated{
+		animation-name: fadeInContent;
+		animation-duration: 3.0s;
+		animation-delay: 0.75s;
+		animation-timing-function: cubic-bezier(0,.19,.35,1);
+	}
+}
+
+
+@keyframes fadeInForeground {
+  0% {
+    opacity: 0;
+    transform: translate3d(80px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.forground-image > *.animated {
+
+}
+
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
